@@ -13,14 +13,23 @@ export function Footer() {
               Placement Scout
             </span>
           </div>
-          <p className="text-xs text-muted-foreground">© 2026 Placement Scout</p>
+          <div className="flex items-center gap-4">
+            <a href="/privacy/" className="text-xs text-muted-foreground hover:text-foreground">
+              Privacy Policy
+            </a>
+            <p className="text-xs text-muted-foreground">© 2026 Placement Scout</p>
+          </div>
         </div>
         <p className="mt-6 text-center text-xs leading-relaxed text-muted-foreground sm:text-left">
           Contains Companies House data © Crown copyright, used under the Open Government
           Licence. FCA authorisation statuses are derived from the public Financial Services
           Register; Placement Scout is not affiliated with or endorsed by the FCA or Companies
           House. We list corporate information only — no personal data. Emails you give us are
-          used solely to deliver what you asked for.
+          used solely to deliver what you asked for, per our{" "}
+          <a href="/privacy/" className="underline hover:text-foreground">
+            Privacy Policy
+          </a>
+          .
         </p>
       </div>
     </footer>
