@@ -71,7 +71,7 @@ export function Pricing() {
                 }
                 className="mt-5 flex gap-2"
               >
-                <Input type="email" name="email" placeholder="university email" required className="flex-1" />
+                <Input type="email" name="email" placeholder="email" required className="flex-1" />
                 <input type="hidden" name="embed" value="1" />
                 <Button type="submit" size="lg">
                   Get free access
