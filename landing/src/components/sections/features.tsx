@@ -13,7 +13,7 @@ const features = [
     icon: Database,
     title: "The curated database",
     description:
-      "1,100+ boutique firms scored and filtered from 73,000 candidates — sector, city, website, careers page, and FCA authorisation status for every row. Refreshed weekly, forever.",
+      "100 boutique firms scored and filtered from 73,000 candidates — sector, city, website, careers page, and FCA authorisation status for every row. Refreshed weekly, forever.",
   },
   {
     icon: Mail,

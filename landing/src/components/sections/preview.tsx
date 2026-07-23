@@ -93,7 +93,7 @@ export function Preview() {
             </tbody>
           </table>
           <div className="border-t border-border bg-muted/50 px-4 py-3 text-center text-xs text-muted-foreground">
-            + 1,100 more curated firms across M&amp;A, asset &amp; wealth management, PE/VC, and
+            + 92 more curated firms across M&amp;A, asset &amp; wealth management, PE/VC, and
             quant trading
           </div>
         </div>

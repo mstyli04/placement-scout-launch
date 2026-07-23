@@ -2,6 +2,15 @@ export function Footer() {
   return (
     <footer className="border-t border-border py-10">
       <div className="mx-auto max-w-6xl px-6">
+        <div className="mb-8 flex items-center justify-center gap-2 rounded-full border border-border bg-muted/40 px-4 py-2 text-center">
+          <span className="relative flex size-1.5 shrink-0">
+            <span className="absolute inline-flex size-full animate-ping rounded-full bg-foreground/40" />
+            <span className="relative inline-flex size-1.5 rounded-full bg-foreground/60" />
+          </span>
+          <p className="text-xs text-muted-foreground">
+            More firms coming soon — we're expanding the database every week.
+          </p>
+        </div>
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <div className="flex items-center gap-2">
             <span className="flex size-5 items-center justify-center rounded-md bg-foreground">

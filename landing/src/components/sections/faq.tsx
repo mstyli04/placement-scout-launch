@@ -5,7 +5,7 @@ const faqs = [
   },
   {
     q: "Couldn't I just Google these firms?",
-    a: "Some of them, one at a time, if you knew their names. The point is the other 1,000 you'd never think to search for — plus the scoring, careers links, and weekly flagging of brand-new firms, done for you.",
+    a: "Some of them, one at a time, if you knew their names. The point is the other 99 you'd never think to search for — plus the scoring, careers links, and weekly flagging of brand-new firms, done for you.",
   },
   {
     q: "Is this only for M&A?",

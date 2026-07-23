@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/card"
 
 const included = [
-  "Full database — 1,100+ curated boutique firms",
+  "Full database — 100 curated boutique firms",
   "Weekly refresh with new firms flagged",
   "“New firms this week” email every Monday",
   "The Boutique Outreach Playbook",
