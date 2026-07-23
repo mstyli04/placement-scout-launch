@@ -1,7 +1,7 @@
 const stats = [
   { value: "73,080", label: "UK companies scanned from the registers" },
   { value: "15,792", label: "FCA-authorised firms identified" },
-  { value: "1,100+", label: "Curated boutiques in the database" },
+  { value: "100", label: "Curated boutiques in the database" },
   { value: "Weekly", label: "Automatic refresh — new firms flagged" },
 ]
 

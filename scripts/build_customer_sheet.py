@@ -46,7 +46,7 @@ def is_role_email(email: str) -> bool:
                for role in ROLE_RANK)
 
 
-def fetch_firms() -> list[dict]:
+def fetch_firms(limit: int) -> list[dict]:
     con = sqlite3.connect(f"file:{SCOUT_DB}?mode=ro", uri=True)
     con.row_factory = sqlite3.Row
     cur = con.cursor()
@@ -56,7 +56,8 @@ def fetch_firms() -> list[dict]:
         FROM firms
         WHERE score >= 4 AND website != ''
         ORDER BY score DESC, name ASC
-    """)
+        LIMIT ?
+    """, (limit,))
     rows = [dict(r) for r in cur.fetchall()]
     con.close()
     return rows
@@ -90,12 +91,14 @@ def main():
                         help="ID of an existing sheet Styli created and shared Editor with "
                              "the service account (bare service accounts have no Drive quota "
                              "of their own, so create() doesn't work)")
+    parser.add_argument("--limit", type=int, default=100,
+                        help="Top N firms by score to include (default: 100)")
     args = parser.parse_args()
 
-    firms = fetch_firms()
+    firms = fetch_firms(args.limit)
     rows = [firm_to_row(f) for f in firms]
     with_contact = sum(1 for r in rows if r[7])
-    print(f"{len(rows)} firms (score>=4, has website) -> customer sheet")
+    print(f"{len(rows)} firms (score>=4, has website, top {args.limit}) -> customer sheet")
     print(f"{with_contact} of those include a role-based contact email")
 
     if args.dry_run:
@@ -115,6 +118,7 @@ def main():
     sh = gc.open_by_key(args.sheet_id)
     sh.update_title(SHEET_TITLE)
     ws = sh.sheet1
+    ws.clear()  # drop any stale rows left over from a previous, larger write
     ws.update(values=[HEADERS] + rows, range_name="A1")
     ws.freeze(rows=1)
     ws.format("A1:J1", {"textFormat": {"bold": True}})
