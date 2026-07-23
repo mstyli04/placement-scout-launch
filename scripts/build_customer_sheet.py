@@ -7,7 +7,12 @@ shares it "Anyone with the link: Viewer", and writes the curated columns
 agreed in docs/2026-07-18-concierge-mvp-design.md:
 
     name, sector, city, website, careers page, FCA-authorised flag (+ link
-    to the register), incorporation year, quality score.
+    to the register), incorporation year.
+
+The internal quality score is used to select which firms make the cut
+(--min-score/--max-score) but is deliberately NOT shown to signups — the
+top-scoring firms (score > max-score) are held back for a future paid
+tier, and showing the raw number would tip off which firms are which.
 
 contact_email is included ONLY when the local part is a role/corporate
 inbox (careers@, info@, etc — scout.enrich.ROLE_RANK), never a personal
@@ -35,7 +40,7 @@ ROLE_RANK = ["careers", "recruitment", "recruiting", "recruit", "jobs", "hr",
              "mail"]
 
 HEADERS = ["Firm", "Sector", "City", "Website", "Careers page",
-           "FCA authorised", "FCA register", "Contact", "Incorporated", "Score"]
+           "FCA authorised", "FCA register", "Contact", "Incorporated"]
 
 
 def is_role_email(email: str) -> bool:
@@ -46,7 +51,7 @@ def is_role_email(email: str) -> bool:
                for role in ROLE_RANK)
 
 
-def fetch_firms(limit: int) -> list[dict]:
+def fetch_firms(limit: int, min_score: int, max_score: int) -> list[dict]:
     con = sqlite3.connect(f"file:{SCOUT_DB}?mode=ro", uri=True)
     con.row_factory = sqlite3.Row
     cur = con.cursor()
@@ -54,10 +59,10 @@ def fetch_firms(limit: int) -> list[dict]:
         SELECT name, sectors, city, website, careers_url, contact_email,
                score, incorporated, fca_status, fca_frn
         FROM firms
-        WHERE score >= 4 AND website != ''
+        WHERE score >= ? AND score <= ? AND website != ''
         ORDER BY score DESC, name ASC
         LIMIT ?
-    """, (limit,))
+    """, (min_score, max_score, limit))
     rows = [dict(r) for r in cur.fetchall()]
     con.close()
     return rows
@@ -79,7 +84,6 @@ def firm_to_row(f: dict) -> list[str]:
         fca_link,
         contact,
         year,
-        str(f["score"]),
     ]
 
 
@@ -93,12 +97,18 @@ def main():
                              "of their own, so create() doesn't work)")
     parser.add_argument("--limit", type=int, default=100,
                         help="Top N firms by score to include (default: 100)")
+    parser.add_argument("--min-score", type=int, default=4,
+                        help="Minimum score to include (default: 4)")
+    parser.add_argument("--max-score", type=int, default=6,
+                        help="Maximum score to include (default: 6) — firms scoring "
+                             "above this are held back for a future paid tier")
     args = parser.parse_args()
 
-    firms = fetch_firms(args.limit)
+    firms = fetch_firms(args.limit, args.min_score, args.max_score)
     rows = [firm_to_row(f) for f in firms]
     with_contact = sum(1 for r in rows if r[7])
-    print(f"{len(rows)} firms (score>=4, has website, top {args.limit}) -> customer sheet")
+    print(f"{len(rows)} firms (score {args.min_score}-{args.max_score}, has website, "
+          f"top {args.limit}) -> customer sheet")
     print(f"{with_contact} of those include a role-based contact email")
 
     if args.dry_run:
@@ -121,7 +131,7 @@ def main():
     ws.clear()  # drop any stale rows left over from a previous, larger write
     ws.update(values=[HEADERS] + rows, range_name="A1")
     ws.freeze(rows=1)
-    ws.format("A1:J1", {"textFormat": {"bold": True}})
+    ws.format("A1:I1", {"textFormat": {"bold": True}})
     try:
         sh.share(None, perm_type="anyone", role="reader")
     except Exception as e:
