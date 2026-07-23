@@ -23,6 +23,9 @@ export function Footer() {
             </span>
           </div>
           <div className="flex items-center gap-4">
+            <a href="/playbook/" className="text-xs text-muted-foreground hover:text-foreground">
+              Outreach Playbook
+            </a>
             <a href="/privacy/" className="text-xs text-muted-foreground hover:text-foreground">
               Privacy Policy
             </a>

@@ -26,6 +26,7 @@ const features = [
     title: "The outreach playbook",
     description:
       "How to pick your 30 firms, find the right partner to write to, and structure a 4-line email that gets replies — from someone who ran this exact campaign.",
+    href: "/playbook/",
   },
 ]
 
@@ -55,6 +56,14 @@ export function Features() {
                 <CardDescription className="text-sm leading-relaxed">
                   {feature.description}
                 </CardDescription>
+                {feature.href && (
+                  <a
+                    href={feature.href}
+                    className="mt-3 inline-block text-sm font-medium text-brand hover:underline"
+                  >
+                    Read the playbook →
+                  </a>
+                )}
               </CardContent>
             </Card>
           ))}

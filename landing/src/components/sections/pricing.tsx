@@ -1,4 +1,4 @@
-import { Check, ArrowRight } from "lucide-react"
+import { Check, ArrowRight, Users } from "lucide-react"
 
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -78,6 +78,10 @@ export function Pricing() {
                   <ArrowRight className="size-4" data-icon="inline-end" />
                 </Button>
               </form>
+              <p className="mt-3 flex items-center gap-1.5 text-xs text-muted-foreground">
+                <Users className="size-3.5 stroke-[1.5]" />
+                Over 100 students already in.
+              </p>
             </CardContent>
           </Card>
         </div>
