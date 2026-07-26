@@ -41,7 +41,7 @@ export function PrivacyPage() {
 
       <main className="mx-auto max-w-2xl px-6 py-16">
         <h1 className="text-3xl font-semibold tracking-tight text-foreground">Privacy Policy</h1>
-        <p className="mt-2 text-sm text-muted-foreground">Last updated: 20 July 2026</p>
+        <p className="mt-2 text-sm text-muted-foreground">Last updated: 26 July 2026</p>
 
         <P>
           Placement Scout is a free directory of boutique UK finance firms, delivered by email
@@ -100,6 +100,23 @@ export function PrivacyPage() {
           Licence) and the FCA&rsquo;s public Financial Services Register. See the site footer for
           the full attribution.
         </P>
+
+        <H2>Legal basis for the firm database</H2>
+        <P>
+          The firm database contains no data about identifiable individuals. It&rsquo;s built from
+          public register information — company names, sectors, registered addresses, and
+          incorporation dates from Companies House, and authorisation status from the FCA&rsquo;s
+          public Financial Services Register — enriched with each firm&rsquo;s own publicly
+          published contact channels: its website, careers page, and a role-based inbox such as
+          careers@ or info@, never a named individual&rsquo;s address.
+        </P>
+        {/* TODO(michael): confirm the specific GDPR Article 6 lawful basis you're relying
+            on for holding and republishing this firm/contact data. Most public business
+            directories built on public-register data rely on "legitimate interests"
+            (Art 6(1)(f)), but that's a legal characterization for you to confirm or write
+            yourself — not something to assert without your sign-off. Add a sentence here
+            once decided, e.g.: "We process this on the basis of our legitimate interest in
+            [...], having weighed this against the interests of the firms concerned." */}
 
         <H2>How long we keep it</H2>
         <P>
