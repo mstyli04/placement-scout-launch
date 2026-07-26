@@ -44,11 +44,13 @@ HEADERS = ["Firm", "Sector", "City", "Website", "Careers page",
 
 
 def is_role_email(email: str) -> bool:
+    """Exact match only — "careers.london@" or "jobs.sarah@" can't be told
+    apart by string shape alone (department variant vs. a named alias), so
+    for a public exposure gate we only trust an unqualified role inbox."""
     if not email or "@" not in email:
         return False
     local = email.split("@", 1)[0].lower()
-    return any(local == role or local.startswith(role + ".") or local.startswith(role + "-")
-               for role in ROLE_RANK)
+    return local in ROLE_RANK
 
 
 def fetch_firms(limit: int, min_score: int, max_score: int) -> list[dict]:
@@ -60,6 +62,7 @@ def fetch_firms(limit: int, min_score: int, max_score: int) -> list[dict]:
                score, incorporated, fca_status, fca_frn
         FROM firms
         WHERE score >= ? AND score <= ? AND website != ''
+          AND company_number NOT IN (SELECT company_number FROM suppressions)
         ORDER BY score DESC, name ASC
         LIMIT ?
     """, (min_score, max_score, limit))
