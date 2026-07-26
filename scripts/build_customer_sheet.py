@@ -23,8 +23,10 @@ Usage: python3 scripts/build_customer_sheet.py [--dry-run]
 import argparse
 import json
 import os
+import re
 import sqlite3
 import sys
+from collections import Counter
 from pathlib import Path
 
 # Defaults to the local dev convention (both repos side-by-side under the
@@ -49,6 +51,78 @@ ROLE_RANK = ["careers", "recruitment", "recruiting", "recruit", "jobs", "hr",
 
 HEADERS = ["Firm", "Sector", "City", "Website", "Careers page",
            "FCA authorised", "FCA register", "Contact", "Incorporated"]
+
+REGION_DENSITY_FILE = (Path(__file__).resolve().parent.parent / "landing" / "src"
+                       / "data" / "region-density.json")
+
+# UK postcode area -> broad postal region, for the regional density map
+# (W-12). "London" here means the strict postal-London area codes only
+# (E, EC, N, NW, SE, SW, W, WC) — Greater London boroughs like Harrow (HA)
+# or Croydon (CR) are postally part of the South East grouping, matching
+# standard postal-region conventions, not the Greater London admin boundary.
+# 4 area codes seen in the data (C, DB, SU, WI) aren't real UK postcode
+# areas — data artifacts, most likely malformed/foreign addresses — and are
+# deliberately left unmapped so they're excluded from the map rather than
+# guessed at.
+POSTCODE_AREA_TO_REGION = {
+    # London
+    "E": "London", "EC": "London", "N": "London", "NW": "London",
+    "SE": "London", "SW": "London", "W": "London", "WC": "London",
+    # South East (incl. Outer London postal areas)
+    "BN": "South East", "BR": "South East", "CR": "South East",
+    "CT": "South East", "DA": "South East", "EN": "South East",
+    "GU": "South East", "HA": "South East", "IG": "South East",
+    "KT": "South East", "ME": "South East", "OX": "South East",
+    "PO": "South East", "RG": "South East", "RH": "South East",
+    "RM": "South East", "SL": "South East", "SM": "South East",
+    "SO": "South East", "TN": "South East", "TW": "South East",
+    "UB": "South East",
+    # East of England
+    "AL": "East of England", "CB": "East of England", "CM": "East of England",
+    "CO": "East of England", "HP": "East of England", "IP": "East of England",
+    "LU": "East of England", "MK": "East of England", "NR": "East of England",
+    "PE": "East of England", "SG": "East of England", "SS": "East of England",
+    "WD": "East of England",
+    # South West
+    "BA": "South West", "BH": "South West", "BS": "South West",
+    "DT": "South West", "EX": "South West", "GL": "South West",
+    "PL": "South West", "SN": "South West", "SP": "South West",
+    "TA": "South West", "TQ": "South West", "TR": "South West",
+    # West Midlands
+    "B": "West Midlands", "CV": "West Midlands", "DY": "West Midlands",
+    "HR": "West Midlands", "ST": "West Midlands", "SY": "West Midlands",
+    "TF": "West Midlands", "WR": "West Midlands", "WS": "West Midlands",
+    "WV": "West Midlands",
+    # East Midlands
+    "DE": "East Midlands", "LE": "East Midlands", "LN": "East Midlands",
+    "NG": "East Midlands", "NN": "East Midlands",
+    # Yorkshire and the Humber
+    "BD": "Yorkshire", "DN": "Yorkshire", "HD": "Yorkshire", "HG": "Yorkshire",
+    "HU": "Yorkshire", "HX": "Yorkshire", "LS": "Yorkshire", "S": "Yorkshire",
+    "WF": "Yorkshire", "YO": "Yorkshire",
+    # North West
+    "BB": "North West", "BL": "North West", "CA": "North West",
+    "CH": "North West", "CW": "North West", "FY": "North West",
+    "L": "North West", "LA": "North West", "M": "North West",
+    "OL": "North West", "PR": "North West", "SK": "North West",
+    "WA": "North West", "WN": "North West",
+    # North East
+    "DH": "North East", "DL": "North East", "NE": "North East",
+    "SR": "North East", "TS": "North East",
+    # Wales
+    "CF": "Wales", "LD": "Wales", "LL": "Wales", "NP": "Wales", "SA": "Wales",
+    # Scotland
+    "AB": "Scotland", "DD": "Scotland", "DG": "Scotland", "EH": "Scotland",
+    "FK": "Scotland", "G": "Scotland", "HS": "Scotland", "IV": "Scotland",
+    "KA": "Scotland", "KW": "Scotland", "KY": "Scotland", "ML": "Scotland",
+    "PA": "Scotland", "PH": "Scotland", "TD": "Scotland", "ZE": "Scotland",
+    # Northern Ireland
+    "BT": "Northern Ireland",
+}
+
+REGION_ORDER = ["Scotland", "Northern Ireland", "North East", "North West",
+               "Yorkshire", "Wales", "West Midlands", "East Midlands",
+               "East of England", "South West", "South East", "London"]
 
 
 def is_role_email(email: str) -> bool:
@@ -77,6 +151,32 @@ def fetch_firms(limit: int, min_score: int, max_score: int) -> list[dict]:
     rows = [dict(r) for r in cur.fetchall()]
     con.close()
     return rows
+
+
+def postcode_area(postcode: str) -> str:
+    m = re.match(r"^([A-Z]{1,2})", (postcode or "").strip().upper())
+    return m.group(1) if m else ""
+
+
+def write_region_density_file() -> dict[str, int]:
+    """Aggregate counts across the WHOLE dataset (not just the 100-firm
+    public sheet subset) by broad UK region, for the regional density map
+    (W-12). Aggregate counts only — no per-firm data — so this is safe to
+    publish regardless of score/suppression status."""
+    con = sqlite3.connect(f"file:{SCOUT_DB}?mode=ro", uri=True)
+    postcodes = [r[0] for r in con.execute(
+        "SELECT postcode FROM firms WHERE postcode != '' "
+        "AND company_number NOT IN (SELECT company_number FROM suppressions)")]
+    con.close()
+    counts = Counter()
+    for pc in postcodes:
+        region = POSTCODE_AREA_TO_REGION.get(postcode_area(pc))
+        if region:
+            counts[region] += 1
+    result = {region: counts.get(region, 0) for region in REGION_ORDER}
+    REGION_DENSITY_FILE.parent.mkdir(parents=True, exist_ok=True)
+    REGION_DENSITY_FILE.write_text(json.dumps(result, indent=2) + "\n")
+    return result
 
 
 def write_freshness_file() -> str:
@@ -126,6 +226,12 @@ def main():
     parser.add_argument("--max-score", type=int, default=6,
                         help="Maximum score to include (default: 6) — firms scoring "
                              "above this are held back for a future paid tier")
+    parser.add_argument("--min-rows", type=int, default=50,
+                        help="Refuse to touch the live sheet if fewer than this many "
+                             "firms qualify (default: 50) — a suspiciously small result "
+                             "is far more likely a bug (e.g. the underlying data hasn't "
+                             "finished refreshing yet) than a real change, and the sheet "
+                             "must never be silently gutted by a bad run")
     args = parser.parse_args()
 
     firms = fetch_firms(args.limit, args.min_score, args.max_score)
@@ -138,6 +244,10 @@ def main():
     last_updated = write_freshness_file()
     print(f"Wrote {FRESHNESS_FILE} (last_updated={last_updated})")
 
+    region_counts = write_region_density_file()
+    print(f"Wrote {REGION_DENSITY_FILE} ({sum(region_counts.values())} firms mapped "
+          f"across {len(region_counts)} regions)")
+
     if args.dry_run:
         print("\n--dry-run: not creating a sheet. Sample rows:")
         for r in rows[:3]:
@@ -149,6 +259,14 @@ def main():
               "Editor with scout-484@scout-502607.iam.gserviceaccount.com, then rerun with "
               "--sheet-id <the ID from its URL>.")
         return
+
+    if len(rows) < args.min_rows:
+        print(f"\nREFUSING to touch the live sheet: only {len(rows)} firms qualified, "
+              f"below --min-rows={args.min_rows}. Leaving the existing sheet untouched. "
+              f"This is almost always a sign the underlying data isn't ready yet (e.g. a "
+              f"fresh/still-bootstrapping database), not a real drop in real firms — "
+              f"investigate before overriding with a lower --min-rows.")
+        sys.exit(1)
 
     import gspread
     gc = gspread.service_account(filename=str(SERVICE_ACCOUNT_JSON))
