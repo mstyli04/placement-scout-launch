@@ -22,15 +22,21 @@ Usage: python3 scripts/build_customer_sheet.py [--dry-run]
 """
 import argparse
 import json
+import os
 import sqlite3
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path.home() / "placement-scout"))
+# Defaults to the local dev convention (both repos side-by-side under the
+# home directory); CI sets PIPELINE_REPO to wherever it checked out
+# placement-scout, since that won't be under a literal home directory there.
+PIPELINE_REPO = Path(os.environ.get("PIPELINE_REPO", str(Path.home() / "placement-scout")))
+
+sys.path.insert(0, str(PIPELINE_REPO))
 from scout.outreach import display_name  # noqa: E402 — reuse acronym-fix logic
 
-SCOUT_DB = Path.home() / "placement-scout" / "data" / "scout.db"
-SERVICE_ACCOUNT_JSON = Path.home() / "placement-scout" / "secrets" / "service-account.json"
+SCOUT_DB = PIPELINE_REPO / "data" / "scout.db"
+SERVICE_ACCOUNT_JSON = PIPELINE_REPO / "secrets" / "service-account.json"
 SHEET_TITLE = "Placement Scout — Firm Database"
 FRESHNESS_FILE = Path(__file__).resolve().parent.parent / "landing" / "src" / "data" / "freshness.json"
 
