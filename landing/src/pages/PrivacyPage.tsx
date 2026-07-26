@@ -110,13 +110,18 @@ export function PrivacyPage() {
           published contact channels: its website, careers page, and a role-based inbox such as
           careers@ or info@, never a named individual&rsquo;s address.
         </P>
-        {/* TODO(michael): confirm the specific GDPR Article 6 lawful basis you're relying
-            on for holding and republishing this firm/contact data. Most public business
-            directories built on public-register data rely on "legitimate interests"
-            (Art 6(1)(f)), but that's a legal characterization for you to confirm or write
-            yourself — not something to assert without your sign-off. Add a sentence here
-            once decided, e.g.: "We process this on the basis of our legitimate interest in
-            [...], having weighed this against the interests of the firms concerned." */}
+        <P>
+          We hold and republish this on the basis of our legitimate interest (Art. 6(1)(f) GDPR)
+          in operating a public directory of independently-verifiable business information that
+          is already public via the Companies House and FCA registers. We&rsquo;ve weighed this
+          against the interests of the firms concerned by minimising what we hold — no data about
+          named individuals, only a shared role-based inbox — and any firm can ask to be removed
+          permanently at any time by emailing{" "}
+          <a href={`mailto:${CONTACT_EMAIL}`} className="text-brand hover:underline">
+            {CONTACT_EMAIL}
+          </a>
+          .
+        </P>
 
         <H2>How long we keep it</H2>
         <P>
