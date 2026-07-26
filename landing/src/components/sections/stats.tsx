@@ -1,11 +1,13 @@
-const stats = [
-  { value: "73,080", label: "UK companies scanned from the registers" },
-  { value: "15,792", label: "FCA-authorised firms identified" },
-  { value: "100", label: "Curated boutiques in the database" },
-  { value: "Weekly", label: "Automatic refresh — new firms flagged" },
-]
+import { lastUpdated } from "@/lib/utils"
 
 export function Stats() {
+  const stats = [
+    { value: "73,080", label: "UK companies scanned from the registers" },
+    { value: "15,792", label: "FCA-authorised firms identified" },
+    { value: "100", label: "Curated boutiques in the database" },
+    { value: lastUpdated(), label: "Data last checked against the registers" },
+  ]
+
   return (
     <section className="py-24">
       <div className="mx-auto max-w-6xl px-6">

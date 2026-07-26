@@ -7,30 +7,31 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-
-const features = [
-  {
-    icon: Database,
-    title: "The curated database",
-    description:
-      "100 boutique firms scored and filtered from 73,000 candidates — sector, city, website, careers page, and FCA authorisation status for every row. Refreshed weekly, forever.",
-  },
-  {
-    icon: Mail,
-    title: "New firms every week",
-    description:
-      "A short weekly email of firms that just entered the register. Newly-authorised firms have no application backlog — a good email to a founder often gets a reply in days.",
-  },
-  {
-    icon: BookOpen,
-    title: "The outreach playbook",
-    description:
-      "How to pick your 30 firms, find the right partner to write to, and structure a 4-line email that gets replies — from someone who ran this exact campaign.",
-    href: "/playbook/",
-  },
-]
+import { lastUpdated } from "@/lib/utils"
 
 export function Features() {
+  const features = [
+    {
+      icon: Database,
+      title: "The curated database",
+      description:
+        `100 boutique firms scored and filtered from 73,000 candidates — sector, city, website, careers page, and FCA authorisation status for every row. Data last checked ${lastUpdated()}.`,
+    },
+    {
+      icon: Mail,
+      title: "New firms every week",
+      description:
+        "A short weekly email of firms that just entered the register. Newly-authorised firms have no application backlog — a good email to a founder often gets a reply in days.",
+    },
+    {
+      icon: BookOpen,
+      title: "The outreach playbook",
+      description:
+        "How to pick your 30 firms, find the right partner to write to, and structure a 4-line email that gets replies — from someone who ran this exact campaign.",
+      href: "/playbook/",
+    },
+  ]
+
   return (
     <section className="border-y border-border bg-muted/40 py-24">
       <div className="mx-auto max-w-6xl px-6">

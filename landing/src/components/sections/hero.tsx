@@ -2,6 +2,7 @@ import { ArrowRight } from "lucide-react"
 
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
+import { lastUpdated } from "@/lib/utils"
 
 export function Hero() {
   return (
@@ -13,7 +14,7 @@ export function Hero() {
           className="gap-2 rounded-full px-3 py-1 font-normal text-muted-foreground"
         >
           <span className="size-1.5 rounded-full bg-brand" />
-          100 curated firms · refreshed weekly
+          100 curated firms · last checked {lastUpdated()}
         </Badge>
         <h1 className="mx-auto mt-6 max-w-3xl text-5xl font-semibold tracking-tighter text-balance text-foreground md:text-6xl">
           The finance firms job boards never show you

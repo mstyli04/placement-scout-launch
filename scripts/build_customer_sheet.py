@@ -21,6 +21,7 @@ scraped address, per the spec's GDPR/licensing note.
 Usage: python3 scripts/build_customer_sheet.py [--dry-run]
 """
 import argparse
+import json
 import sqlite3
 import sys
 from pathlib import Path
@@ -31,6 +32,7 @@ from scout.outreach import display_name  # noqa: E402 — reuse acronym-fix logi
 SCOUT_DB = Path.home() / "placement-scout" / "data" / "scout.db"
 SERVICE_ACCOUNT_JSON = Path.home() / "placement-scout" / "secrets" / "service-account.json"
 SHEET_TITLE = "Placement Scout — Firm Database"
+FRESHNESS_FILE = Path(__file__).resolve().parent.parent / "landing" / "src" / "data" / "freshness.json"
 
 # Mirrors scout.enrich.ROLE_RANK — role/corporate inboxes only, never a
 # scraped personal address.
@@ -69,6 +71,19 @@ def fetch_firms(limit: int, min_score: int, max_score: int) -> list[dict]:
     rows = [dict(r) for r in cur.fetchall()]
     con.close()
     return rows
+
+
+def write_freshness_file() -> str:
+    """Record when the underlying company data was actually last checked
+    (MAX(last_checked), set on every firm during a census/FCA refresh pass) —
+    the site's "last updated" claim must trace back to this, not a hardcoded
+    cadence claim (W-4)."""
+    con = sqlite3.connect(f"file:{SCOUT_DB}?mode=ro", uri=True)
+    last_checked = con.execute("SELECT MAX(last_checked) FROM firms").fetchone()[0]
+    con.close()
+    FRESHNESS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    FRESHNESS_FILE.write_text(json.dumps({"last_updated": last_checked}, indent=2) + "\n")
+    return last_checked
 
 
 def firm_to_row(f: dict) -> list[str]:
@@ -113,6 +128,9 @@ def main():
     print(f"{len(rows)} firms (score {args.min_score}-{args.max_score}, has website, "
           f"top {args.limit}) -> customer sheet")
     print(f"{with_contact} of those include a role-based contact email")
+
+    last_updated = write_freshness_file()
+    print(f"Wrote {FRESHNESS_FILE} (last_updated={last_updated})")
 
     if args.dry_run:
         print("\n--dry-run: not creating a sheet. Sample rows:")

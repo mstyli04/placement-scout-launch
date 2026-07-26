@@ -10,16 +10,17 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-
-const included = [
-  "Full database — 100 curated boutique firms",
-  "Weekly refresh with new firms flagged",
-  "“New firms this week” email every Monday",
-  "The Boutique Outreach Playbook",
-  "Filters by sector and city",
-]
+import { lastUpdated } from "@/lib/utils"
 
 export function Pricing() {
+  const included = [
+    "Full database — 100 curated boutique firms",
+    `Data last checked ${lastUpdated()}`,
+    "“New firms this week” email every Monday",
+    "The Boutique Outreach Playbook",
+    "Filters by sector and city",
+  ]
+
   return (
     <section id="access" className="border-y border-border bg-muted/40 py-24">
       <div className="mx-auto max-w-6xl px-6">
