@@ -1,3 +1,5 @@
+import { lastUpdated } from "@/lib/utils"
+
 export function Footer() {
   return (
     <footer className="border-t border-border py-10">
@@ -8,7 +10,7 @@ export function Footer() {
             <span className="relative inline-flex size-1.5 rounded-full bg-foreground/60" />
           </span>
           <p className="text-xs text-muted-foreground">
-            More firms coming soon — we're expanding the database every week.
+            More firms coming soon — data last checked {lastUpdated()}.
           </p>
         </div>
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
