@@ -28,6 +28,9 @@ export function Footer() {
             <a href="/playbook/" className="text-xs text-muted-foreground hover:text-foreground">
               Outreach Playbook
             </a>
+            <a href="/methodology/" className="text-xs text-muted-foreground hover:text-foreground">
+              Methodology
+            </a>
             <a href="/privacy/" className="text-xs text-muted-foreground hover:text-foreground">
               Privacy Policy
             </a>

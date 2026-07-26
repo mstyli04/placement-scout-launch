@@ -17,6 +17,7 @@ export default defineConfig({
         main: path.resolve(__dirname, 'index.html'),
         privacy: path.resolve(__dirname, 'privacy/index.html'),
         playbook: path.resolve(__dirname, 'playbook/index.html'),
+        methodology: path.resolve(__dirname, 'methodology/index.html'),
       },
     },
   },

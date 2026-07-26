@@ -151,9 +151,14 @@ export function PrivacyPage() {
             Placement Scout is a free directory built from public registers. Not affiliated with
             or endorsed by the FCA or Companies House.
           </p>
-          <a href="/privacy/" className="text-xs text-muted-foreground hover:text-foreground">
-            Privacy Policy
-          </a>
+          <div className="flex items-center gap-4">
+            <a href="/methodology/" className="text-xs text-muted-foreground hover:text-foreground">
+              Methodology
+            </a>
+            <a href="/privacy/" className="text-xs text-muted-foreground hover:text-foreground">
+              Privacy Policy
+            </a>
+          </div>
         </div>
       </footer>
     </div>

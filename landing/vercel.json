@@ -1,7 +1,8 @@
 {
   "rewrites": [
     { "source": "/privacy", "destination": "/privacy/index.html" },
-    { "source": "/playbook", "destination": "/playbook/index.html" }
+    { "source": "/playbook", "destination": "/playbook/index.html" },
+    { "source": "/methodology", "destination": "/methodology/index.html" }
   ],
   "headers": [
     {
