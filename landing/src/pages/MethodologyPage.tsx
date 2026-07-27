@@ -132,6 +132,21 @@ export function MethodologyPage() {
           formula to reverse-engineer.
         </P>
 
+        <H2>Hiring signals</H2>
+        <P>
+          Every firm&rsquo;s careers page is checked periodically, and if the page&rsquo;s content
+          has genuinely changed since the last check, that&rsquo;s recorded as a signal — a much
+          better indicator that a firm is actively hiring than a static listing that might be
+          months old. The database&rsquo;s &ldquo;Careers page updated&rdquo; column shows the
+          date of the most recent change within the last 30 days, where one exists.
+        </P>
+        <P>
+          This is a new capability — it can only detect a <em>change</em>, so a firm needs to be
+          checked twice, with a real change in between, before it shows anything at all. Expect
+          this column to be mostly blank at first and fill in gradually as more firms get their
+          second check.
+        </P>
+
         <H2>Known limitations</H2>
         <ul className="mb-3 list-disc space-y-1.5 pl-5">
           <LI>

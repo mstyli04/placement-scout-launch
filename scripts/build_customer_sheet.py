@@ -27,6 +27,7 @@ import re
 import sqlite3
 import sys
 from collections import Counter
+from datetime import date, timedelta
 from pathlib import Path
 
 # Defaults to the local dev convention (both repos side-by-side under the
@@ -50,7 +51,10 @@ ROLE_RANK = ["careers", "recruitment", "recruiting", "recruit", "jobs", "hr",
              "mail"]
 
 HEADERS = ["Firm", "Sector", "City", "Website", "Careers page",
-           "FCA authorised", "FCA register", "Contact", "Incorporated"]
+           "Careers page updated", "FCA authorised", "FCA register",
+           "Contact", "Incorporated"]
+
+SIGNAL_WINDOW_DAYS = 30
 
 REGION_DENSITY_FILE = (Path(__file__).resolve().parent.parent / "landing" / "src"
                        / "data" / "region-density.json")
@@ -140,8 +144,8 @@ def fetch_firms(limit: int, min_score: int, max_score: int) -> list[dict]:
     con.row_factory = sqlite3.Row
     cur = con.cursor()
     cur.execute("""
-        SELECT name, sectors, city, website, careers_url, contact_email,
-               score, incorporated, fca_status, fca_frn
+        SELECT company_number, name, sectors, city, website, careers_url,
+               contact_email, score, incorporated, fca_status, fca_frn
         FROM firms
         WHERE score >= ? AND score <= ? AND website != ''
           AND company_number NOT IN (SELECT company_number FROM suppressions)
@@ -151,6 +155,21 @@ def fetch_firms(limit: int, min_score: int, max_score: int) -> list[dict]:
     rows = [dict(r) for r in cur.fetchall()]
     con.close()
     return rows
+
+
+def fetch_recent_signal_dates(signal_type: str, within_days: int = SIGNAL_WINDOW_DAYS) -> dict[str, str]:
+    """company_number -> most recent observed_at for a given signal type,
+    limited to the last `within_days` days (D-2/D-4's careers_page_changed
+    signal, surfaced here so a real hiring-intent signal is actually visible
+    to customers, not just recorded internally)."""
+    con = sqlite3.connect(f"file:{SCOUT_DB}?mode=ro", uri=True)
+    cutoff = (date.today() - timedelta(days=within_days)).isoformat()
+    rows = con.execute(
+        "SELECT company_number, MAX(observed_at) FROM signals "
+        "WHERE signal_type = ? AND observed_at >= ? GROUP BY company_number",
+        (signal_type, cutoff)).fetchall()
+    con.close()
+    return {company_number: observed_at for company_number, observed_at in rows}
 
 
 def postcode_area(postcode: str) -> str:
@@ -192,7 +211,7 @@ def write_freshness_file() -> str:
     return last_checked
 
 
-def firm_to_row(f: dict) -> list[str]:
+def firm_to_row(f: dict, signal_dates: dict[str, str]) -> list[str]:
     authorised = f["fca_status"] == "Authorised"
     fca_link = (f"https://register.fca.org.uk/s/search?predefined=Firm&q={f['fca_frn']}"
                 if f["fca_frn"] else "")
@@ -204,6 +223,7 @@ def firm_to_row(f: dict) -> list[str]:
         f.get("city", ""),
         f["website"],
         f.get("careers_url", ""),
+        signal_dates.get(f["company_number"], ""),
         "Yes" if authorised else "",
         fca_link,
         contact,
@@ -235,11 +255,17 @@ def main():
     args = parser.parse_args()
 
     firms = fetch_firms(args.limit, args.min_score, args.max_score)
-    rows = [firm_to_row(f) for f in firms]
-    with_contact = sum(1 for r in rows if r[7])
+    signal_dates = fetch_recent_signal_dates("careers_page_changed")
+    rows = [firm_to_row(f, signal_dates) for f in firms]
+    # Column order: Firm, Sector, City, Website, Careers page,
+    # Careers page updated, FCA authorised, FCA register, Contact, Incorporated
+    with_contact = sum(1 for r in rows if r[8])
+    with_signal = sum(1 for r in rows if r[5])
     print(f"{len(rows)} firms (score {args.min_score}-{args.max_score}, has website, "
           f"top {args.limit}) -> customer sheet")
     print(f"{with_contact} of those include a role-based contact email")
+    print(f"{with_signal} of those have a careers-page-changed signal in the "
+          f"last {SIGNAL_WINDOW_DAYS} days")
 
     last_updated = write_freshness_file()
     print(f"Wrote {FRESHNESS_FILE} (last_updated={last_updated})")
@@ -276,7 +302,7 @@ def main():
     ws.clear()  # drop any stale rows left over from a previous, larger write
     ws.update(values=[HEADERS] + rows, range_name="A1")
     ws.freeze(rows=1)
-    ws.format("A1:I1", {"textFormat": {"bold": True}})
+    ws.format("A1:J1", {"textFormat": {"bold": True}})
     try:
         sh.share(None, perm_type="anyone", role="reader")
     except Exception as e:
