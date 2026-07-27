@@ -241,8 +241,8 @@ def main():
                              "of their own, so create() doesn't work)")
     parser.add_argument("--limit", type=int, default=100,
                         help="Top N firms by score to include (default: 100)")
-    parser.add_argument("--min-score", type=int, default=4,
-                        help="Minimum score to include (default: 4)")
+    parser.add_argument("--min-score", type=int, default=0,
+                        help="Minimum score to include (default: 0)")
     parser.add_argument("--max-score", type=int, default=6,
                         help="Maximum score to include (default: 6) — firms scoring "
                              "above this are held back for a future paid tier")
