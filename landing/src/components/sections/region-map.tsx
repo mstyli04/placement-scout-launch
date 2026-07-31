@@ -58,8 +58,8 @@ function fillFor(count: number, max: number) {
 // The dark foreground/muted-foreground pair reads fine on the light end of
 // the scale, but near-black text on the darkest (deep blue) hexes fails
 // contrast — switch to light text once the hex itself gets dark enough.
-function textColorFor(count: number, max: number) {
-  return hexLightness(count, max) < 55 ? "white" : "var(--color-foreground)"
+function textColorClassFor(count: number, max: number) {
+  return hexLightness(count, max) < 55 ? "region-hex-label--light" : "region-hex-label--dark"
 }
 
 export function RegionMap() {
@@ -122,7 +122,7 @@ export function RegionMap() {
                   onMouseLeave={() => setActive((cur) => (cur === r.name ? null : cur))}
                   onFocus={() => setActive(r.name)}
                   onBlur={() => setActive((cur) => (cur === r.name ? null : cur))}
-                  style={{ cursor: "pointer", outline: "none" }}
+                  className="region-hex-group"
                 >
                   <polygon
                     points={hexPoints(r.x, r.y, HEX_SIZE)}
@@ -135,10 +135,7 @@ export function RegionMap() {
                     x={r.x}
                     y={r.y + 3}
                     textAnchor="middle"
-                    style={{
-                      fontSize: 6.5, fontWeight: 600, fill: textColorFor(count, max),
-                      pointerEvents: "none",
-                    }}
+                    className={`region-hex-label ${textColorClassFor(count, max)}`}
                   >
                     {count.toLocaleString()}
                   </text>

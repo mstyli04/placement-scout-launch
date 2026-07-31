@@ -123,6 +123,26 @@
     --sidebar-ring: oklch(0.556 0 0);
 }
 
+/* Plain rules (not @apply) so these serialize as class references, never
+   inline style="" attributes — style-src 'self' in vercel.json blocks
+   inline styles, and prerendering (react-dom/server) would otherwise bake
+   a literal style attribute into the served HTML. */
+.region-hex-group {
+  cursor: pointer;
+  outline: none;
+}
+.region-hex-label {
+  font-size: 6.5px;
+  font-weight: 600;
+  pointer-events: none;
+}
+.region-hex-label--light {
+  fill: white;
+}
+.region-hex-label--dark {
+  fill: var(--color-foreground);
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
