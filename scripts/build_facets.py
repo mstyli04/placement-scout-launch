@@ -29,6 +29,7 @@ from build_customer_sheet import (  # noqa: E402
 
 SCOUT_DB = PIPELINE_REPO / "data" / "scout.db"
 FACETS_FILE = Path(__file__).resolve().parent.parent / "landing" / "src" / "data" / "facets.json"
+OVERVIEW_FILE = Path(__file__).resolve().parent.parent / "landing" / "src" / "data" / "overview.json"
 
 # Below this, a combo is too thin to carry "genuine aggregate substance"
 # (W-6's own words) and risks being exactly the kind of scaled/thin content
@@ -131,6 +132,52 @@ def build_facets() -> list[dict]:
     return facets
 
 
+def build_overview() -> dict:
+    """Whole-dataset aggregates for the /explore/ overview (W-15) — same
+    shape of stat as a single facet, just not sliced by sector/region."""
+    con = sqlite3.connect(f"file:{SCOUT_DB}?mode=ro", uri=True)
+    rows = con.execute(
+        "SELECT sectors, incorporated, website, careers_url FROM firms "
+        "WHERE company_number NOT IN (SELECT company_number FROM suppressions)"
+    ).fetchall()
+    signal_count = con.execute("SELECT COUNT(*) FROM signals").fetchone()[0]
+    con.close()
+
+    today = date.today()
+    ages: list[float] = []
+    cohorts: Counter = Counter()
+    sector_totals: Counter = Counter()
+    website_count = 0
+    careers_count = 0
+
+    for sectors_str, incorporated, website, careers_url in rows:
+        for sector in {s.strip() for s in (sectors_str or "").split(",") if s.strip()}:
+            if sector in SECTOR_SLUGS:
+                sector_totals[sector] += 1
+        if incorporated:
+            age = age_years(incorporated, today)
+            ages.append(age)
+            cohorts[cohort_for(age)] += 1
+        if website:
+            website_count += 1
+            if careers_url:
+                careers_count += 1
+
+    return {
+        "totalFirms": len(rows),
+        "sectorMix": [
+            {"sectorLabel": label, "count": sector_totals[label]}
+            for label in sorted(sector_totals, key=lambda s: -sector_totals[s])
+        ],
+        "medianAgeYears": round(median(ages), 1) if ages else None,
+        "cohorts": {key: cohorts.get(key, 0) for key, _, _ in COHORT_BOUNDS},
+        "websiteCount": website_count,
+        "careersCount": careers_count,
+        "careersSharePct": round(100 * careers_count / website_count, 1) if website_count else None,
+        "signalCount": signal_count,
+    }
+
+
 def main() -> None:
     facets = build_facets()
     FACETS_FILE.parent.mkdir(parents=True, exist_ok=True)
@@ -146,6 +193,11 @@ def main() -> None:
     if all_regions - covered_regions:
         print(f"Regions with NO facet page (all combos < {MIN_COUNT} firms): "
               f"{sorted(all_regions - covered_regions)}")
+
+    overview = build_overview()
+    OVERVIEW_FILE.write_text(json.dumps(overview, indent=2) + "\n")
+    print(f"Wrote {OVERVIEW_FILE} ({overview['totalFirms']} firms, "
+          f"{overview['signalCount']} hiring signals recorded)")
 
 
 if __name__ == "__main__":
