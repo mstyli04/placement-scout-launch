@@ -27,6 +27,11 @@ export function Navbar() {
             </a>
           </Button>
           <Button variant="ghost" size="sm" asChild>
+            <a href="/explore/" className="text-muted-foreground">
+              Explore
+            </a>
+          </Button>
+          <Button variant="ghost" size="sm" asChild>
             <a href="#faq" className="text-muted-foreground">
               FAQ
             </a>

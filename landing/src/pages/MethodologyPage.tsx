@@ -213,6 +213,9 @@ export function MethodologyPage() {
             <a href="/playbook/" className="text-xs text-muted-foreground hover:text-foreground">
               Outreach Playbook
             </a>
+            <a href="/explore/" className="text-xs text-muted-foreground hover:text-foreground">
+              Explore
+            </a>
             <a href="/privacy/" className="text-xs text-muted-foreground hover:text-foreground">
               Privacy Policy
             </a>

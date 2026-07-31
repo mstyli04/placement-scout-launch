@@ -157,6 +157,9 @@ export function PrivacyPage() {
             or endorsed by the FCA or Companies House.
           </p>
           <div className="flex items-center gap-4">
+            <a href="/explore/" className="text-xs text-muted-foreground hover:text-foreground">
+              Explore
+            </a>
             <a href="/methodology/" className="text-xs text-muted-foreground hover:text-foreground">
               Methodology
             </a>
