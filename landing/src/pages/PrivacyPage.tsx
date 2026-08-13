@@ -116,7 +116,11 @@ export function PrivacyPage() {
           is already public via the Companies House and FCA registers. We&rsquo;ve weighed this
           against the interests of the firms concerned by minimising what we hold — no data about
           named individuals, only a shared role-based inbox — and any firm can ask to be removed
-          permanently at any time by emailing{" "}
+          permanently at any time, with no reason required, using the{" "}
+          <a href="/removal/" className="text-brand hover:underline">
+            firm removal form
+          </a>{" "}
+          or by emailing{" "}
           <a href={`mailto:${CONTACT_EMAIL}`} className="text-brand hover:underline">
             {CONTACT_EMAIL}
           </a>

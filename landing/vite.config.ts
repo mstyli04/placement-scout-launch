@@ -28,6 +28,7 @@ export default defineConfig({
         playbook: path.resolve(__dirname, 'playbook/index.html'),
         methodology: path.resolve(__dirname, 'methodology/index.html'),
         explore: path.resolve(__dirname, 'explore/index.html'),
+        removal: path.resolve(__dirname, 'removal/index.html'),
         ...facetInputs,
       },
     },

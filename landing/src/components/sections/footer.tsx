@@ -37,6 +37,11 @@ export function Footer() {
             <a href="/privacy/" className="text-xs text-muted-foreground hover:text-foreground">
               Privacy Policy
             </a>
+            {/* A firm that wants off the list should not have to read a
+                privacy policy to find out how. */}
+            <a href="/removal/" className="text-xs text-muted-foreground hover:text-foreground">
+              Remove a firm
+            </a>
             <p className="text-xs text-muted-foreground">© 2026 Placement Scout</p>
           </div>
         </div>

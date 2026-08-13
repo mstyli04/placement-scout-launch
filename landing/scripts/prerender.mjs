@@ -13,6 +13,7 @@ const staticPages = [
   { name: 'playbook', entry: 'src/entry-server-playbook.tsx', html: 'dist/playbook/index.html' },
   { name: 'methodology', entry: 'src/entry-server-methodology.tsx', html: 'dist/methodology/index.html' },
   { name: 'explore', entry: 'src/entry-server-explore.tsx', html: 'dist/explore/index.html' },
+  { name: 'removal', entry: 'src/entry-server-removal.tsx', html: 'dist/removal/index.html' },
 ]
 
 const facets = loadFacets()
@@ -69,7 +70,7 @@ console.log(`Prerendered ${routes.length} facet pages`)
 // changes).
 const SITE_URL = 'https://placementscout.vercel.app'
 const indexablePaths = [
-  '/', '/privacy/', '/playbook/', '/methodology/', '/explore/',
+  '/', '/privacy/', '/playbook/', '/methodology/', '/explore/', '/removal/',
   ...routes.map((r) => `/${r.dir}/`),
 ]
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
