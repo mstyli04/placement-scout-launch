@@ -157,6 +157,23 @@ def fetch_firms(limit: int, min_score: int, max_score: int) -> list[dict]:
     return rows
 
 
+def count_eligible(min_score: int, max_score: int) -> int:
+    """How many firms meet the sheet's criteria, ignoring the row limit.
+
+    Only used to make a refusal legible: "100 wanted, 12 qualified, 12 exist"
+    points at the data, "100 wanted, 12 qualified, 40,000 exist" points at the
+    query.
+    """
+    con = sqlite3.connect(f"file:{SCOUT_DB}?mode=ro", uri=True)
+    (count,) = con.execute("""
+        SELECT COUNT(*) FROM firms
+        WHERE score >= ? AND score <= ? AND website != ''
+          AND company_number NOT IN (SELECT company_number FROM suppressions)
+    """, (min_score, max_score)).fetchone()
+    con.close()
+    return count
+
+
 def fetch_recent_signal_dates(signal_type: str, within_days: int = SIGNAL_WINDOW_DAYS) -> dict[str, str]:
     """company_number -> most recent observed_at for a given signal type,
     limited to the last `within_days` days (D-2/D-4's careers_page_changed
@@ -246,17 +263,41 @@ def main():
     parser.add_argument("--max-score", type=int, default=6,
                         help="Maximum score to include (default: 6) — firms scoring "
                              "above this are held back for a future paid tier")
-    parser.add_argument("--min-rows", type=int, default=50,
+    parser.add_argument("--min-rows", type=int, default=None,
                         help="Refuse to touch the live sheet if fewer than this many "
-                             "firms qualify (default: 50) — a suspiciously small result "
-                             "is far more likely a bug (e.g. the underlying data hasn't "
-                             "finished refreshing yet) than a real change, and the sheet "
-                             "must never be silently gutted by a bad run")
+                             "firms qualify. Defaults to --limit, i.e. the sheet is "
+                             "published FULL or not at all: a short sheet is never "
+                             "silently published over a full one. Lower it only "
+                             "deliberately, after investigating why the pool shrank")
     args = parser.parse_args()
+
+    # The sheet is published full or not at all. `--limit` is what a signup
+    # is promised, so anything less is a broken deliverable rather than a
+    # smaller one, and the previous full sheet is a better thing to leave in
+    # place than a partial replacement. Defaulting this to `--limit` rather
+    # than a fixed floor also means the invariant follows the promise: raise
+    # the limit to 200 and 200 becomes the requirement.
+    required_rows = args.min_rows if args.min_rows is not None else args.limit
 
     firms = fetch_firms(args.limit, args.min_score, args.max_score)
     signal_dates = fetch_recent_signal_dates("careers_page_changed")
     rows = [firm_to_row(f, signal_dates) for f in firms]
+
+    if len(rows) < required_rows:
+        # Checked before anything is written, so a refused run leaves the
+        # site's data files as untouched as it leaves the sheet.
+        eligible = count_eligible(args.min_score, args.max_score)
+        sys.exit(
+            f"REFUSING to build: only {len(rows)} firms qualified, below the "
+            f"required {required_rows}.\n"
+            f"{eligible} firms in the database meet the criteria (score "
+            f"{args.min_score}-{args.max_score}, has a website, not suppressed).\n"
+            "The live sheet and the site's data files are untouched. This is far "
+            "more likely a bug — a half-finished refresh, a scoring change that "
+            "moved the distribution, a bad suppression — than a real collapse in "
+            "the number of real firms. Investigate before overriding with "
+            "--min-rows."
+        )
     # Column order: Firm, Sector, City, Website, Careers page,
     # Careers page updated, FCA authorised, FCA register, Contact, Incorporated
     with_contact = sum(1 for r in rows if r[8])
@@ -285,14 +326,6 @@ def main():
               "Editor with scout-484@scout-502607.iam.gserviceaccount.com, then rerun with "
               "--sheet-id <the ID from its URL>.")
         return
-
-    if len(rows) < args.min_rows:
-        print(f"\nREFUSING to touch the live sheet: only {len(rows)} firms qualified, "
-              f"below --min-rows={args.min_rows}. Leaving the existing sheet untouched. "
-              f"This is almost always a sign the underlying data isn't ready yet (e.g. a "
-              f"fresh/still-bootstrapping database), not a real drop in real firms — "
-              f"investigate before overriding with a lower --min-rows.")
-        sys.exit(1)
 
     import gspread
     gc = gspread.service_account(filename=str(SERVICE_ACCOUNT_JSON))
