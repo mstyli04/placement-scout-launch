@@ -41,7 +41,7 @@ export function PrivacyPage() {
 
       <main className="mx-auto max-w-2xl px-6 py-16">
         <h1 className="text-3xl font-semibold tracking-tight text-foreground">Privacy Policy</h1>
-        <p className="mt-2 text-sm text-muted-foreground">Last updated: 26 July 2026</p>
+        <p className="mt-2 text-sm text-muted-foreground">Last updated: 15 August 2026</p>
 
         <P>
           Placement Scout is a free directory of boutique UK finance firms, delivered by email
@@ -62,8 +62,9 @@ export function PrivacyPage() {
         <H2>What we collect</H2>
         <P>
           Just your email address, submitted through the signup form to get access to the
-          database. We don&rsquo;t ask for your name, university, or anything else, and we don&rsquo;t
-          run any analytics or advertising trackers on this site.
+          database. We don&rsquo;t ask for your name, university, or anything else. We run no
+          advertising trackers and nothing that follows you to other websites; the one
+          measurement tool in use is described under <span className="text-foreground">Analytics</span> below.
         </P>
 
         <H2>Why we process it</H2>
@@ -74,11 +75,28 @@ export function PrivacyPage() {
           anyone outside the processors listed below.
         </P>
 
+        <H2>Analytics</H2>
+        <P>
+          We use Vercel Web Analytics to count page views and approximate visitor numbers — how
+          many people read a page, and which site they arrived from. It is cookieless and does not
+          use device fingerprinting, browser storage, or any identifier that would let us
+          recognise you on a return visit or follow you to another website. What we see is
+          aggregate counts, never an individual&rsquo;s browsing history, and it is never combined
+          with the email address you may have given us.
+        </P>
+        <P>
+          Our lawful basis is legitimate interests (Art. 6(1)(f) GDPR) — understanding whether the
+          database is actually useful to people. Because no cookie or similar technology is stored
+          on your device, this does not require consent under PECR. If you would rather not be
+          counted at all, any browser &ldquo;do not track&rdquo; setting or content blocker will
+          prevent it, and nothing on the site stops working.
+        </P>
+
         <H2>Cookies</H2>
         <P>
-          This site sets no cookies of its own — no analytics, no advertising, no tracking. The
-          signup and confirmation pages are hosted by Buttondown (see below) and may set cookies
-          under their own policy once you leave this site.
+          This site sets no cookies of its own — not for analytics, advertising, or anything else.
+          The signup and confirmation pages are hosted by Buttondown (see below) and may set
+          cookies under their own policy once you leave this site.
         </P>
 
         <H2>Who processes data on our behalf</H2>
@@ -89,8 +107,8 @@ export function PrivacyPage() {
             their standard contractual clauses.
           </LI>
           <LI>
-            <span className="font-medium text-foreground">Vercel</span> — hosting for this
-            website.
+            <span className="font-medium text-foreground">Vercel</span> — hosting for this website,
+            and the cookieless page-view analytics described above.
           </LI>
         </ul>
         <P>

@@ -1,4 +1,8 @@
+import { ArrowRight } from "lucide-react"
+
 import { Bar } from "@/components/Bar"
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
 import signals from "@/data/signals.json"
 import { formatDate, lastUpdated } from "@/lib/utils"
 
@@ -189,9 +193,45 @@ export function SignalsPage() {
             how firms get into the database in the first place, and any firm can{" "}
             <a href="/removal/" className="text-brand hover:underline">ask to be removed</a>.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-            The full directory, with contact routes and FCA status, is the{" "}
-            <a href="/" className="text-brand hover:underline">free sheet on the home page</a>.
+        </section>
+
+        {/* The only route from this page into the mailing list. Reuses the home
+            page's Buttondown embed rather than a second list — same action URL,
+            same confirmation popup, so a subscriber from here is
+            indistinguishable from one who signed up on the home page.
+            `form-action` in vercel.json's CSP already allows buttondown.com. */}
+        <section className="mt-12 rounded-lg border border-border bg-muted/40 p-5">
+          <h2 className="text-sm font-semibold text-foreground">Want the firms behind the signals?</h2>
+          <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+            This page shows which firms moved. The free sheet is the full directory — 100 curated
+            boutiques with contact routes, FCA status and the careers-page column, refreshed
+            nightly. No charge, no card.
+          </p>
+          <form
+            action="https://buttondown.com/api/emails/embed-subscribe/michaelstylianou"
+            method="post"
+            target="popupwindow"
+            onSubmit={() =>
+              window.open("https://buttondown.com/confirmation?tag=michaelstylianou", "popupwindow")
+            }
+            className="mt-4 flex flex-col gap-2 sm:flex-row"
+          >
+            <Input
+              type="email"
+              name="email"
+              placeholder="email"
+              required
+              className="flex-1 bg-background"
+            />
+            <input type="hidden" name="embed" value="1" />
+            <Button type="submit">
+              Get the free sheet
+              <ArrowRight className="size-4" data-icon="inline-end" />
+            </Button>
+          </form>
+          <p className="mt-3 text-xs text-muted-foreground">
+            Your email is used for the access link and the weekly digest — nothing else, ever. See
+            the <a href="/privacy/" className="text-brand hover:underline">privacy policy</a>.
           </p>
         </section>
       </main>
