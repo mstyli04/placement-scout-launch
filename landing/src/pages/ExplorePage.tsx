@@ -115,9 +115,13 @@ export function ExplorePage() {
           </div>
 
           <p className="mt-6 text-xs text-muted-foreground">
-            A hiring-signal time series (careers pages that have genuinely changed over time) will
-            appear here once enough firms have been checked twice, 30+ days apart — that mechanism
-            exists but hasn't accumulated enough history yet to plot honestly.
+            Careers pages that have genuinely changed are now tracked and published as they move —
+            see{" "}
+            <a href="/signals/" className="text-brand hover:underline">
+              hiring signals
+            </a>
+            . There is not yet enough history behind it to plot a time series honestly, so it is a
+            dated feed rather than a chart.
           </p>
         </section>
 

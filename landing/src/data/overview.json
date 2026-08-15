@@ -18,16 +18,16 @@
       "count": 3225
     }
   ],
-  "medianAgeYears": 6.0,
+  "medianAgeYears": 6.1,
   "cohorts": {
-    "under_2y": 19832,
-    "2_5y": 12222,
-    "5_10y": 18917,
-    "10_20y": 16103,
-    "20y_plus": 6006
+    "under_2y": 19588,
+    "2_5y": 12350,
+    "5_10y": 18935,
+    "10_20y": 16164,
+    "20y_plus": 6043
   },
   "websiteCount": 8144,
-  "careersCount": 1287,
-  "careersSharePct": 15.8,
-  "signalCount": 0
+  "careersCount": 2978,
+  "careersSharePct": 36.6,
+  "signalCount": 53
 }

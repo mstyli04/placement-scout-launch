@@ -1,0 +1,562 @@
+{
+  "windowDays": 90,
+  "maxScore": 6,
+  "watchedCount": 2885,
+  "changedCount": 53,
+  "publishableCount": 49,
+  "withheldCount": 4,
+  "regionMix": {
+    "South East": 13,
+    "London": 8,
+    "South West": 7,
+    "East Midlands": 5,
+    "North West": 5,
+    "Scotland": 2,
+    "West Midlands": 2,
+    "Yorkshire": 2,
+    "East of England": 2,
+    "North East": 2,
+    "Wales": 1
+  },
+  "changes": [
+    {
+      "name": "Active Investments (Reading)",
+      "city": "Reading",
+      "region": "South East",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.active-investments.co.uk/register.php",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Affluent Financial Planning",
+      "city": "Bridge Of Weir",
+      "region": "Scotland",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.affluentfp.co.uk/join-our-team",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Aisa Financial Planning",
+      "city": "Devizes",
+      "region": "South West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://aisagroup.org/the-team/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Art Holdings",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.mfs-group.co.uk/our-team",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Asc Consultants",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://asc.co.uk/join-us/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Ashwood Law Wealth Management",
+      "city": "Staffordshire",
+      "region": "West Midlands",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.ashwoodlawwealth.co.uk",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Atkins Bland",
+      "city": "Ferndown",
+      "region": "South West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.atkinsbland.co.uk/our-teams",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Av Trinity",
+      "city": "Kent",
+      "region": "South East",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.avtrinity.com/#meet-the-team",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Bbpi",
+      "city": "Leeds",
+      "region": "Yorkshire",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.bbpi.co.uk/the-financial-adviser-team",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Brian Mole Independent Financial Advisers",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.fosterdenovo.com/join-us/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Carrington Investment Consultants",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://carringtonwm.co.uk/about-us/the-team/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Chesterton House Financial Planning",
+      "city": "Loughborough",
+      "region": "East Midlands",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://chestertonhouse.co.uk/careers/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Chetwood Wealth Management",
+      "city": "St. Austell",
+      "region": "South West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.chetwoodwm.co.uk/work-with-us",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Citicourt & Co",
+      "city": "Fleet",
+      "region": "South East",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.citicourtandco.com/our-team/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Endeavour Financial",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://endeavourfinancial.com/who-we-are/advisory-team/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "European Change Consulting",
+      "city": "Bristol",
+      "region": "South West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.ccpawnbrokers.co.uk/work-for-us.html",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Future Planet Capital (Ventures)",
+      "city": "Manchester",
+      "region": "North West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.futureplanetcapital.com/team",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Goodwin Financial Services",
+      "city": "Leighton Buzzard",
+      "region": "East of England",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.goodwin-financial.co.uk/our_team",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "HB Dobbin Financial Planning",
+      "city": "Maidenhead",
+      "region": "South East",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.hbdobbin.com/about-us/meet-the-team/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Herbert Scott",
+      "city": "Lewes",
+      "region": "South East",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://herbertscott.co.uk/team/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Igf Invoice Finance",
+      "city": "Redhill",
+      "region": "South East",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.igfgroup.com/who-are-we/our-team/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Kellands (Hale)",
+      "city": "Altrincham",
+      "region": "North West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://kelland-hale.com/about-us/our-people/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Laver Wealth Management",
+      "city": "Weston Super Mare",
+      "region": "South West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.laverwealth.co.uk/careers/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Legalwebb UK",
+      "city": "Leicestershire",
+      "region": "East Midlands",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.b2bmortgage.co.uk/about/#experts",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Nest Management",
+      "city": "Nottingham",
+      "region": "East Midlands",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://nestmanagement.co.uk/get-started-today/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Newman Financial Services",
+      "city": "",
+      "region": "London",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.newman.uk.com",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Omcap",
+      "city": "Tunbridge Wells",
+      "region": "South East",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.omcap.com/meet-the-team",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Pen-Life Associates",
+      "city": "York",
+      "region": "Yorkshire",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.pen-life.co.uk/meet-the-team/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "PG Owen",
+      "city": "Banes",
+      "region": "South West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://pgtax.co.uk/team-members",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Priswm",
+      "city": "Stockton-On-Tees",
+      "region": "North East",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://prismaticwealth.co.uk/meet-the-team/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Psa Financial Services",
+      "city": "Leicester",
+      "region": "East Midlands",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.psafinancial.co.uk/meet-the-team",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Questa Financial Services",
+      "city": "Blackpool",
+      "region": "North West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.questachartered.co.uk/about/meet-the-team/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Reeves Financial Services",
+      "city": "Newcastle Upon Tyne",
+      "region": "North East",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.reevesfinancialservices.com/careers",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "River Capital Management",
+      "city": "Liverpool",
+      "region": "North West",
+      "sectors": [
+        "Asset & wealth mgmt"
+      ],
+      "score": 5,
+      "careersUrl": "https://rivercapitaluk.com/team/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Robert Milne Financial Advisers",
+      "city": "Hornchurch",
+      "region": "South East",
+      "sectors": [
+        "Quant / trading / fintech"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.rmfa.co.uk/meet-the-team/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Springtide Capital",
+      "city": "Epsom",
+      "region": "South East",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.springtidecapital.com/about-us/team/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Star Capital Partners",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "Asset & wealth mgmt"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.star-capital.com/our-team/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Streets Ahead Financial Consultants",
+      "city": "Croydon",
+      "region": "South East",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.streetsahead.info/about-our-property-services/work-with-us/vacancies/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "The Oxford Funding Company",
+      "city": "Cheltenham",
+      "region": "South West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.thefundingco.co.uk/meet-the-team/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "The Premier Partnership",
+      "city": "Tamworth",
+      "region": "West Midlands",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.premierpartnership.co.uk/meet-the-team-1",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Wealth Matters",
+      "city": "Beds",
+      "region": "East of England",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.wealth-matters.co.uk/meet-our-team",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Wealthway",
+      "city": "Aberdeen",
+      "region": "Scotland",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://wealthway.co.uk/meet-the-team/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Westerby Investment Management",
+      "city": "Leicestershire",
+      "region": "East Midlands",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://westerby-investment.co.uk/our-team/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Zomi Group",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://zomiwealth.com/our-financial-advisers/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Caf Financial Solutions",
+      "city": "West Malling",
+      "region": "South East",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 4,
+      "careersUrl": "https://www.cafonline.org/home/about-us/partner-with-us",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Complete Vehicle Management",
+      "city": "Whiteley, Fareham",
+      "region": "South East",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 4,
+      "careersUrl": "https://www.cvmgroup.co.uk/about-us/meet-the-team/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Murray Smith Financial Services",
+      "city": "Northwich",
+      "region": "North West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 4,
+      "careersUrl": "https://murraysmith.com/member/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Sinclair Finance And Leasing Company",
+      "city": "Bridgend",
+      "region": "Wales",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 4,
+      "careersUrl": "https://www.sinclair-fl.co.uk/finance-and-leasing/about-us/meet-the-team/",
+      "observedAt": "2026-08-07"
+    },
+    {
+      "name": "Talis Financial Advisers",
+      "city": "Ashford",
+      "region": "South East",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 4,
+      "careersUrl": "https://talisifa.com/careers/",
+      "observedAt": "2026-08-07"
+    }
+  ]
+}

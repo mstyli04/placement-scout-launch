@@ -10,11 +10,17 @@ export function cn(...inputs: ClassValue[]) {
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
                 "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
-// freshness.last_updated is a plain calendar date ("YYYY-MM-DD"), not a
-// timestamp — format from the string parts directly rather than going
+// Dates from the pipeline are plain calendar dates ("YYYY-MM-DD"), not
+// timestamps — format from the string parts directly rather than going
 // through Date/toLocaleDateString, which applies the viewer's timezone and
-// can roll the date back a day for anyone west of UTC.
-export function lastUpdated(): string {
-  const [year, month, day] = freshness.last_updated.split("-")
+// can roll the date back a day for anyone west of UTC. It also keeps the
+// server-rendered and hydrated markup identical, which a locale-dependent
+// formatter would not: Node's ICU and the browser's need not agree.
+export function formatDate(isoDate: string): string {
+  const [year, month, day] = isoDate.split("-")
   return `${Number(day)} ${MONTHS[Number(month) - 1]} ${year}`
+}
+
+export function lastUpdated(): string {
+  return formatDate(freshness.last_updated)
 }

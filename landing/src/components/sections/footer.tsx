@@ -31,6 +31,9 @@ export function Footer() {
             <a href="/explore/" className="text-xs text-muted-foreground hover:text-foreground">
               Explore
             </a>
+            <a href="/signals/" className="text-xs text-muted-foreground hover:text-foreground">
+              Hiring Signals
+            </a>
             <a href="/methodology/" className="text-xs text-muted-foreground hover:text-foreground">
               Methodology
             </a>

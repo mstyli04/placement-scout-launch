@@ -3,7 +3,8 @@
     { "source": "/privacy", "destination": "/privacy/index.html" },
     { "source": "/playbook", "destination": "/playbook/index.html" },
     { "source": "/methodology", "destination": "/methodology/index.html" },
-    { "source": "/removal", "destination": "/removal/index.html" }
+    { "source": "/removal", "destination": "/removal/index.html" },
+    { "source": "/signals", "destination": "/signals/index.html" }
   ],
   "headers": [
     {
