@@ -98,6 +98,31 @@ def test_firms_above_the_free_tier_cap_are_withheld_but_counted(db):
     assert counts["withheldCount"] == 1
 
 
+def test_matching_the_sheets_cap_would_empty_this_page(db):
+    """Why this feed's cap is 6 while the public sheet's is 3.
+
+    The sheet dropped to 0-3 on 15 Aug 2026 to reserve a paid tier, and the
+    obvious tidy-up is to make this feed agree. It must not: a
+    careers_page_changed signal is worth +3 points in score(), so a firm
+    cannot both have one and score below 4. Capping here at 3 publishes
+    nothing, for ever — an empty page rather than a smaller one.
+
+    If this test starts failing because scoring changed, re-derive the right
+    cap from the real distribution before touching the workflow.
+    """
+    add_firm(db, "111", name="Signal Firm Ltd", score=5)
+    add_firm(db, "222", name="Other Signal Firm Ltd", score=8)
+    db.commit()
+
+    assert published_names(max_score=6) == ["Signal Firm"]
+    assert published_names(max_score=3) == []
+
+    counts = build_signals.fetch_counts(90, 3)
+    assert counts["changedCount"] == 2
+    assert counts["publishableCount"] == 0
+    assert counts["withheldCount"] == 2
+
+
 def test_a_firm_with_no_careers_page_is_not_listed(db):
     """True by construction today — the signal comes from hashing that page —
     but the feed links to the URL, so a row without one would render a link to

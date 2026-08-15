@@ -55,6 +55,42 @@ await build({
 // on build), so local dev never requests a route that doesn't exist there.
 const ANALYTICS_TAG = '<script defer src="/_vercel/insights/script.js"></script>'
 
+const SITE_URL = 'https://placementscout.vercel.app'
+const OG_IMAGE = `${SITE_URL}/og-image.png`
+
+// Open Graph / Twitter Card tags, derived from each page's own <title> and
+// meta description rather than hand-written per page. W-2 originally wrote
+// them into index.html by hand, which is why for two weeks the home page had
+// a share card and the other 54 routes had none — including /signals/, the
+// one being posted. Deriving them here means a new page cannot be added
+// without them.
+//
+// The home page's hand-written block was deleted in favour of this; the tags
+// it produces there are identical because og:title/og:description were
+// already exact copies of the title and description.
+function socialTags(htmlPath, title, description) {
+  const rel = path
+    .relative(path.resolve(root, 'dist'), htmlPath)
+    .replace(/index\.html$/, '')
+    .replace(/\\/g, '/')
+  const url = `${SITE_URL}/${rel}`
+  const tags = [
+    ['property', 'og:type', 'website'],
+    ['property', 'og:site_name', 'Placement Scout'],
+    ['property', 'og:url', url],
+    ['property', 'og:title', title],
+    ['property', 'og:description', description],
+    ['property', 'og:image', OG_IMAGE],
+    ['property', 'og:image:width', '1200'],
+    ['property', 'og:image:height', '630'],
+    ['name', 'twitter:card', 'summary_large_image'],
+    ['name', 'twitter:title', title],
+    ['name', 'twitter:description', description],
+    ['name', 'twitter:image', OG_IMAGE],
+  ]
+  return tags.map(([attr, key, value]) => `    <meta ${attr}="${key}" content="${value}" />`).join('\n')
+}
+
 function injectRoot(htmlPath, html) {
   const template = fs.readFileSync(htmlPath, 'utf-8')
   const rootDivPattern = /<div id="root"([^>]*)><\/div>/
@@ -62,6 +98,22 @@ function injectRoot(htmlPath, html) {
     throw new Error(`Could not find the empty root div placeholder in ${htmlPath}`)
   }
   let out = template.replace(rootDivPattern, (_match, attrs) => `<div id="root"${attrs}>${html}</div>`)
+
+  // Collapse the source's line wrapping — these values become single-line
+  // attribute content, and an unnormalised newline inside content="" renders
+  // as a literal newline in the card text.
+  const collapse = (s) => s.replace(/\s+/g, ' ').trim()
+  const titleMatch = out.match(/<title>([\s\S]*?)<\/title>/)
+  const descMatch = out.match(/<meta\s+name="description"\s+content="([\s\S]*?)"\s*\/?>/)
+  if (!titleMatch) throw new Error(`No <title> to build share tags from in ${htmlPath}`)
+  if (!descMatch) throw new Error(`No meta description to build share tags from in ${htmlPath}`)
+  if (!out.includes('property="og:')) {
+    out = out.replace(
+      '</head>',
+      `${socialTags(htmlPath, collapse(titleMatch[1]), collapse(descMatch[1]))}\n  </head>`
+    )
+  }
+
   if (!out.includes(ANALYTICS_TAG)) {
     if (!out.includes('</head>')) {
       throw new Error(`Could not find </head> to inject the analytics tag into ${htmlPath}`)
@@ -89,7 +141,6 @@ console.log(`Prerendered ${routes.length} facet pages`)
 // server-rendered content (W-1/W-6) — no per-firm pages exist to exclude
 // (W-7's premise doesn't apply yet; this list needs revisiting if that
 // changes).
-const SITE_URL = 'https://placementscout.vercel.app'
 const indexablePaths = [
   '/', '/privacy/', '/playbook/', '/methodology/', '/explore/', '/removal/', '/signals/',
   ...routes.map((r) => `/${r.dir}/`),

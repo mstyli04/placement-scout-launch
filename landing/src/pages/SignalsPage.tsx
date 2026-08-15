@@ -155,9 +155,8 @@ export function SignalsPage() {
             <p className="mt-6 text-xs leading-relaxed text-muted-foreground">
               {signals.withheldCount} further {signals.withheldCount === 1 ? "firm" : "firms"}{" "}
               changed a careers page in this window but {signals.withheldCount === 1 ? "is" : "are"}{" "}
-              not listed: this page publishes the same free tier as the sheet, scores{" "}
-              {signals.maxScore} and below. Saying how many were held back seemed more honest than
-              quietly showing a shorter list.
+              not listed: this page publishes firms scoring {signals.maxScore} and below. Saying how
+              many were held back seemed more honest than quietly showing a shorter list.
             </p>
           ) : null}
         </section>

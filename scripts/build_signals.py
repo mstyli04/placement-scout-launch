@@ -15,11 +15,13 @@ rather than trusted to the caller:
 * **Suppressed firms never appear.** Same clause as every other publisher in
   this repo. A firm that asked to be removed must not reappear because a new
   surface was added.
-* **The free-tier score cap applies.** The public sheet publishes score
-  0-6 and deliberately holds back anything above it. A feed naming the
-  high-scoring firms would hand over exactly what the sheet withholds, so the
-  same ceiling applies and the page says how many were withheld — a number,
-  never a name.
+* **A score cap applies**, but no longer the sheet's. The sheet moved to 0-3
+  on 15 Aug 2026 to reserve a larger paid tier; this feed stayed at 0-6 on
+  purpose. A careers-page signal is worth +3, so every firm that has one
+  scores 5 or 8 — matching the sheet's new cap here would publish an empty
+  page permanently rather than a shorter one. What the cap still buys is that
+  the very top of the range is never named, and the page says how many were
+  withheld — a number, never a name.
 * **Only firms with a careers page.** True by construction (the signal comes
   from hashing that page), asserted anyway so it stays true if the signal
   types grow.
@@ -122,9 +124,10 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--window-days", type=int, default=WINDOW_DAYS)
     parser.add_argument("--max-score", type=int, default=MAX_SCORE,
-                        help="Free-tier ceiling. Must match the public sheet's "
-                             "--max-score or the two surfaces disagree about "
-                             "what is free.")
+                        help="Score ceiling for this feed. Independent of the "
+                             "sheet's --max-score since 15 Aug 2026; lowering "
+                             "it to 3 empties the page permanently, because a "
+                             "careers-page signal is itself worth +3 points.")
     parser.add_argument("--limit", type=int, default=DEFAULT_LIMIT)
     args = parser.parse_args()
 
