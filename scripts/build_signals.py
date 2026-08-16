@@ -62,8 +62,8 @@ def fetch_changes(window_days: int, max_score: int, limit: int) -> list[dict]:
     con.row_factory = sqlite3.Row
     cutoff = (date.today() - timedelta(days=window_days)).isoformat()
     rows = con.execute("""
-        SELECT f.name, f.city, f.postcode, f.sectors, f.score, f.careers_url,
-               MAX(s.observed_at) AS observed_at
+        SELECT f.company_number, f.name, f.city, f.postcode, f.sectors,
+               f.score, f.careers_url, MAX(s.observed_at) AS observed_at
         FROM signals s
         JOIN firms f USING (company_number)
         WHERE s.signal_type = ?
@@ -78,6 +78,10 @@ def fetch_changes(window_days: int, max_score: int, limit: int) -> list[dict]:
     con.close()
 
     return [{
+        # Carried so a later build can check this entry against the
+        # suppression list and recognise it as the same firm. Public register
+        # data, and the page does not render it.
+        "companyNumber": r["company_number"],
         "name": display_name(r["name"]),
         "city": r["city"] or "",
         "region": POSTCODE_AREA_TO_REGION.get(postcode_area(r["postcode"]), ""),
@@ -86,6 +90,66 @@ def fetch_changes(window_days: int, max_score: int, limit: int) -> list[dict]:
         "careersUrl": r["careers_url"],
         "observedAt": r["observed_at"],
     } for r in rows]
+
+
+def published_changes() -> list[dict]:
+    """Whatever the last build published. Missing or unreadable is not an
+    error — the first run has nothing to read."""
+    if not SIGNALS_FILE.exists():
+        return []
+    try:
+        return json.loads(SIGNALS_FILE.read_text()).get("changes", []) or []
+    except (OSError, json.JSONDecodeError):
+        return []
+
+
+def suppressed_numbers() -> set[str]:
+    con = sqlite3.connect(f"file:{SCOUT_DB}?mode=ro", uri=True)
+    rows = con.execute("SELECT company_number FROM suppressions").fetchall()
+    con.close()
+    return {r[0] for r in rows}
+
+
+def merge_changes(current: list[dict], window_days: int, max_score: int,
+                  suppressed: set[str], limit: int) -> list[dict]:
+    """The published feed, accumulated rather than rebuilt.
+
+    A careers page that changed on 7 August changed on 7 August permanently.
+    Rebuilding this file from scratch each night made published history a
+    property of whichever database happened to run — which is how a CI
+    database with no signals of its own came to write an empty feed over a
+    populated one.
+
+    So the feed accumulates, under three rules that still bite retroactively:
+    the window still expires old entries, and the suppression list and score
+    cap are re-applied to everything on every build, including entries this
+    database has never seen. A removal request must reach back into history,
+    or it only covers firms discovered after it was made.
+
+    Where both sources know a firm, the live database wins — it holds the
+    fresher observation, and a stale published copy must not shadow it.
+    """
+    cutoff = (date.today() - timedelta(days=window_days)).isoformat()
+    merged: dict[str, dict] = {}
+
+    for entry in published_changes() + list(current):
+        number = entry.get("companyNumber")
+        if not number:
+            # Published before company numbers were stored. It cannot be
+            # checked against the suppression list, and unverifiable is not
+            # the same as allowed.
+            continue
+        # `current` is appended second, so it overwrites the published copy.
+        merged[number] = entry
+
+    kept = [e for e in merged.values()
+            if e.get("observedAt", "") >= cutoff
+            and e.get("score", 0) <= max_score
+            and e["companyNumber"] not in suppressed]
+
+    kept.sort(key=lambda e: (e.get("observedAt", ""), e.get("score", 0),
+                             e.get("name", "")), reverse=True)
+    return kept[:limit]
 
 
 def fetch_counts(window_days: int, max_score: int) -> dict:
@@ -131,16 +195,29 @@ def main() -> None:
     parser.add_argument("--limit", type=int, default=DEFAULT_LIMIT)
     args = parser.parse_args()
 
-    changes = fetch_changes(args.window_days, args.max_score, args.limit)
+    current = fetch_changes(args.window_days, args.max_score, args.limit)
     counts = fetch_counts(args.window_days, args.max_score)
 
-    # A signal for a firm scoring above the cap must never reach the file. The
-    # SQL already excludes them; this is the assertion that keeps it true after
-    # someone edits the query.
-    over = [c for c in changes if c["score"] > args.max_score]
+    # Checked against the RAW query output, before the merge. merge_changes
+    # re-applies the cap and would quietly drop an over-cap firm, which is the
+    # right behaviour for the file and the wrong behaviour for a broken query:
+    # the point of this assertion is that a bad edit to the SQL is loud, not
+    # that the bad row is swallowed somewhere downstream.
+    over = [c for c in current if c["score"] > args.max_score]
     if over:
         sys.exit(f"REFUSING to write: {len(over)} firm(s) above the score cap "
                  f"reached the feed, e.g. {over[0]['name']} ({over[0]['score']})")
+
+    changes = merge_changes(current, args.window_days, args.max_score,
+                            suppressed_numbers(), args.limit)
+
+    # The published list is the authority on how many firms are named, since
+    # it can hold history this database never saw. `withheld` stays a fact
+    # about the live database — it is the only source that knows what sits
+    # above the cap — and `changed` is the two added together, so the three
+    # numbers on the page always reconcile.
+    counts["publishableCount"] = len(changes)
+    counts["changedCount"] = len(changes) + counts["withheldCount"]
 
     # An empty result must never overwrite a populated file. On 16 Aug 2026 the
     # nightly did exactly that: CI keeps its own scout.db, that database has

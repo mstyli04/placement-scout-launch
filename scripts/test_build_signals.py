@@ -258,3 +258,140 @@ def test_module_defaults_match_the_public_sheet():
     """
     assert build_signals.MAX_SCORE == 6
     assert build_signals.SIGNAL_TYPE == "careers_page_changed"
+
+
+# --------------------------------------------------------------------------
+# The feed accumulates. A careers page that changed on 7 August changed on 7
+# August permanently, but signals.json was rebuilt from scratch every night —
+# so whichever database happened to run decided the whole of published
+# history. CI has its own scout.db with no signal history at all, which is how
+# a nightly came to write an empty feed over a populated one.
+
+def published(**over):
+    base = {"companyNumber": "111", "name": "Historic Ltd", "city": "London",
+            "region": "London", "sectors": ["M&A / advisory"], "score": 5,
+            "careersUrl": "https://historic.example/careers",
+            "observedAt": RECENT}
+    base.update(over)
+    return base
+
+
+def test_history_survives_a_database_that_never_saw_it(db):
+    """The 16 Aug failure, as a test. A database with no signals of its own
+    must not erase what has already been published."""
+    build_signals.SIGNALS_FILE.write_text(json.dumps(
+        {"changes": [published()]}) + "\n")
+
+    merged = build_signals.merge_changes(
+        current=[], window_days=90, max_score=6, suppressed=set(), limit=60)
+
+    assert [c["name"] for c in merged] == ["Historic Ltd"]
+
+
+def test_the_current_database_wins_where_both_know_a_firm(db):
+    """Not a blind union: if the live database has a fresher observation for a
+    firm, that is the truth, and the stale published copy must not shadow it.
+    """
+    build_signals.SIGNALS_FILE.write_text(json.dumps(
+        {"changes": [published(observedAt="2026-01-01", score=5)]}) + "\n")
+    current = [published(observedAt=RECENT, score=6, name="Historic Ltd")]
+
+    merged = build_signals.merge_changes(
+        current=current, window_days=90, max_score=6, suppressed=set(), limit=60)
+
+    assert len(merged) == 1
+    assert merged[0]["observedAt"] == RECENT
+    assert merged[0]["score"] == 6
+
+
+def test_published_history_ages_out_of_the_window(db):
+    """It is a 90-day feed. Accumulating must not quietly turn it into an
+    all-time archive that only ever grows."""
+    build_signals.SIGNALS_FILE.write_text(json.dumps(
+        {"changes": [published(observedAt=STALE)]}) + "\n")
+
+    merged = build_signals.merge_changes(
+        current=[], window_days=90, max_score=6, suppressed=set(), limit=60)
+
+    assert merged == []
+
+
+def test_a_suppression_reaches_back_into_published_history(db):
+    """C-5's promise has to apply to entries this database has never seen.
+    Republishing a firm that asked to be removed, because the removal came
+    after it was published, is precisely the failure the removal route exists
+    to prevent.
+    """
+    build_signals.SIGNALS_FILE.write_text(json.dumps(
+        {"changes": [published(companyNumber="111"),
+                     published(companyNumber="222", name="Stays Ltd")]}) + "\n")
+
+    merged = build_signals.merge_changes(
+        current=[], window_days=90, max_score=6, suppressed={"111"}, limit=60)
+
+    assert [c["name"] for c in merged] == ["Stays Ltd"]
+
+
+def test_the_cap_reaches_back_into_published_history_too(db):
+    """Lowering the cap must retire already-published firms above it, or the
+    holdback only applies to firms discovered after the change."""
+    build_signals.SIGNALS_FILE.write_text(json.dumps(
+        {"changes": [published(score=6, name="Now Above Cap Ltd")]}) + "\n")
+
+    merged = build_signals.merge_changes(
+        current=[], window_days=90, max_score=5, suppressed=set(), limit=60)
+
+    assert merged == []
+
+
+def test_an_entry_with_no_company_number_is_dropped_not_trusted(db):
+    """Entries published before company numbers were stored cannot be checked
+    against the suppression list. Unverifiable is not the same as allowed —
+    the only safe reading is to drop it.
+    """
+    legacy = published()
+    del legacy["companyNumber"]
+    build_signals.SIGNALS_FILE.write_text(json.dumps({"changes": [legacy]}) + "\n")
+
+    merged = build_signals.merge_changes(
+        current=[], window_days=90, max_score=6, suppressed=set(), limit=60)
+
+    assert merged == []
+
+
+def test_the_merged_feed_is_still_bounded_by_the_limit(db):
+    build_signals.SIGNALS_FILE.write_text(json.dumps(
+        {"changes": [published(companyNumber=str(i), name=f"Firm {i} Ltd")
+                     for i in range(10)]}) + "\n")
+
+    merged = build_signals.merge_changes(
+        current=[], window_days=90, max_score=6, suppressed=set(), limit=4)
+
+    assert len(merged) == 4
+
+
+def test_the_written_file_carries_company_numbers(db, monkeypatch):
+    """Without these the next merge cannot check suppression, so the feed
+    would start dropping its own history."""
+    add_firm(db, "111")
+    db.commit()
+    monkeypatch.setattr(sys, "argv", ["build_signals.py"])
+
+    build_signals.main()
+
+    payload = json.loads(build_signals.SIGNALS_FILE.read_text())
+    assert payload["changes"][0]["companyNumber"] == "111"
+
+
+def test_main_republishes_history_when_the_database_is_empty(db, monkeypatch):
+    """End to end through main(), which is what CI runs: an empty database
+    plus a populated file must produce a populated file."""
+    build_signals.SIGNALS_FILE.write_text(json.dumps(
+        {"changes": [published()]}) + "\n")
+    monkeypatch.setattr(sys, "argv", ["build_signals.py"])
+
+    build_signals.main()
+
+    payload = json.loads(build_signals.SIGNALS_FILE.read_text())
+    assert [c["name"] for c in payload["changes"]] == ["Historic Ltd"]
+    assert payload["publishableCount"] == 1
