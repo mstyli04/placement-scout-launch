@@ -1,10 +1,10 @@
 {
   "windowDays": 90,
   "maxScore": 6,
-  "watchedCount": 2885,
-  "changedCount": 53,
+  "watchedCount": 2750,
+  "changedCount": 49,
   "publishableCount": 49,
-  "withheldCount": 4,
+  "withheldCount": 0,
   "regionMix": {
     "South East": 13,
     "London": 8,
