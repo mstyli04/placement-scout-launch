@@ -154,3 +154,25 @@
     @apply font-sans;
     }
 }
+/* --- Scroll journey ------------------------------------------------------
+   Same rule as the region hexes above: no inline style attributes anywhere,
+   because style-src 'self' blocks them once prerendered. */
+.journey-vignette {
+  background: radial-gradient(
+    120% 80% at 50% 45%,
+    transparent 35%,
+    rgba(7, 10, 18, 0.82) 100%
+  );
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* The journey is decorative in the strict sense — every number it shows is
+   also stated in the sections around it — so removing its motion costs the
+   reader nothing. */
+@media (prefers-reduced-motion: reduce) {
+  [data-journey] * { animation: none !important; }
+}

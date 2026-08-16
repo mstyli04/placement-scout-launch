@@ -52,8 +52,8 @@ export function Preview() {
             status — scored so the best-fit boutiques rise to the top.
           </p>
         </div>
-        <div className="mx-auto mt-12 max-w-3xl overflow-hidden rounded-xl border border-border">
-          <table className="w-full text-sm">
+        <div className="mx-auto mt-12 max-w-3xl overflow-x-auto rounded-xl border border-border">
+          <table className="w-full min-w-[34rem] text-sm">
             <thead>
               <tr className="border-b border-border bg-muted/50 text-left text-xs text-muted-foreground">
                 <th className="px-4 py-3 font-medium">Firm</th>

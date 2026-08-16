@@ -21,6 +21,7 @@ export function Navbar() {
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-6">
         <Logo />
         <div className="flex items-center gap-2">
+          <div className="hidden items-center gap-2 sm:flex">
           <Button variant="ghost" size="sm" asChild>
             <a href="#preview" className="text-muted-foreground">
               Preview
@@ -41,6 +42,7 @@ export function Navbar() {
               FAQ
             </a>
           </Button>
+          </div>
           <Button size="sm" asChild>
             <a href="#access">Get free access</a>
           </Button>
