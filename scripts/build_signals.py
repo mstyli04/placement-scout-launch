@@ -142,6 +142,32 @@ def main() -> None:
         sys.exit(f"REFUSING to write: {len(over)} firm(s) above the score cap "
                  f"reached the feed, e.g. {over[0]['name']} ({over[0]['score']})")
 
+    # An empty result must never overwrite a populated file. On 16 Aug 2026 the
+    # nightly did exactly that: CI keeps its own scout.db, that database has
+    # never observed a careers-page change, and it committed a signals.json
+    # with zero rows over one holding 49. The page would have gone blank with
+    # nothing in the logs to say why — the run reported success.
+    #
+    # Zero changes is a real possible answer (a quiet 90 days), so this is not
+    # an error. But it is indistinguishable from a database that simply has no
+    # history yet, and between those two readings the safe one is to keep what
+    # is already published and say so loudly. Exits 0 deliberately: the rest of
+    # the nightly — facets, freshness, the sheet, the deploy — is unaffected
+    # and should still run.
+    if not changes and SIGNALS_FILE.exists():
+        try:
+            existing = json.loads(SIGNALS_FILE.read_text())
+        except (OSError, json.JSONDecodeError):
+            existing = {}
+        if existing.get("changes"):
+            print(f"WARNING: found 0 publishable changes but {SIGNALS_FILE.name} "
+                  f"already holds {len(existing['changes'])}. Keeping the existing "
+                  f"file rather than blanking the page. This database has "
+                  f"{counts['watchedCount']:,} pages under watch and no recorded "
+                  f"changes — if that is a fresh database rather than a quiet "
+                  f"window, it needs the signal history before it can publish.")
+            return
+
     payload = {
         "windowDays": args.window_days,
         "maxScore": args.max_score,

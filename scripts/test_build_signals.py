@@ -203,6 +203,35 @@ def test_the_written_file_carries_no_firm_above_the_cap(db, monkeypatch):
     assert all(c["score"] <= payload["maxScore"] for c in payload["changes"])
 
 
+def test_an_empty_result_does_not_blank_a_populated_file(db, monkeypatch):
+    """The 16 Aug 2026 near-miss: CI's own database has no signal history, so
+    the nightly wrote a zero-row signals.json over one holding 49 and reported
+    success. The page survived only because the deploy step happened to crash.
+    """
+    build_signals.SIGNALS_FILE.write_text(json.dumps({
+        "changes": [{"name": "Already Published Ltd", "score": 5}],
+        "publishableCount": 1,
+    }) + "\n")
+    # No firms added: the database is empty, so there is nothing to publish.
+    monkeypatch.setattr(sys, "argv", ["build_signals.py"])
+
+    build_signals.main()
+
+    payload = json.loads(build_signals.SIGNALS_FILE.read_text())
+    assert [c["name"] for c in payload["changes"]] == ["Already Published Ltd"]
+
+
+def test_an_empty_result_still_writes_when_there_is_nothing_to_protect(db, monkeypatch):
+    """The guard must not become a reason the file never appears at all."""
+    assert not build_signals.SIGNALS_FILE.exists()
+    monkeypatch.setattr(sys, "argv", ["build_signals.py"])
+
+    build_signals.main()
+
+    payload = json.loads(build_signals.SIGNALS_FILE.read_text())
+    assert payload["changes"] == []
+
+
 def test_the_guard_refuses_to_write_a_file_that_breaks_the_cap(db, monkeypatch):
     """The assertion in main() is the last line of defence if the SQL is
     edited badly. Simulate exactly that: a fetch that returns an over-cap firm.
