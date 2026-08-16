@@ -28,7 +28,7 @@ export function Faq() {
         <div className="text-center">
           <p className="text-[13px] font-medium text-brand">FAQ</p>
           <h2 className="mt-3 text-3xl font-semibold tracking-tight text-foreground md:text-4xl">
-            Fair questions
+            Frequently asked questions
           </h2>
         </div>
         <div className="mt-12 space-y-8">

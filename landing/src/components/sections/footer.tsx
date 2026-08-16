@@ -24,7 +24,7 @@ export function Footer() {
               Placement Scout
             </span>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
             <a href="/playbook/" className="text-xs text-muted-foreground hover:text-foreground">
               Outreach Playbook
             </a>
