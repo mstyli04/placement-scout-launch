@@ -111,7 +111,11 @@ export function ScrollJourney() {
             region-map.tsx in W-1. */}
         <div aria-hidden className="journey-vignette pointer-events-none absolute inset-0" />
 
-        <div className="pointer-events-none absolute inset-0 flex items-end px-6 pb-16 sm:items-center sm:pb-0 lg:px-12">
+        {/* pl-44 at lg, not px-12: the site rail is fixed at the left edge and
+            is roughly 140px wide, so a centred max-w-6xl box put this copy
+            straight underneath it at 1280px. The rail stays visible through
+            the journey — that is the point of it — so the copy moves. */}
+        <div className="pointer-events-none absolute inset-0 flex items-end px-6 pb-16 sm:items-center sm:pb-0 lg:pr-12 lg:pl-44">
           <div className="mx-auto w-full max-w-6xl">
             <div className="max-w-md">
               <p
