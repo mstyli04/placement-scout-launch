@@ -1,10 +1,25 @@
 {
   "rewrites": [
-    { "source": "/privacy", "destination": "/privacy/index.html" },
-    { "source": "/playbook", "destination": "/playbook/index.html" },
-    { "source": "/methodology", "destination": "/methodology/index.html" },
-    { "source": "/removal", "destination": "/removal/index.html" },
-    { "source": "/signals", "destination": "/signals/index.html" }
+    {
+      "source": "/privacy",
+      "destination": "/privacy/index.html"
+    },
+    {
+      "source": "/playbook",
+      "destination": "/playbook/index.html"
+    },
+    {
+      "source": "/methodology",
+      "destination": "/methodology/index.html"
+    },
+    {
+      "source": "/removal",
+      "destination": "/removal/index.html"
+    },
+    {
+      "source": "/signals",
+      "destination": "/signals/index.html"
+    }
   ],
   "headers": [
     {
@@ -14,15 +29,43 @@
           "key": "Content-Security-Policy",
           "value": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action 'self' https://buttondown.com; frame-ancestors 'self'; base-uri 'self'; object-src 'none'"
         },
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
         {
           "key": "Permissions-Policy",
           "value": "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()"
         },
-        { "key": "Cross-Origin-Opener-Policy", "value": "same-origin" },
-        { "key": "Cross-Origin-Resource-Policy", "value": "same-origin" }
+        {
+          "key": "Cross-Origin-Opener-Policy",
+          "value": "same-origin"
+        },
+        {
+          "key": "Cross-Origin-Resource-Policy",
+          "value": "same-origin"
+        }
+      ]
+    },
+    {
+      "source": "/(og-.*\\.png)",
+      "headers": [
+        {
+          "key": "Cross-Origin-Resource-Policy",
+          "value": "cross-origin"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, s-maxage=86400"
+        }
       ]
     }
   ]
