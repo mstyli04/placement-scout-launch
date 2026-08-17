@@ -10,11 +10,11 @@
     "careersCount": 497,
     "careersSharePct": 34.1,
     "cohorts": {
-      "under_2y": 5365,
-      "2_5y": 2641,
-      "5_10y": 3350,
-      "10_20y": 2788,
-      "20y_plus": 910
+      "under_2y": 5359,
+      "2_5y": 2643,
+      "5_10y": 3352,
+      "10_20y": 2789,
+      "20y_plus": 911
     }
   },
   {
@@ -29,8 +29,8 @@
     "careersSharePct": 32.0,
     "cohorts": {
       "under_2y": 2267,
-      "2_5y": 1572,
-      "5_10y": 2659,
+      "2_5y": 1569,
+      "5_10y": 2662,
       "10_20y": 2821,
       "20y_plus": 1215
     }
@@ -46,11 +46,11 @@
     "careersCount": 304,
     "careersSharePct": 36.6,
     "cohorts": {
-      "under_2y": 1239,
-      "2_5y": 874,
-      "5_10y": 1490,
+      "under_2y": 1238,
+      "2_5y": 875,
+      "5_10y": 1489,
       "10_20y": 1493,
-      "20y_plus": 598
+      "20y_plus": 599
     }
   },
   {
@@ -64,9 +64,9 @@
     "careersCount": 304,
     "careersSharePct": 34.5,
     "cohorts": {
-      "under_2y": 1147,
+      "under_2y": 1145,
       "2_5y": 753,
-      "5_10y": 1289,
+      "5_10y": 1291,
       "10_20y": 1335,
       "20y_plus": 468
     }
@@ -83,8 +83,8 @@
     "careersSharePct": 43.0,
     "cohorts": {
       "under_2y": 1647,
-      "2_5y": 848,
-      "5_10y": 1007,
+      "2_5y": 847,
+      "5_10y": 1008,
       "10_20y": 419,
       "20y_plus": 104
     }
@@ -101,8 +101,8 @@
     "careersSharePct": 39.2,
     "cohorts": {
       "under_2y": 603,
-      "2_5y": 495,
-      "5_10y": 912,
+      "2_5y": 494,
+      "5_10y": 913,
       "10_20y": 1033,
       "20y_plus": 469
     }
@@ -130,14 +130,14 @@
     "sectorLabel": "M&A / advisory",
     "regionKey": "yorkshire",
     "regionLabel": "Yorkshire",
-    "count": 3142,
+    "count": 3143,
     "medianAgeYears": 7.5,
     "websiteCount": 517,
     "careersCount": 188,
     "careersSharePct": 36.4,
     "cohorts": {
       "under_2y": 598,
-      "2_5y": 487,
+      "2_5y": 488,
       "5_10y": 869,
       "10_20y": 876,
       "20y_plus": 312
@@ -157,8 +157,8 @@
       "under_2y": 1139,
       "2_5y": 499,
       "5_10y": 590,
-      "10_20y": 373,
-      "20y_plus": 123
+      "10_20y": 372,
+      "20y_plus": 124
     }
   },
   {
@@ -172,9 +172,9 @@
     "careersCount": 148,
     "careersSharePct": 37.2,
     "cohorts": {
-      "under_2y": 439,
+      "under_2y": 438,
       "2_5y": 347,
-      "5_10y": 579,
+      "5_10y": 580,
       "10_20y": 633,
       "20y_plus": 271
     }
@@ -209,8 +209,8 @@
     "careersSharePct": 22.7,
     "cohorts": {
       "under_2y": 581,
-      "2_5y": 311,
-      "5_10y": 460,
+      "2_5y": 310,
+      "5_10y": 461,
       "10_20y": 300,
       "20y_plus": 131
     }
@@ -245,8 +245,8 @@
     "careersSharePct": 46.6,
     "cohorts": {
       "under_2y": 571,
-      "2_5y": 303,
-      "5_10y": 444,
+      "2_5y": 302,
+      "5_10y": 445,
       "10_20y": 213,
       "20y_plus": 38
     }
@@ -281,8 +281,8 @@
     "careersSharePct": 36.5,
     "cohorts": {
       "under_2y": 217,
-      "2_5y": 145,
-      "5_10y": 313,
+      "2_5y": 144,
+      "5_10y": 314,
       "10_20y": 281,
       "20y_plus": 105
     }
@@ -319,8 +319,8 @@
       "under_2y": 286,
       "2_5y": 154,
       "5_10y": 271,
-      "10_20y": 156,
-      "20y_plus": 56
+      "10_20y": 155,
+      "20y_plus": 57
     }
   },
   {
@@ -335,8 +335,8 @@
     "careersSharePct": 39.3,
     "cohorts": {
       "under_2y": 273,
-      "2_5y": 182,
-      "5_10y": 200,
+      "2_5y": 181,
+      "5_10y": 201,
       "10_20y": 115,
       "20y_plus": 25
     }
@@ -370,8 +370,8 @@
     "careersCount": 28,
     "careersSharePct": 25.9,
     "cohorts": {
-      "under_2y": 155,
-      "2_5y": 80,
+      "under_2y": 154,
+      "2_5y": 81,
       "5_10y": 145,
       "10_20y": 176,
       "20y_plus": 67
@@ -479,8 +479,8 @@
     "careersSharePct": 50.0,
     "cohorts": {
       "under_2y": 134,
-      "2_5y": 85,
-      "5_10y": 136,
+      "2_5y": 84,
+      "5_10y": 137,
       "10_20y": 76,
       "20y_plus": 20
     }
@@ -508,13 +508,13 @@
     "sectorLabel": "Quant / trading / fintech",
     "regionKey": "south-west",
     "regionLabel": "South West",
-    "count": 405,
+    "count": 406,
     "medianAgeYears": 5.8,
     "websiteCount": 7,
     "careersCount": 3,
     "careersSharePct": 42.9,
     "cohorts": {
-      "under_2y": 109,
+      "under_2y": 110,
       "2_5y": 65,
       "5_10y": 109,
       "10_20y": 80,
