@@ -58,6 +58,13 @@ const ANALYTICS_TAG = '<script defer src="/_vercel/insights/script.js"></script>
 const SITE_URL = 'https://placementscout.vercel.app'
 const OG_IMAGE = `${SITE_URL}/og-image.png`
 
+// Per-route share cards. A page shared as often as /signals/ deserves a card
+// that states its own numbers rather than the home page's headline; anything
+// without an entry falls back to the generic one.
+const OG_IMAGE_BY_PATH = {
+  "/signals/": `${SITE_URL}/og-signals.png`,
+}
+
 // Open Graph / Twitter Card tags, derived from each page's own <title> and
 // meta description rather than hand-written per page. W-2 originally wrote
 // them into index.html by hand, which is why for two weeks the home page had
@@ -74,19 +81,20 @@ function socialTags(htmlPath, title, description) {
     .replace(/index\.html$/, '')
     .replace(/\\/g, '/')
   const url = `${SITE_URL}/${rel}`
+  const image = OG_IMAGE_BY_PATH[`/${rel}`] ?? OG_IMAGE
   const tags = [
     ['property', 'og:type', 'website'],
     ['property', 'og:site_name', 'Placement Scout'],
     ['property', 'og:url', url],
     ['property', 'og:title', title],
     ['property', 'og:description', description],
-    ['property', 'og:image', OG_IMAGE],
+    ['property', 'og:image', image],
     ['property', 'og:image:width', '1200'],
     ['property', 'og:image:height', '630'],
     ['name', 'twitter:card', 'summary_large_image'],
     ['name', 'twitter:title', title],
     ['name', 'twitter:description', description],
-    ['name', 'twitter:image', OG_IMAGE],
+    ['name', 'twitter:image', image],
   ]
   return tags.map(([attr, key, value]) => `    <meta ${attr}="${key}" content="${value}" />`).join('\n')
 }
