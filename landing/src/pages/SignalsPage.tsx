@@ -135,8 +135,19 @@ export function SignalsPage() {
                         >
                           {change.name}
                         </a>
+                        {/* A firm registered in the City has city "London" and
+                            region "London", which rendered as "London · London"
+                            on 7 of the 49 rows. Deduped rather than dropping the
+                            region outright, because for everywhere else the pair
+                            is genuinely two facts (Epsom · South East). */}
                         <p className="mt-0.5 text-xs text-muted-foreground">
-                          {[change.sectors.join(", "), change.city, change.region]
+                          {[
+                            change.sectors.join(", "),
+                            change.city,
+                            change.region?.toLowerCase() === change.city?.toLowerCase()
+                              ? ""
+                              : change.region,
+                          ]
                             .filter(Boolean)
                             .join(" · ")}
                         </p>
