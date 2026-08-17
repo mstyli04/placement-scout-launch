@@ -62,7 +62,12 @@ const OG_IMAGE = `${SITE_URL}/og-image.png`
 // that states its own numbers rather than the home page's headline; anything
 // without an entry falls back to the generic one.
 const OG_IMAGE_BY_PATH = {
-  "/signals/": `${SITE_URL}/og-signals.png`,
+  // Renamed from og-signals.png on 17 Aug 2026. LinkedIn caches share
+  // images against the SOURCE URL and does not re-fetch on re-inspect — it
+  // had stored a 1x1 placeholder from before the CORP header was fixed, and
+  // no amount of re-inspecting would shift it. A new filename is the only
+  // reliable cache bust. If a card ever goes stale again, bump the suffix.
+  "/signals/": `${SITE_URL}/og-signals-v2.png`,
 }
 
 // Open Graph / Twitter Card tags, derived from each page's own <title> and
