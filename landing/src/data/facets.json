@@ -4,16 +4,16 @@
     "sectorLabel": "M&A / advisory",
     "regionKey": "london",
     "regionLabel": "London",
-    "count": 15109,
+    "count": 15111,
     "medianAgeYears": 4.4,
     "websiteCount": 1456,
     "careersCount": 497,
     "careersSharePct": 34.1,
     "cohorts": {
-      "under_2y": 5393,
-      "2_5y": 2655,
-      "5_10y": 3347,
-      "10_20y": 2802,
+      "under_2y": 5395,
+      "2_5y": 2653,
+      "5_10y": 3348,
+      "10_20y": 2803,
       "20y_plus": 912
     }
   },
@@ -23,15 +23,15 @@
     "regionKey": "south-east",
     "regionLabel": "South East",
     "count": 10563,
-    "medianAgeYears": 7.5,
+    "medianAgeYears": 7.6,
     "websiteCount": 1391,
     "careersCount": 446,
     "careersSharePct": 32.1,
     "cohorts": {
       "under_2y": 2280,
-      "2_5y": 1577,
-      "5_10y": 2662,
-      "10_20y": 2827,
+      "2_5y": 1575,
+      "5_10y": 2663,
+      "10_20y": 2828,
       "20y_plus": 1217
     }
   },
@@ -47,9 +47,9 @@
     "careersSharePct": 36.6,
     "cohorts": {
       "under_2y": 1238,
-      "2_5y": 887,
-      "5_10y": 1487,
-      "10_20y": 1496,
+      "2_5y": 885,
+      "5_10y": 1488,
+      "10_20y": 1497,
       "20y_plus": 600
     }
   },
@@ -65,10 +65,10 @@
     "careersSharePct": 34.5,
     "cohorts": {
       "under_2y": 1155,
-      "2_5y": 753,
+      "2_5y": 752,
       "5_10y": 1289,
       "10_20y": 1341,
-      "20y_plus": 468
+      "20y_plus": 469
     }
   },
   {
@@ -101,8 +101,8 @@
     "careersSharePct": 39.2,
     "cohorts": {
       "under_2y": 605,
-      "2_5y": 497,
-      "5_10y": 914,
+      "2_5y": 496,
+      "5_10y": 915,
       "10_20y": 1032,
       "20y_plus": 470
     }
@@ -119,9 +119,9 @@
     "careersSharePct": 30.9,
     "cohorts": {
       "under_2y": 774,
-      "2_5y": 524,
+      "2_5y": 523,
       "5_10y": 765,
-      "10_20y": 840,
+      "10_20y": 841,
       "20y_plus": 347
     }
   },
@@ -155,9 +155,9 @@
     "careersSharePct": 33.3,
     "cohorts": {
       "under_2y": 1145,
-      "2_5y": 504,
+      "2_5y": 503,
       "5_10y": 585,
-      "10_20y": 378,
+      "10_20y": 379,
       "20y_plus": 124
     }
   },
@@ -191,9 +191,9 @@
     "careersSharePct": 29.7,
     "cohorts": {
       "under_2y": 510,
-      "2_5y": 350,
+      "2_5y": 349,
       "5_10y": 602,
-      "10_20y": 518,
+      "10_20y": 519,
       "20y_plus": 245
     }
   },
@@ -210,8 +210,8 @@
     "cohorts": {
       "under_2y": 585,
       "2_5y": 311,
-      "5_10y": 462,
-      "10_20y": 302,
+      "5_10y": 461,
+      "10_20y": 303,
       "20y_plus": 131
     }
   },
@@ -245,8 +245,8 @@
     "careersSharePct": 46.6,
     "cohorts": {
       "under_2y": 574,
-      "2_5y": 306,
-      "5_10y": 445,
+      "2_5y": 305,
+      "5_10y": 446,
       "10_20y": 214,
       "20y_plus": 38
     }
@@ -264,8 +264,8 @@
     "cohorts": {
       "under_2y": 315,
       "2_5y": 218,
-      "5_10y": 435,
-      "10_20y": 410,
+      "5_10y": 434,
+      "10_20y": 411,
       "20y_plus": 140
     }
   },
@@ -274,16 +274,16 @@
     "sectorLabel": "M&A / advisory",
     "regionKey": "north-east",
     "regionLabel": "North East",
-    "count": 1063,
+    "count": 1065,
     "medianAgeYears": 7.2,
     "websiteCount": 200,
     "careersCount": 73,
     "careersSharePct": 36.5,
     "cohorts": {
-      "under_2y": 219,
-      "2_5y": 143,
+      "under_2y": 221,
+      "2_5y": 142,
       "5_10y": 314,
-      "10_20y": 282,
+      "10_20y": 283,
       "20y_plus": 105
     }
   },
@@ -335,8 +335,8 @@
     "careersSharePct": 39.3,
     "cohorts": {
       "under_2y": 275,
-      "2_5y": 180,
-      "5_10y": 202,
+      "2_5y": 179,
+      "5_10y": 203,
       "10_20y": 114,
       "20y_plus": 26
     }
@@ -354,8 +354,8 @@
     "cohorts": {
       "under_2y": 246,
       "2_5y": 118,
-      "5_10y": 206,
-      "10_20y": 95,
+      "5_10y": 205,
+      "10_20y": 96,
       "20y_plus": 19
     }
   },
@@ -364,13 +364,13 @@
     "sectorLabel": "M&A / advisory",
     "regionKey": "northern-ireland",
     "regionLabel": "Northern Ireland",
-    "count": 626,
+    "count": 627,
     "medianAgeYears": 7.9,
     "websiteCount": 108,
     "careersCount": 28,
     "careersSharePct": 25.9,
     "cohorts": {
-      "under_2y": 157,
+      "under_2y": 158,
       "2_5y": 80,
       "5_10y": 145,
       "10_20y": 177,
@@ -534,8 +534,8 @@
     "cohorts": {
       "under_2y": 92,
       "2_5y": 90,
-      "5_10y": 123,
-      "10_20y": 51,
+      "5_10y": 122,
+      "10_20y": 52,
       "20y_plus": 17
     }
   },
@@ -677,8 +677,8 @@
     "careersSharePct": 100.0,
     "cohorts": {
       "under_2y": 51,
-      "2_5y": 32,
-      "5_10y": 42,
+      "2_5y": 31,
+      "5_10y": 43,
       "10_20y": 25,
       "20y_plus": 6
     }
@@ -805,8 +805,8 @@
       "under_2y": 19,
       "2_5y": 6,
       "5_10y": 29,
-      "10_20y": 21,
-      "20y_plus": 10
+      "10_20y": 20,
+      "20y_plus": 11
     }
   },
   {
