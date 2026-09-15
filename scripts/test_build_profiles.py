@@ -201,6 +201,69 @@ def test_the_contact_email_is_never_published(db):
     assert "contactEmail" not in blob
 
 
+def test_a_mailto_careers_route_is_not_published_as_a_link(db):
+    """`careers_url` holds a mailto: address for 22 firms and a tel: for 8 —
+    enrichment falls back to a contact route when a firm has no careers page.
+    Publishing those would put the contact email on an indexable page through
+    the back door, defeating the one exclusion this page type promises."""
+    add_firm(db, "111", name="Email Only Ltd")
+    db.execute("UPDATE firms SET careers_url = 'mailto:careers@example.com' "
+               "WHERE company_number = '111'")
+    db.commit()
+
+    profile = build()[0]
+    assert profile["careersUrl"] is None
+    assert "careers@example.com" not in json.dumps(profile)
+
+
+def test_a_tel_careers_route_is_not_published_either(db):
+    add_firm(db, "111")
+    db.execute("UPDATE firms SET careers_url = 'tel:+442071234567' "
+               "WHERE company_number = '111'")
+    db.commit()
+
+    assert build()[0]["careersUrl"] is None
+
+
+def test_a_bare_hostname_website_becomes_an_absolute_link(db):
+    """`website` is a bare hostname for most firms that have one. Rendered as
+    an href unchanged it is a RELATIVE link — /explore/firm/<slug>/example.co.uk
+    — broken on every page it appears on."""
+    add_firm(db, "111", website="example.co.uk")
+    db.commit()
+
+    website = field_of(build()[0], "website")
+    assert website["value"] == "example.co.uk"
+    assert website["href"] == "https://example.co.uk"
+
+
+def test_a_website_that_already_has_a_scheme_is_left_alone(db):
+    add_firm(db, "111", website="http://example.co.uk/about")
+    db.commit()
+
+    assert field_of(build()[0], "website")["href"] == "http://example.co.uk/about"
+
+
+def test_a_website_that_is_not_an_address_gets_no_link_at_all(db):
+    """Two rows in the live database are scraping debris ("www.http...",
+    "s https..."). Shown as text, never as a link to nowhere."""
+    add_firm(db, "111", website="s https://example.com")
+    db.commit()
+
+    website = field_of(build()[0], "website")
+    assert website["value"] == "s https://example.com"
+    assert website["href"] is None
+
+
+def test_only_the_website_field_is_ever_given_a_link(db):
+    """An href on a postcode or an FCA status would be an invitation to render
+    one, and there is nowhere honest for it to point."""
+    add_firm(db, "111")
+    db.commit()
+
+    assert [f["field"] for f in build()[0]["fields"] if f["href"]] == ["website"]
+
+
 def test_the_url_is_keyed_on_the_company_number_not_the_name(db):
     """A display name changes; a company number does not. The number leads so
     the URL survives a rename and a signal ageing out of the feed."""

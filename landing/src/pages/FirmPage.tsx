@@ -203,9 +203,13 @@ export function FirmPage({ slug }: { slug: string }) {
                     <td className="py-3 pr-4 font-medium text-foreground">
                       {field.value === null ? (
                         <span className="font-normal text-muted-foreground">No record</span>
-                      ) : field.field === "website" ? (
+                      ) : field.href ? (
+                        /* `href` comes from build_profiles.py's web_url(), not
+                           from the value: most website rows are bare hostnames,
+                           which as an href would be a relative link to nowhere.
+                           A value with no usable href renders as plain text. */
                         <a
-                          href={field.value}
+                          href={field.href}
                           rel="nofollow noopener noreferrer"
                           target="_blank"
                           className="text-brand hover:underline"

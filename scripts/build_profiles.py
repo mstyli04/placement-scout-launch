@@ -95,6 +95,40 @@ MIN_RETAIN_RATIO = 0.5
 MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
           "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
+# A hostname, with or without a scheme. Deliberately strict: everything that
+# reaches web_url() is scraped, and the two failure modes it guards against
+# are both real rows in the live database.
+HOSTNAME = re.compile(r"^[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+$", re.I)
+
+
+def web_url(raw: str | None) -> str | None:
+    """A value safe to render as an outbound link, or None.
+
+    Two things this stops, both found in the live database rather than
+    imagined:
+
+    * `careers_url` holds a `mailto:` address for 22 firms and a `tel:` for 8
+      — the enrichment falls back to a contact route when a firm has no
+      careers page. Publishing those as links would put the contact email on
+      an indexable page through the back door, which is the one thing this
+      page type is explicitly not allowed to do.
+    * `website` is a bare hostname for 6,894 of the 8,142 firms that have one.
+      Rendered as an href that is a RELATIVE link: /explore/firm/<slug>/
+      example.co.uk, a broken link on every page it appears on.
+    """
+    value = (raw or "").strip()
+    if not value:
+        return None
+    lowered = value.lower()
+    if lowered.startswith(("http://", "https://")):
+        return value
+    if ":" in value.split("/", 1)[0]:
+        # Some other scheme — mailto:, tel:, anything future. Not a web page,
+        # and not ours to publish.
+        return None
+    host = value.split("/", 1)[0]
+    return f"https://{value}" if HOSTNAME.match(host) else None
+
 
 def format_date(iso_date: str) -> str:
     """Matches landing/src/lib/utils.ts's formatDate, from the string parts —
@@ -188,11 +222,16 @@ def field_record(field: str, label: str, row: sqlite3.Row,
     else:
         value = (str(raw).strip() or None) if raw is not None else None
 
+    # Only the website field is a link. The rest are plain values, and an
+    # href on them would be an invitation to render one.
+    href = web_url(value) if field == "website" else None
+
     if observation:
         return {
             "field": field,
             "label": label,
             "value": value,
+            "href": href,
             "source": source_name(observation["source_url"]),
             "sourceUrl": observation["source_url"],
             "observedAt": observation["observed_at"],
@@ -203,8 +242,8 @@ def field_record(field: str, label: str, row: sqlite3.Row,
     note = (f"recorded {format_date(last_checked)}, not re-verified since"
             if last_checked else
             "recorded before this database tracked check dates")
-    return {"field": field, "label": label, "value": value, "source": None,
-            "sourceUrl": None, "observedAt": None, "note": note}
+    return {"field": field, "label": label, "value": value, "href": href,
+            "source": None, "sourceUrl": None, "observedAt": None, "note": note}
 
 
 def build_profiles(min_score: int = SHEET_MIN_SCORE, max_score: int = SHEET_MAX_SCORE,
@@ -269,7 +308,7 @@ def build_profiles(min_score: int = SHEET_MIN_SCORE, max_score: int = SHEET_MAX_
             "sectors": sectors,
             "city": row["city"] or "",
             "region": region,
-            "careersUrl": row["careers_url"] or None,
+            "careersUrl": web_url(row["careers_url"]),
             "companiesHouseUrl": CH_COMPANY_URL.format(number),
             "fcaUrl": FCA_REGISTER_URL.format(row["fca_frn"]) if row["fca_frn"] else None,
             "facet": facet_link(facets, sectors, region),
