@@ -3,6 +3,7 @@ import { ArrowRight } from "lucide-react"
 import { Bar } from "@/components/Bar"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
+import profileIndex from "@/data/profile-index.json"
 import signals from "@/data/signals.json"
 import { formatDate, lastUpdated } from "@/lib/utils"
 
@@ -10,6 +11,20 @@ import { formatDate, lastUpdated } from "@/lib/utils"
 // comes from signals.json, built by scripts/build_signals.py, which enforces
 // the suppression list and the free-tier score cap in SQL — this component
 // renders what it is given and makes no eligibility decision of its own.
+
+// Firm name -> its profile page, via company number. Read from
+// profile-index.json rather than profiles.json so this page does not inline
+// the whole of the profile dataset to render ~49 links; build_profiles.py
+// writes the index only when it writes the pages, so a name here can never
+// link to a page that was not built. An entry with no profile (published
+// before this page type existed, or dropped from the selection since) keeps
+// the old behaviour and links straight to the firm's careers page.
+function profileHref(companyNumber: string | undefined) {
+  const slug = companyNumber
+    ? (profileIndex as Record<string, string>)[companyNumber]
+    : undefined
+  return slug ? `/explore/firm/${slug}/` : null
+}
 
 function Logo() {
   return (
@@ -127,14 +142,29 @@ export function SignalsPage() {
                       className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 px-4 py-3"
                     >
                       <div className="min-w-0">
-                        <a
-                          href={change.careersUrl}
-                          rel="nofollow noopener noreferrer"
-                          target="_blank"
-                          className="text-sm font-medium text-foreground hover:text-brand hover:underline"
-                        >
-                          {change.name}
-                        </a>
+                        {/* The firm name used to link straight out to the
+                            careers page, which made this feed a dead end: no
+                            way to see what else is known about the firm, or
+                            where any of it came from. It now leads to the
+                            firm's own profile page, and the careers page stays
+                            reachable as the evidence link beside it. */}
+                        {profileHref(change.companyNumber) ? (
+                          <a
+                            href={profileHref(change.companyNumber)!}
+                            className="text-sm font-medium text-foreground hover:text-brand hover:underline"
+                          >
+                            {change.name}
+                          </a>
+                        ) : (
+                          <a
+                            href={change.careersUrl}
+                            rel="nofollow noopener noreferrer"
+                            target="_blank"
+                            className="text-sm font-medium text-foreground hover:text-brand hover:underline"
+                          >
+                            {change.name}
+                          </a>
+                        )}
                         {/* A firm registered in the City has city "London" and
                             region "London", which rendered as "London · London"
                             on 7 of the 49 rows. Deduped rather than dropping the
@@ -152,9 +182,14 @@ export function SignalsPage() {
                             .join(" · ")}
                         </p>
                       </div>
-                      <span className="shrink-0 text-xs text-muted-foreground">
-                        careers page updated
-                      </span>
+                      <a
+                        href={change.careersUrl}
+                        rel="nofollow noopener noreferrer"
+                        target="_blank"
+                        className="shrink-0 text-xs text-muted-foreground hover:text-brand hover:underline"
+                      >
+                        careers page updated →
+                      </a>
                     </li>
                   ))}
                 </ul>
