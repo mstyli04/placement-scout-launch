@@ -12367,6 +12367,116 @@
       "signals": []
     },
     {
+      "companyNumber": "07785498",
+      "slug": "07785498-green-giraffe-uk",
+      "name": "Green Giraffe UK",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "city": "London",
+      "region": "London",
+      "careersUrl": "https://green-giraffe.com/who-we-are/meet-the-team/",
+      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/07785498",
+      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=990891",
+      "facet": {
+        "sectorKey": "ma-advisory",
+        "sectorLabel": "M&A / advisory",
+        "regionKey": "london",
+        "regionLabel": "London",
+        "count": 15130
+      },
+      "fields": [
+        {
+          "field": "is_london",
+          "label": "Registered in London",
+          "value": "Yes",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/07785498",
+          "observedAt": "2026-08-27",
+          "note": null
+        },
+        {
+          "field": "city",
+          "label": "Registered office city",
+          "value": "London",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/07785498",
+          "observedAt": "2026-08-27",
+          "note": null
+        },
+        {
+          "field": "postcode",
+          "label": "Registered office postcode",
+          "value": "EC2N 2JA",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/07785498",
+          "observedAt": "2026-08-27",
+          "note": null
+        },
+        {
+          "field": "boutique_signal",
+          "label": "Boutique classification",
+          "value": "small accounts",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/07785498",
+          "observedAt": "2026-08-27",
+          "note": null
+        },
+        {
+          "field": "incorporated",
+          "label": "Incorporated",
+          "value": "2011-09-23",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/07785498",
+          "observedAt": "2026-08-27",
+          "note": null
+        },
+        {
+          "field": "fca_frn",
+          "label": "FCA firm reference number",
+          "value": "990891",
+          "href": null,
+          "source": "FCA Register",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=990891",
+          "observedAt": "2026-08-27",
+          "note": null
+        },
+        {
+          "field": "fca_status",
+          "label": "FCA authorisation status",
+          "value": "Appointed representative",
+          "href": null,
+          "source": "FCA Register",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=990891",
+          "observedAt": "2026-08-27",
+          "note": null
+        },
+        {
+          "field": "website",
+          "label": "Website",
+          "value": "green-giraffe.com",
+          "href": "https://green-giraffe.com",
+          "source": "FCA Register",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=990891",
+          "observedAt": "2026-08-27",
+          "note": null
+        }
+      ],
+      "signals": [
+        {
+          "type": "careers_page_changed",
+          "observedAt": "2026-09-15",
+          "evidenceUrl": "https://green-giraffe.com/who-we-are/meet-the-team/",
+          "snippet": "careers page text hash changed (82d1e9cb -> 5036647d)"
+        }
+      ]
+    },
+    {
       "companyNumber": "03690206",
       "slug": "03690206-hb-dobbin-financial-planning",
       "name": "HB Dobbin Financial Planning",
