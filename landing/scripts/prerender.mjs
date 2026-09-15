@@ -2,7 +2,7 @@ import { build } from 'vite'
 import path from 'node:path'
 import fs from 'node:fs'
 import { fileURLToPath, pathToFileURL } from 'node:url'
-import { loadFacets, facetRoutes } from './facet-routes.mjs'
+import { generatedRoutes } from './page-routes.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.resolve(__dirname, '..')
@@ -17,14 +17,19 @@ const staticPages = [
   { name: 'signals', entry: 'src/entry-server-signals.tsx', html: 'dist/signals/index.html' },
 ]
 
-const facets = loadFacets()
-const routes = facetRoutes(facets)
+const routes = generatedRoutes()
+
+// One shared SSR bundle per PAGE TYPE, not per page: entry-server-facet.tsx's
+// render(sectorKey, regionKey) and entry-server-firm.tsx's render(slug) are
+// each called once per route below. 48 facets and ~150 firm profiles are 198
+// pages and two bundles.
+const generatedBundles = {
+  facet: 'src/entry-server-facet.tsx',
+  firm: 'src/entry-server-firm.tsx',
+}
 
 const ssrOutDir = 'dist-ssr'
 
-// One shared SSR bundle serves every facet page (entry-server-facet.tsx's
-// render(sectorKey, regionKey) is called once per facet below) rather than
-// building 48 near-identical bundles.
 await build({
   root,
   logLevel: 'warn',
@@ -35,7 +40,8 @@ await build({
     rollupOptions: {
       input: {
         ...Object.fromEntries(staticPages.map((p) => [p.name, path.resolve(root, p.entry)])),
-        facet: path.resolve(root, 'src/entry-server-facet.tsx'),
+        ...Object.fromEntries(Object.entries(generatedBundles)
+          .map(([name, entry]) => [name, path.resolve(root, entry)])),
       },
       output: { format: 'es', entryFileNames: '[name].mjs' },
     },
@@ -143,17 +149,25 @@ for (const page of staticPages) {
   console.log(`Prerendered ${page.name} -> ${page.html}`)
 }
 
-const facetMod = await import(pathToFileURL(path.resolve(root, ssrOutDir, 'facet.mjs')).href)
+const renderers = {}
+for (const [name] of Object.entries(generatedBundles)) {
+  renderers[name] = await import(pathToFileURL(path.resolve(root, ssrOutDir, `${name}.mjs`)).href)
+}
 for (const route of routes) {
-  const html = facetMod.render(route.sectorKey, route.regionKey)
+  const html = renderers[route.bundle].render(...route.render)
   injectRoot(path.resolve(root, 'dist', route.dir, 'index.html'), html)
 }
-console.log(`Prerendered ${routes.length} facet pages`)
+const renderedByType = routes.reduce((acc, r) => ({ ...acc, [r.bundle]: (acc[r.bundle] ?? 0) + 1 }), {})
+console.log(`Prerendered ${routes.length} generated pages (${
+  Object.entries(renderedByType).map(([k, n]) => `${n} ${k}`).join(', ')})`)
 
 // W-8: sitemap.xml + robots.txt. Every URL here is real, indexable, unique
-// server-rendered content (W-1/W-6) — no per-firm pages exist to exclude
-// (W-7's premise doesn't apply yet; this list needs revisiting if that
-// changes).
+// server-rendered content (W-1/W-6), and that now includes per-firm profile
+// pages. A firm profile earns a place here on the same terms as a facet page:
+// it states facts nothing else on the site states — a per-field source and
+// observation date — rather than being a template filled from a row. Firms
+// that leave the selection (suppressed, rescored) drop out of profiles.json
+// and therefore out of this list on the next build.
 const indexablePaths = [
   '/', '/privacy/', '/playbook/', '/methodology/', '/explore/', '/removal/', '/signals/',
   ...routes.map((r) => `/${r.dir}/`),
