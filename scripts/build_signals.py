@@ -43,6 +43,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_customer_sheet import (  # noqa: E402
     PIPELINE_REPO, POSTCODE_AREA_TO_REGION, display_name, postcode_area,
 )
+from build_profiles import web_url  # noqa: E402
 
 SCOUT_DB = PIPELINE_REPO / "data" / "scout.db"
 SIGNALS_FILE = (Path(__file__).resolve().parent.parent / "landing" / "src"
@@ -87,7 +88,14 @@ def fetch_changes(window_days: int, max_score: int, limit: int) -> list[dict]:
         "region": POSTCODE_AREA_TO_REGION.get(postcode_area(r["postcode"]), ""),
         "sectors": [s.strip() for s in (r["sectors"] or "").split(",") if s.strip()],
         "score": r["score"],
-        "careersUrl": r["careers_url"],
+        # web_url() rather than the raw column. `careers_url` holds a
+        # mailto: address for 22 firms and a tel: for 8 — enrichment falls
+        # back to a contact route when there is no careers page — and this
+        # feed renders it as a link. None has reached the published file yet,
+        # but only because no such firm has had a signal; that is luck, not a
+        # rule. A published mailto: is a scraped contact email on an
+        # indexable page.
+        "careersUrl": web_url(r["careers_url"]),
         "observedAt": r["observed_at"],
     } for r in rows]
 

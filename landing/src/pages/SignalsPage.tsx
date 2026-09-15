@@ -155,7 +155,7 @@ export function SignalsPage() {
                           >
                             {change.name}
                           </a>
-                        ) : (
+                        ) : change.careersUrl ? (
                           <a
                             href={change.careersUrl}
                             rel="nofollow noopener noreferrer"
@@ -164,6 +164,8 @@ export function SignalsPage() {
                           >
                             {change.name}
                           </a>
+                        ) : (
+                          <span className="text-sm font-medium text-foreground">{change.name}</span>
                         )}
                         {/* A firm registered in the City has city "London" and
                             region "London", which rendered as "London · London"
@@ -182,14 +184,20 @@ export function SignalsPage() {
                             .join(" · ")}
                         </p>
                       </div>
-                      <a
-                        href={change.careersUrl}
-                        rel="nofollow noopener noreferrer"
-                        target="_blank"
-                        className="shrink-0 text-xs text-muted-foreground hover:text-brand hover:underline"
-                      >
-                        careers page updated →
-                      </a>
+                      {change.careersUrl ? (
+                        <a
+                          href={change.careersUrl}
+                          rel="nofollow noopener noreferrer"
+                          target="_blank"
+                          className="shrink-0 text-xs text-muted-foreground hover:text-brand hover:underline"
+                        >
+                          careers page updated →
+                        </a>
+                      ) : (
+                        <span className="shrink-0 text-xs text-muted-foreground">
+                          careers page updated
+                        </span>
+                      )}
                     </li>
                   ))}
                 </ul>

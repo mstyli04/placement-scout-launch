@@ -135,6 +135,21 @@ def test_a_firm_with_no_careers_page_is_not_listed(db):
     assert published_names() == ["Has A Careers Page"]
 
 
+def test_a_mailto_careers_route_is_never_published_as_a_link(db):
+    """`careers_url` holds a mailto: address for 22 firms and a tel: for 8 —
+    enrichment falls back to a contact route when there is no careers page.
+    This feed renders that column as a link, so an unguarded one would put a
+    scraped contact email on a live, indexable page. None has reached the
+    published file yet, but only because no such firm has had a signal.
+    """
+    add_firm(db, "111", name="Email Route Ltd", careers_url="mailto:careers@example.com")
+    db.commit()
+
+    changes = build_signals.fetch_changes(90, 6, 60)
+    assert changes[0]["careersUrl"] is None
+    assert "careers@example.com" not in json.dumps(changes)
+
+
 def test_signals_outside_the_window_are_excluded(db):
     add_firm(db, "111", name="Changed Recently Ltd", observed_at=RECENT)
     add_firm(db, "222", name="Changed Long Ago Ltd", observed_at=STALE)
