@@ -1,4 +1,4 @@
-import profiles from "@/data/profiles.json"
+import profilesFile from "@/data/profiles.json"
 import { formatDate } from "@/lib/utils"
 
 // One page per firm, where every fact states where it came from and when it
@@ -11,7 +11,61 @@ import { formatDate } from "@/lib/utils"
 // prerendered, indexable page is a scrape target and a harvested inbox cannot
 // be un-harvested. See build_profiles.py's header comment.
 
-type Profile = (typeof profiles.profiles)[number]
+// The shape is DECLARED, not inferred from the JSON with
+// `(typeof profiles.profiles)[number]`. That inference reads the file that
+// happens to be committed, so an array that is empty in every profile — as
+// `signals` is whenever no watched careers page has changed lately — has
+// element type `never`, and every property access on it becomes a compile
+// error. It broke the nightly's deploy step on 15 Sep 2026: the same source
+// built locally against data with signals in it and failed on the runner
+// against data without. Data decides what renders; it must not decide what
+// compiles.
+interface ProfileField {
+  field: string
+  label: string
+  value: string
+  href: string | null
+  source: string | null
+  sourceUrl: string | null
+  observedAt: string | null
+  note: string | null
+}
+
+interface ProfileSignal {
+  type: string
+  observedAt: string
+  evidenceUrl: string | null
+  snippet: string | null
+}
+
+interface Profile {
+  companyNumber: string
+  slug: string
+  name: string
+  sectors: string[]
+  city: string
+  region: string
+  careersUrl: string | null
+  companiesHouseUrl: string
+  fcaUrl: string | null
+  facet: {
+    sectorKey: string
+    sectorLabel: string
+    regionKey: string
+    regionLabel: string
+    count: number
+  } | null
+  fields: ProfileField[]
+  signals: ProfileSignal[]
+}
+
+interface ProfilesFile {
+  builtOn: string
+  sheetScoreRange: number[]
+  profiles: Profile[]
+}
+
+const profiles = profilesFile as ProfilesFile
 
 function Logo() {
   return (
@@ -99,7 +153,10 @@ function Provenance({ field }: { field: Profile["fields"][number] }) {
   }
   // No observation row. The page says when the value was recorded and admits
   // it has not been re-read since, rather than showing the build date or a
-  // silent blank. This is currently the common case, not the edge case.
+  // silent blank. Rare against the production database — every field the
+  // nightly re-examines gets a fresh observation — but the local database has
+  // not refreshed since 26 Jul 2026, so a local build shows this path for
+  // every row. Judge the copy on production data, not a laptop build.
   return (
     <td className="py-3 align-top text-muted-foreground italic" colSpan={2}>
       {field.note}
