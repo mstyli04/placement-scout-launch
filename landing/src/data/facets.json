@@ -4,17 +4,17 @@
     "sectorLabel": "M&A / advisory",
     "regionKey": "london",
     "regionLabel": "London",
-    "count": 15131,
+    "count": 15130,
     "medianAgeYears": 4.4,
     "websiteCount": 1462,
     "careersCount": 495,
     "careersSharePct": 33.9,
     "cohorts": {
-      "under_2y": 5328,
-      "2_5y": 2683,
-      "5_10y": 3366,
-      "10_20y": 2836,
-      "20y_plus": 918
+      "under_2y": 5326,
+      "2_5y": 2679,
+      "5_10y": 3368,
+      "10_20y": 2838,
+      "20y_plus": 919
     }
   },
   {
@@ -24,15 +24,15 @@
     "regionLabel": "South East",
     "count": 10580,
     "medianAgeYears": 7.6,
-    "websiteCount": 1390,
+    "websiteCount": 1389,
     "careersCount": 447,
     "careersSharePct": 32.2,
     "cohorts": {
-      "under_2y": 2249,
-      "2_5y": 1580,
-      "5_10y": 2682,
-      "10_20y": 2842,
-      "20y_plus": 1227
+      "under_2y": 2244,
+      "2_5y": 1581,
+      "5_10y": 2684,
+      "10_20y": 2840,
+      "20y_plus": 1231
     }
   },
   {
@@ -40,16 +40,16 @@
     "sectorLabel": "M&A / advisory",
     "regionKey": "east-of-england",
     "regionLabel": "East of England",
-    "count": 5715,
+    "count": 5717,
     "medianAgeYears": 7.5,
-    "websiteCount": 834,
+    "websiteCount": 836,
     "careersCount": 305,
-    "careersSharePct": 36.6,
+    "careersSharePct": 36.5,
     "cohorts": {
-      "under_2y": 1225,
-      "2_5y": 886,
-      "5_10y": 1496,
-      "10_20y": 1505,
+      "under_2y": 1222,
+      "2_5y": 887,
+      "5_10y": 1497,
+      "10_20y": 1508,
       "20y_plus": 603
     }
   },
@@ -64,11 +64,11 @@
     "careersCount": 304,
     "careersSharePct": 34.4,
     "cohorts": {
-      "under_2y": 1144,
+      "under_2y": 1143,
       "2_5y": 756,
       "5_10y": 1294,
-      "10_20y": 1343,
-      "20y_plus": 475
+      "10_20y": 1342,
+      "20y_plus": 477
     }
   },
   {
@@ -82,11 +82,11 @@
     "careersCount": 83,
     "careersSharePct": 42.8,
     "cohorts": {
-      "under_2y": 1614,
-      "2_5y": 884,
+      "under_2y": 1613,
+      "2_5y": 883,
       "5_10y": 1007,
-      "10_20y": 434,
-      "20y_plus": 105
+      "10_20y": 435,
+      "20y_plus": 106
     }
   },
   {
@@ -94,17 +94,17 @@
     "sectorLabel": "M&A / advisory",
     "regionKey": "south-west",
     "regionLabel": "South West",
-    "count": 3519,
+    "count": 3520,
     "medianAgeYears": 8.4,
     "websiteCount": 626,
     "careersCount": 245,
     "careersSharePct": 39.1,
     "cohorts": {
       "under_2y": 590,
-      "2_5y": 504,
-      "5_10y": 917,
-      "10_20y": 1034,
-      "20y_plus": 474
+      "2_5y": 502,
+      "5_10y": 918,
+      "10_20y": 1035,
+      "20y_plus": 475
     }
   },
   {
@@ -119,8 +119,8 @@
     "careersSharePct": 31.1,
     "cohorts": {
       "under_2y": 766,
-      "2_5y": 529,
-      "5_10y": 763,
+      "2_5y": 528,
+      "5_10y": 764,
       "10_20y": 840,
       "20y_plus": 356
     }
@@ -136,11 +136,11 @@
     "careersCount": 189,
     "careersSharePct": 36.3,
     "cohorts": {
-      "under_2y": 589,
-      "2_5y": 496,
-      "5_10y": 873,
+      "under_2y": 588,
+      "2_5y": 497,
+      "5_10y": 872,
       "10_20y": 887,
-      "20y_plus": 313
+      "20y_plus": 314
     }
   },
   {
@@ -148,17 +148,17 @@
     "sectorLabel": "Quant / trading / fintech",
     "regionKey": "london",
     "regionLabel": "London",
-    "count": 2742,
+    "count": 2743,
     "medianAgeYears": 3.2,
     "websiteCount": 65,
     "careersCount": 21,
     "careersSharePct": 32.3,
     "cohorts": {
       "under_2y": 1134,
-      "2_5y": 504,
-      "5_10y": 592,
-      "10_20y": 387,
-      "20y_plus": 125
+      "2_5y": 503,
+      "5_10y": 594,
+      "10_20y": 386,
+      "20y_plus": 126
     }
   },
   {
@@ -168,9 +168,9 @@
     "regionLabel": "East Midlands",
     "count": 2277,
     "medianAgeYears": 7.9,
-    "websiteCount": 399,
+    "websiteCount": 398,
     "careersCount": 147,
-    "careersSharePct": 36.8,
+    "careersSharePct": 36.9,
     "cohorts": {
       "under_2y": 440,
       "2_5y": 348,
@@ -184,17 +184,17 @@
     "sectorLabel": "M&A / advisory",
     "regionKey": "scotland",
     "regionLabel": "Scotland",
-    "count": 2228,
+    "count": 2229,
     "medianAgeYears": 7.1,
     "websiteCount": 408,
     "careersCount": 121,
     "careersSharePct": 29.7,
     "cohorts": {
-      "under_2y": 507,
-      "2_5y": 347,
+      "under_2y": 504,
+      "2_5y": 350,
       "5_10y": 603,
       "10_20y": 522,
-      "20y_plus": 249
+      "20y_plus": 250
     }
   },
   {
@@ -208,8 +208,8 @@
     "careersCount": 5,
     "careersSharePct": 22.7,
     "cohorts": {
-      "under_2y": 576,
-      "2_5y": 313,
+      "under_2y": 575,
+      "2_5y": 314,
       "5_10y": 470,
       "10_20y": 306,
       "20y_plus": 133
@@ -221,14 +221,14 @@
     "regionKey": "south-east",
     "regionLabel": "South East",
     "count": 1779,
-    "medianAgeYears": 4.7,
+    "medianAgeYears": 4.8,
     "websiteCount": 77,
     "careersCount": 34,
     "careersSharePct": 44.2,
     "cohorts": {
       "under_2y": 544,
-      "2_5y": 371,
-      "5_10y": 538,
+      "2_5y": 370,
+      "5_10y": 539,
       "10_20y": 252,
       "20y_plus": 74
     }
@@ -244,10 +244,10 @@
     "careersCount": 34,
     "careersSharePct": 46.6,
     "cohorts": {
-      "under_2y": 569,
+      "under_2y": 568,
       "2_5y": 302,
-      "5_10y": 448,
-      "10_20y": 220,
+      "5_10y": 447,
+      "10_20y": 222,
       "20y_plus": 39
     }
   },
@@ -256,15 +256,15 @@
     "sectorLabel": "M&A / advisory",
     "regionKey": "wales",
     "regionLabel": "Wales",
-    "count": 1525,
+    "count": 1526,
     "medianAgeYears": 7.6,
     "websiteCount": 257,
     "careersCount": 91,
     "careersSharePct": 35.4,
     "cohorts": {
-      "under_2y": 313,
+      "under_2y": 312,
       "2_5y": 217,
-      "5_10y": 438,
+      "5_10y": 440,
       "10_20y": 415,
       "20y_plus": 142
     }
@@ -283,8 +283,8 @@
       "under_2y": 218,
       "2_5y": 142,
       "5_10y": 316,
-      "10_20y": 280,
-      "20y_plus": 106
+      "10_20y": 279,
+      "20y_plus": 107
     }
   },
   {
@@ -298,8 +298,8 @@
     "careersCount": 21,
     "careersSharePct": 56.8,
     "cohorts": {
-      "under_2y": 345,
-      "2_5y": 190,
+      "under_2y": 344,
+      "2_5y": 191,
       "5_10y": 276,
       "10_20y": 185,
       "20y_plus": 33
@@ -310,16 +310,16 @@
     "sectorLabel": "Quant / trading / fintech",
     "regionKey": "east-of-england",
     "regionLabel": "East of England",
-    "count": 927,
-    "medianAgeYears": 5.5,
+    "count": 926,
+    "medianAgeYears": 5.4,
     "websiteCount": 20,
     "careersCount": 7,
     "careersSharePct": 35.0,
     "cohorts": {
       "under_2y": 282,
       "2_5y": 152,
-      "5_10y": 280,
-      "10_20y": 157,
+      "5_10y": 277,
+      "10_20y": 159,
       "20y_plus": 56
     }
   },
@@ -328,15 +328,15 @@
     "sectorLabel": "Asset & wealth mgmt",
     "regionKey": "north-west",
     "regionLabel": "North West",
-    "count": 798,
-    "medianAgeYears": 4.0,
+    "count": 799,
+    "medianAgeYears": 4.1,
     "websiteCount": 28,
     "careersCount": 11,
     "careersSharePct": 39.3,
     "cohorts": {
       "under_2y": 273,
       "2_5y": 181,
-      "5_10y": 204,
+      "5_10y": 205,
       "10_20y": 114,
       "20y_plus": 26
     }
@@ -353,8 +353,8 @@
     "careersSharePct": 26.7,
     "cohorts": {
       "under_2y": 243,
-      "2_5y": 119,
-      "5_10y": 207,
+      "2_5y": 118,
+      "5_10y": 208,
       "10_20y": 96,
       "20y_plus": 19
     }
@@ -406,8 +406,8 @@
     "careersCount": 3,
     "careersSharePct": 23.1,
     "cohorts": {
-      "under_2y": 140,
-      "2_5y": 93,
+      "under_2y": 139,
+      "2_5y": 94,
       "5_10y": 195,
       "10_20y": 89,
       "20y_plus": 20
@@ -437,7 +437,7 @@
     "regionKey": "south-west",
     "regionLabel": "South West",
     "count": 490,
-    "medianAgeYears": 5.3,
+    "medianAgeYears": 5.4,
     "websiteCount": 17,
     "careersCount": 7,
     "careersSharePct": 41.2,
@@ -571,8 +571,8 @@
       "under_2y": 95,
       "2_5y": 42,
       "5_10y": 75,
-      "10_20y": 52,
-      "20y_plus": 24
+      "10_20y": 51,
+      "20y_plus": 25
     }
   },
   {
@@ -598,7 +598,7 @@
     "sectorLabel": "Asset & wealth mgmt",
     "regionKey": "wales",
     "regionLabel": "Wales",
-    "count": 243,
+    "count": 244,
     "medianAgeYears": 4.5,
     "websiteCount": 3,
     "careersCount": 1,
@@ -606,7 +606,7 @@
     "cohorts": {
       "under_2y": 88,
       "2_5y": 47,
-      "5_10y": 80,
+      "5_10y": 81,
       "10_20y": 25,
       "20y_plus": 3
     }
@@ -642,8 +642,8 @@
     "cohorts": {
       "under_2y": 54,
       "2_5y": 39,
-      "5_10y": 62,
-      "10_20y": 22,
+      "5_10y": 61,
+      "10_20y": 23,
       "20y_plus": 6
     }
   },
@@ -730,8 +730,8 @@
     "careersCount": 0,
     "careersSharePct": 0.0,
     "cohorts": {
-      "under_2y": 34,
-      "2_5y": 17,
+      "under_2y": 33,
+      "2_5y": 18,
       "5_10y": 23,
       "10_20y": 28,
       "20y_plus": 13
@@ -797,13 +797,13 @@
     "regionKey": "yorkshire",
     "regionLabel": "Yorkshire",
     "count": 85,
-    "medianAgeYears": 6.9,
+    "medianAgeYears": 7.0,
     "websiteCount": 2,
     "careersCount": 1,
     "careersSharePct": 50.0,
     "cohorts": {
-      "under_2y": 19,
-      "2_5y": 6,
+      "under_2y": 18,
+      "2_5y": 7,
       "5_10y": 29,
       "10_20y": 20,
       "20y_plus": 11
@@ -821,8 +821,8 @@
     "careersSharePct": null,
     "cohorts": {
       "under_2y": 22,
-      "2_5y": 14,
-      "5_10y": 19,
+      "2_5y": 13,
+      "5_10y": 20,
       "10_20y": 11,
       "20y_plus": 1
     }
