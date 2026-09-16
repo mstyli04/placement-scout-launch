@@ -155,7 +155,11 @@ def slug_for(company_number: str, name: str) -> str:
 
 def source_name(url: str) -> str:
     host = urlsplit(url).netloc.lower()
-    return SOURCE_NAMES.get(host, host or "recorded source")
+    if not host:
+        return "recorded source"
+    # Anything that is not a register is a website we found by guessing from
+    # the company name and confirmed because the page names the company.
+    return SOURCE_NAMES.get(host, "Firm's own website")
 
 
 def feed_numbers() -> set[str]:

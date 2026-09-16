@@ -490,3 +490,15 @@ def test_module_defaults_match_the_free_sheet(db):
     assert build_profiles.SHEET_MIN_SCORE == 0
     assert build_profiles.SHEET_MAX_SCORE == 3
     assert build_profiles.SHEET_LIMIT == 100
+
+
+def test_a_guessed_website_is_attributed_to_the_firms_own_site(db):
+    """Websites for firms the FCA does not know are guessed from the name and
+    verified against the page; the page is the source, not a register."""
+    add_firm(db, "111", website="https://firm.co.uk")
+    observe(db, "111", "website", source_url="https://firm.co.uk")
+    db.commit()
+
+    website = field_of(build()[0], "website")
+    assert website["source"] == "Firm's own website"
+    assert website["sourceUrl"] == "https://firm.co.uk"

@@ -209,8 +209,8 @@ export function FirmPage({ slug }: { slug: string }) {
         </p>
 
         <p className="mt-6 text-sm leading-relaxed text-muted-foreground">
-          Everything below is drawn from public registers, and every line says which register it
-          came from and when that register was actually read.{" "}
+          Everything below is drawn from public registers or the firm&rsquo;s own website, and every
+          line says which source it came from and when that source was actually read.{" "}
           {observedCount > 0 ? (
             <>
               {observedCount} of {profile.fields.length} facts on this page carry a verified

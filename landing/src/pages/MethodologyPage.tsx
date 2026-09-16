@@ -61,8 +61,10 @@ export function MethodologyPage() {
         <P>
           Every firm starts as a hit in a Companies House advanced search, scoped to a fixed list
           of UK SIC 2007 codes (below). Its regulatory status and website are then looked up
-          against the FCA&rsquo;s Financial Services Register by matching the company name. Its own
-          website is then checked for a careers page, hiring-related language, and a public contact
+          against the FCA&rsquo;s Financial Services Register by matching the company name. Most
+          firms are not on that register, so for those a website is guessed from the company name
+          and kept only if the page itself names the company; a guess that cannot be confirmed is
+          discarded. The firm&rsquo;s own website is then checked for a careers page, hiring-related language, and a public contact
           address. Nothing here is invented — every fact traces back to one of these three public
           sources.
         </P>
