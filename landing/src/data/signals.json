@@ -1,21 +1,21 @@
 {
   "windowDays": 90,
   "maxScore": 6,
-  "watchedCount": 2664,
-  "changedCount": 239,
+  "watchedCount": 2726,
+  "changedCount": 240,
   "publishableCount": 60,
-  "withheldCount": 179,
+  "withheldCount": 180,
   "regionMix": {
-    "London": 15,
-    "South East": 15,
-    "East of England": 7,
+    "London": 16,
+    "South East": 14,
     "North West": 6,
+    "East of England": 6,
     "Scotland": 4,
     "East Midlands": 4,
     "Yorkshire": 3,
     "South West": 3,
     "Wales": 2,
-    "West Midlands": 1
+    "West Midlands": 2
   },
   "changes": [
     {
@@ -328,6 +328,18 @@
       ],
       "score": 5,
       "careersUrl": "https://brilliantmoney.co.uk/meet-the-team/",
+      "observedAt": "2026-10-05"
+    },
+    {
+      "companyNumber": "06922615",
+      "name": "Bright Wealth",
+      "city": "Wolverhampton",
+      "region": "West Midlands",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.brightwealth.co.uk/site/services.html#business",
       "observedAt": "2026-10-05"
     },
     {
@@ -655,6 +667,18 @@
       "observedAt": "2026-10-05"
     },
     {
+      "companyNumber": "12493436",
+      "name": "Adelio Partners",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "Asset & wealth mgmt"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.adelio.com/our-team-p401229.html",
+      "observedAt": "2026-10-05"
+    },
+    {
       "companyNumber": "13339748",
       "name": "Actnow Mortgages",
       "city": "Corby",
@@ -712,30 +736,6 @@
       ],
       "score": 5,
       "careersUrl": "https://www.cii.co.uk/membership/join-us/chartered/corporate-chartered/why-choose-a-chartered-firm/financial-planners/",
-      "observedAt": "2026-10-05"
-    },
-    {
-      "companyNumber": "06702935",
-      "name": "A.D.N. Financial Solutions",
-      "city": "Portsmouth",
-      "region": "South East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "https://www.mortgageadvicebureau.com/mortgage-advisers/london-road-portsmouth/meet-the-team/andy-edwards/",
-      "observedAt": "2026-10-05"
-    },
-    {
-      "companyNumber": "06586857",
-      "name": "A Place In The Sun Currency",
-      "city": "Rickmansworth",
-      "region": "East of England",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "https://aplaceinthesuncurrency.com/meet-the-team/",
       "observedAt": "2026-10-05"
     }
   ]
