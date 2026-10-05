@@ -1,33 +1,33 @@
 {
-  "totalFirms": 74113,
+  "totalFirms": 74137,
   "sectorMix": [
     {
       "sectorLabel": "M&A / advisory",
-      "count": 54158
+      "count": 54172
     },
     {
       "sectorLabel": "Asset & wealth mgmt",
-      "count": 10782
+      "count": 10789
     },
     {
       "sectorLabel": "Quant / trading / fintech",
-      "count": 8296
+      "count": 8298
     },
     {
       "sectorLabel": "PE / VC",
-      "count": 3277
+      "count": 3278
     }
   ],
   "medianAgeYears": 6.1,
   "cohorts": {
-    "under_2y": 19819,
-    "2_5y": 12562,
-    "5_10y": 19089,
-    "10_20y": 16470,
-    "20y_plus": 6173
+    "under_2y": 19713,
+    "2_5y": 12654,
+    "5_10y": 19106,
+    "10_20y": 16474,
+    "20y_plus": 6190
   },
-  "websiteCount": 8437,
-  "careersCount": 2806,
-  "careersSharePct": 33.3,
-  "signalCount": 1261
+  "websiteCount": 8487,
+  "careersCount": 2778,
+  "careersSharePct": 32.7,
+  "signalCount": 1495
 }
