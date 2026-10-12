@@ -1,23 +1,35 @@
 {
   "windowDays": 90,
   "maxScore": 6,
-  "watchedCount": 2754,
+  "watchedCount": 2782,
   "changedCount": 240,
   "publishableCount": 60,
   "withheldCount": 180,
   "regionMix": {
-    "London": 16,
+    "London": 17,
     "South East": 14,
     "North West": 6,
     "East of England": 6,
-    "Scotland": 4,
     "East Midlands": 4,
+    "Scotland": 3,
     "Yorkshire": 3,
     "South West": 3,
     "Wales": 2,
     "West Midlands": 2
   },
   "changes": [
+    {
+      "companyNumber": "13765258",
+      "name": "Trinity View Wealth Partners",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "Asset & wealth mgmt"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.TrinityView.Co.uk/about/meet-the-team/listing",
+      "observedAt": "2026-10-12"
+    },
     {
       "companyNumber": "SC583644",
       "name": "Zumo Financial Services",
@@ -724,18 +736,6 @@
       ],
       "score": 5,
       "careersUrl": "https://acfib.com/team/",
-      "observedAt": "2026-10-05"
-    },
-    {
-      "companyNumber": "SC386504",
-      "name": "Aab Wealth",
-      "city": "Aberdeen",
-      "region": "Scotland",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "https://www.cii.co.uk/membership/join-us/chartered/corporate-chartered/why-choose-a-chartered-firm/financial-planners/",
       "observedAt": "2026-10-05"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "builtOn": "2026-10-08",
+  "builtOn": "2026-10-12",
   "sheetScoreRange": [
     0,
     3
@@ -22,7 +22,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "west-midlands",
         "regionLabel": "West Midlands",
-        "count": 3258
+        "count": 3260
       },
       "fields": [
         {
@@ -125,7 +125,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-east",
         "regionLabel": "North East",
-        "count": 1065
+        "count": 1063
       },
       "fields": [
         {
@@ -331,7 +331,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -434,7 +434,7 @@
         "sectorLabel": "Asset & wealth mgmt",
         "regionKey": "west-midlands",
         "regionLabel": "West Midlands",
-        "count": 684
+        "count": 683
       },
       "fields": [
         {
@@ -537,7 +537,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "west-midlands",
         "regionLabel": "West Midlands",
-        "count": 3258
+        "count": 3260
       },
       "fields": [
         {
@@ -640,7 +640,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -727,114 +727,108 @@
       "signals": []
     },
     {
-      "companyNumber": "SC386504",
-      "slug": "SC386504-aab-wealth",
-      "name": "Aab Wealth",
+      "companyNumber": "13336291",
+      "slug": "13336291-a-v-partners",
+      "name": "A&V Partners",
       "sectors": [
-        "M&A / advisory"
+        "M&A / advisory",
+        "Quant / trading / fintech"
       ],
-      "city": "Aberdeen",
-      "region": "Scotland",
-      "careersUrl": "https://www.cii.co.uk/membership/join-us/chartered/corporate-chartered/why-choose-a-chartered-firm/financial-planners/",
-      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/SC386504",
-      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=608548",
+      "city": "London",
+      "region": "London",
+      "careersUrl": "https://www.avpartners.com/careers-audiovisual-jobs-australia/",
+      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/13336291",
+      "fcaUrl": null,
       "facet": {
         "sectorKey": "ma-advisory",
         "sectorLabel": "M&A / advisory",
-        "regionKey": "scotland",
-        "regionLabel": "Scotland",
-        "count": 2233
+        "regionKey": "london",
+        "regionLabel": "London",
+        "count": 15167
       },
       "fields": [
         {
           "field": "is_london",
           "label": "Registered in London",
-          "value": "No",
+          "value": "Yes",
           "href": null,
           "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/SC386504",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13336291",
+          "observedAt": "2026-09-28",
           "note": null
         },
         {
           "field": "city",
           "label": "Registered office city",
-          "value": "Aberdeen",
+          "value": "London",
           "href": null,
           "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/SC386504",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13336291",
+          "observedAt": "2026-09-28",
           "note": null
         },
         {
           "field": "postcode",
           "label": "Registered office postcode",
-          "value": "AB15 8PU",
+          "value": "E15 4AP",
           "href": null,
           "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/SC386504",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13336291",
+          "observedAt": "2026-09-28",
           "note": null
         },
         {
           "field": "boutique_signal",
           "label": "Boutique classification",
-          "value": "small accounts",
+          "value": "micro-entity accounts",
           "href": null,
           "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/SC386504",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13336291",
+          "observedAt": "2026-09-28",
           "note": null
         },
         {
           "field": "incorporated",
           "label": "Incorporated",
-          "value": "2010-10-05",
+          "value": "2021-04-15",
           "href": null,
           "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/SC386504",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13336291",
+          "observedAt": "2026-09-28",
           "note": null
         },
         {
           "field": "fca_frn",
           "label": "FCA firm reference number",
-          "value": "608548",
+          "value": null,
           "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=608548",
-          "observedAt": "2026-08-27",
-          "note": null
+          "source": null,
+          "sourceUrl": null,
+          "observedAt": null,
+          "note": "recorded 1 Oct 2026, not re-verified since"
         },
         {
           "field": "fca_status",
           "label": "FCA authorisation status",
-          "value": "Authorised",
+          "value": null,
           "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=608548",
-          "observedAt": "2026-08-27",
-          "note": null
+          "source": null,
+          "sourceUrl": null,
+          "observedAt": null,
+          "note": "recorded 1 Oct 2026, not re-verified since"
         },
         {
           "field": "website",
           "label": "Website",
-          "value": "www.aabwealth.uk",
-          "href": "https://www.aabwealth.uk",
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=608548",
-          "observedAt": "2026-08-27",
+          "value": "https://www.avpartners.com/",
+          "href": "https://www.avpartners.com/",
+          "source": "Firm's own website",
+          "sourceUrl": "https://www.avpartners.com/",
+          "observedAt": "2026-10-12",
           "note": null
         }
       ],
-      "signals": [
-        {
-          "type": "careers_page_changed",
-          "observedAt": "2026-10-05",
-          "evidenceUrl": "https://www.cii.co.uk/membership/join-us/chartered/corporate-chartered/why-choose-a-chartered-firm/financial-planners/",
-          "snippet": "careers page text hash changed (d8b29fd4 -> c93644eb)"
-        }
-      ]
+      "signals": []
     },
     {
       "companyNumber": "SC481466",
@@ -956,7 +950,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-east",
         "regionLabel": "North East",
-        "count": 1065
+        "count": 1063
       },
       "fields": [
         {
@@ -1059,7 +1053,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -1162,7 +1156,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -1265,7 +1259,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -1375,7 +1369,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -1478,7 +1472,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "wales",
         "regionLabel": "Wales",
-        "count": 1535
+        "count": 1542
       },
       "fields": [
         {
@@ -1588,7 +1582,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "northern-ireland",
         "regionLabel": "Northern Ireland",
-        "count": 629
+        "count": 631
       },
       "fields": [
         {
@@ -1691,7 +1685,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -1794,7 +1788,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -1904,7 +1898,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "west-midlands",
         "regionLabel": "West Midlands",
-        "count": 3258
+        "count": 3260
       },
       "fields": [
         {
@@ -2007,7 +2001,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-midlands",
         "regionLabel": "East Midlands",
-        "count": 2284
+        "count": 2286
       },
       "fields": [
         {
@@ -2323,7 +2317,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -2426,7 +2420,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "west-midlands",
         "regionLabel": "West Midlands",
-        "count": 3258
+        "count": 3260
       },
       "fields": [
         {
@@ -2529,7 +2523,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5020
+        "count": 5029
       },
       "fields": [
         {
@@ -2632,7 +2626,7 @@
         "sectorLabel": "Asset & wealth mgmt",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 4057
+        "count": 4058
       },
       "fields": [
         {
@@ -2955,7 +2949,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-west",
         "regionLabel": "South West",
-        "count": 3523
+        "count": 3521
       },
       "fields": [
         {
@@ -3058,7 +3052,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -3161,7 +3155,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "yorkshire",
         "regionLabel": "Yorkshire",
-        "count": 3164
+        "count": 3168
       },
       "fields": [
         {
@@ -3264,7 +3258,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -3367,7 +3361,7 @@
         "sectorLabel": "Quant / trading / fintech",
         "regionKey": "yorkshire",
         "regionLabel": "Yorkshire",
-        "count": 425
+        "count": 426
       },
       "fields": [
         {
@@ -3470,7 +3464,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -3580,7 +3574,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -3786,7 +3780,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -3889,7 +3883,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -3992,7 +3986,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "wales",
         "regionLabel": "Wales",
-        "count": 1535
+        "count": 1542
       },
       "fields": [
         {
@@ -4095,7 +4089,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "yorkshire",
         "regionLabel": "Yorkshire",
-        "count": 3164
+        "count": 3168
       },
       "fields": [
         {
@@ -4301,7 +4295,7 @@
         "sectorLabel": "Asset & wealth mgmt",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 4057
+        "count": 4058
       },
       "fields": [
         {
@@ -4404,7 +4398,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -4507,7 +4501,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5020
+        "count": 5029
       },
       "fields": [
         {
@@ -4610,7 +4604,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5020
+        "count": 5029
       },
       "fields": [
         {
@@ -4816,7 +4810,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "yorkshire",
         "regionLabel": "Yorkshire",
-        "count": 3164
+        "count": 3168
       },
       "fields": [
         {
@@ -4919,7 +4913,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -5022,7 +5016,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-west",
         "regionLabel": "South West",
-        "count": 3523
+        "count": 3521
       },
       "fields": [
         {
@@ -5125,7 +5119,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -5235,7 +5229,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -5338,7 +5332,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5722
+        "count": 5728
       },
       "fields": [
         {
@@ -5551,7 +5545,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-west",
         "regionLabel": "South West",
-        "count": 3523
+        "count": 3521
       },
       "fields": [
         {
@@ -5654,7 +5648,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -5757,7 +5751,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-west",
         "regionLabel": "South West",
-        "count": 3523
+        "count": 3521
       },
       "fields": [
         {
@@ -5860,7 +5854,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -5870,7 +5864,7 @@
           "href": null,
           "source": "Companies House",
           "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/15451648",
-          "observedAt": "2026-07-30",
+          "observedAt": "2026-10-12",
           "note": null
         },
         {
@@ -5880,7 +5874,7 @@
           "href": null,
           "source": "Companies House",
           "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/15451648",
-          "observedAt": "2026-07-30",
+          "observedAt": "2026-10-12",
           "note": null
         },
         {
@@ -5890,7 +5884,7 @@
           "href": null,
           "source": "Companies House",
           "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/15451648",
-          "observedAt": "2026-07-30",
+          "observedAt": "2026-10-12",
           "note": null
         },
         {
@@ -5900,7 +5894,7 @@
           "href": null,
           "source": "Companies House",
           "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/15451648",
-          "observedAt": "2026-07-30",
+          "observedAt": "2026-10-12",
           "note": null
         },
         {
@@ -5910,7 +5904,7 @@
           "href": null,
           "source": "Companies House",
           "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/15451648",
-          "observedAt": "2026-07-30",
+          "observedAt": "2026-10-12",
           "note": null
         },
         {
@@ -5920,7 +5914,7 @@
           "href": null,
           "source": "FCA Register",
           "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=1019005",
-          "observedAt": "2026-07-30",
+          "observedAt": "2026-10-12",
           "note": null
         },
         {
@@ -5930,7 +5924,7 @@
           "href": null,
           "source": "FCA Register",
           "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=1019005",
-          "observedAt": "2026-07-30",
+          "observedAt": "2026-10-12",
           "note": null
         },
         {
@@ -5940,7 +5934,7 @@
           "href": "https://altumgroup.com/",
           "source": "FCA Register",
           "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=1019005",
-          "observedAt": "2026-07-30",
+          "observedAt": "2026-10-12",
           "note": null
         }
       ],
@@ -5963,7 +5957,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -6066,7 +6060,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -6177,7 +6171,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -6280,7 +6274,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-west",
         "regionLabel": "South West",
-        "count": 3523
+        "count": 3521
       },
       "fields": [
         {
@@ -6383,7 +6377,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "west-midlands",
         "regionLabel": "West Midlands",
-        "count": 3258
+        "count": 3260
       },
       "fields": [
         {
@@ -6486,7 +6480,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "west-midlands",
         "regionLabel": "West Midlands",
-        "count": 3258
+        "count": 3260
       },
       "fields": [
         {
@@ -6589,7 +6583,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -6692,7 +6686,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "northern-ireland",
         "regionLabel": "Northern Ireland",
-        "count": 629
+        "count": 631
       },
       "fields": [
         {
@@ -6795,7 +6789,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5020
+        "count": 5029
       },
       "fields": [
         {
@@ -6898,7 +6892,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -7001,7 +6995,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -7104,7 +7098,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5020
+        "count": 5029
       },
       "fields": [
         {
@@ -7207,7 +7201,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5722
+        "count": 5728
       },
       "fields": [
         {
@@ -7310,7 +7304,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "wales",
         "regionLabel": "Wales",
-        "count": 1535
+        "count": 1542
       },
       "fields": [
         {
@@ -7413,7 +7407,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -7516,7 +7510,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5722
+        "count": 5728
       },
       "fields": [
         {
@@ -7619,7 +7613,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -7722,7 +7716,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5722
+        "count": 5728
       },
       "fields": [
         {
@@ -7825,7 +7819,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5722
+        "count": 5728
       },
       "fields": [
         {
@@ -7935,7 +7929,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-midlands",
         "regionLabel": "East Midlands",
-        "count": 2284
+        "count": 2286
       },
       "fields": [
         {
@@ -8022,6 +8016,109 @@
       "signals": []
     },
     {
+      "companyNumber": "13029575",
+      "slug": "13029575-anj-raj",
+      "name": "Anj Raj",
+      "sectors": [
+        "Quant / trading / fintech"
+      ],
+      "city": "Harrow",
+      "region": "South East",
+      "careersUrl": "https://anjraj.com/bulk-recruitments/",
+      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/13029575",
+      "fcaUrl": null,
+      "facet": {
+        "sectorKey": "quant-trading",
+        "sectorLabel": "Quant / trading / fintech",
+        "regionKey": "south-east",
+        "regionLabel": "South East",
+        "count": 1831
+      },
+      "fields": [
+        {
+          "field": "is_london",
+          "label": "Registered in London",
+          "value": "No",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13029575",
+          "observedAt": "2026-09-24",
+          "note": null
+        },
+        {
+          "field": "city",
+          "label": "Registered office city",
+          "value": "Harrow",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13029575",
+          "observedAt": "2026-09-24",
+          "note": null
+        },
+        {
+          "field": "postcode",
+          "label": "Registered office postcode",
+          "value": "HA1 2EY",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13029575",
+          "observedAt": "2026-09-24",
+          "note": null
+        },
+        {
+          "field": "boutique_signal",
+          "label": "Boutique classification",
+          "value": "total-exemption-full accounts",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13029575",
+          "observedAt": "2026-09-24",
+          "note": null
+        },
+        {
+          "field": "incorporated",
+          "label": "Incorporated",
+          "value": "2020-11-18",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13029575",
+          "observedAt": "2026-09-24",
+          "note": null
+        },
+        {
+          "field": "fca_frn",
+          "label": "FCA firm reference number",
+          "value": null,
+          "href": null,
+          "source": null,
+          "sourceUrl": null,
+          "observedAt": null,
+          "note": "recorded 24 Sep 2026, not re-verified since"
+        },
+        {
+          "field": "fca_status",
+          "label": "FCA authorisation status",
+          "value": null,
+          "href": null,
+          "source": null,
+          "sourceUrl": null,
+          "observedAt": null,
+          "note": "recorded 24 Sep 2026, not re-verified since"
+        },
+        {
+          "field": "website",
+          "label": "Website",
+          "value": "https://anjraj.com/",
+          "href": "https://anjraj.com/",
+          "source": "Firm's own website",
+          "sourceUrl": "https://anjraj.com/",
+          "observedAt": "2026-10-12",
+          "note": null
+        }
+      ],
+      "signals": []
+    },
+    {
       "companyNumber": "15520774",
       "slug": "15520774-anna-gidman-wealth",
       "name": "Anna Gidman Wealth",
@@ -8038,7 +8135,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-west",
         "regionLabel": "South West",
-        "count": 3523
+        "count": 3521
       },
       "fields": [
         {
@@ -8141,7 +8238,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "yorkshire",
         "regionLabel": "Yorkshire",
-        "count": 3164
+        "count": 3168
       },
       "fields": [
         {
@@ -8251,7 +8348,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -8354,7 +8451,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -8457,7 +8554,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -8567,7 +8664,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -8670,7 +8767,7 @@
         "sectorLabel": "Quant / trading / fintech",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 1829
+        "count": 1831
       },
       "fields": [
         {
@@ -8773,7 +8870,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -8883,7 +8980,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -8993,7 +9090,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "yorkshire",
         "regionLabel": "Yorkshire",
-        "count": 3164
+        "count": 3168
       },
       "fields": [
         {
@@ -9206,7 +9303,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "yorkshire",
         "regionLabel": "Yorkshire",
-        "count": 3164
+        "count": 3168
       },
       "fields": [
         {
@@ -9309,7 +9406,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "wales",
         "regionLabel": "Wales",
-        "count": 1535
+        "count": 1542
       },
       "fields": [
         {
@@ -9412,7 +9509,7 @@
         "sectorLabel": "Asset & wealth mgmt",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 4057
+        "count": 4058
       },
       "fields": [
         {
@@ -9515,7 +9612,7 @@
         "sectorLabel": "Asset & wealth mgmt",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 1786
+        "count": 1790
       },
       "fields": [
         {
@@ -9618,7 +9715,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5020
+        "count": 5029
       },
       "fields": [
         {
@@ -9721,7 +9818,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -9824,7 +9921,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -9927,7 +10024,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5722
+        "count": 5728
       },
       "fields": [
         {
@@ -10014,6 +10111,109 @@
       "signals": []
     },
     {
+      "companyNumber": "10906395",
+      "slug": "10906395-ashleigh-green-financial-services",
+      "name": "Ashleigh Green Financial Services",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "city": "London",
+      "region": "London",
+      "careersUrl": "https://ashleighgreen.co.uk/can-you-get-a-mortgage-with-an-iva/can-i-get-a-joint-mortgage-with-an-iva/",
+      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/10906395",
+      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=801412",
+      "facet": {
+        "sectorKey": "ma-advisory",
+        "sectorLabel": "M&A / advisory",
+        "regionKey": "london",
+        "regionLabel": "London",
+        "count": 15167
+      },
+      "fields": [
+        {
+          "field": "is_london",
+          "label": "Registered in London",
+          "value": "Yes",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/10906395",
+          "observedAt": "2026-09-03",
+          "note": null
+        },
+        {
+          "field": "city",
+          "label": "Registered office city",
+          "value": "London",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/10906395",
+          "observedAt": "2026-09-03",
+          "note": null
+        },
+        {
+          "field": "postcode",
+          "label": "Registered office postcode",
+          "value": "W1T 5DB",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/10906395",
+          "observedAt": "2026-09-03",
+          "note": null
+        },
+        {
+          "field": "boutique_signal",
+          "label": "Boutique classification",
+          "value": "micro-entity accounts",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/10906395",
+          "observedAt": "2026-09-03",
+          "note": null
+        },
+        {
+          "field": "incorporated",
+          "label": "Incorporated",
+          "value": "2017-08-09",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/10906395",
+          "observedAt": "2026-09-03",
+          "note": null
+        },
+        {
+          "field": "fca_frn",
+          "label": "FCA firm reference number",
+          "value": "801412",
+          "href": null,
+          "source": "FCA Register",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=801412",
+          "observedAt": "2026-09-03",
+          "note": null
+        },
+        {
+          "field": "fca_status",
+          "label": "FCA authorisation status",
+          "value": "Authorised",
+          "href": null,
+          "source": "FCA Register",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=801412",
+          "observedAt": "2026-09-03",
+          "note": null
+        },
+        {
+          "field": "website",
+          "label": "Website",
+          "value": "www.ashleighgreen.co.uk",
+          "href": "https://www.ashleighgreen.co.uk",
+          "source": "FCA Register",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=801412",
+          "observedAt": "2026-09-03",
+          "note": null
+        }
+      ],
+      "signals": []
+    },
+    {
       "companyNumber": "12400546",
       "slug": "12400546-aspirational-financial-planning",
       "name": "Aspirational Financial Planning",
@@ -10030,7 +10230,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5722
+        "count": 5728
       },
       "fields": [
         {
@@ -10133,7 +10333,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-west",
         "regionLabel": "South West",
-        "count": 3523
+        "count": 3521
       },
       "fields": [
         {
@@ -10236,7 +10436,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "yorkshire",
         "regionLabel": "Yorkshire",
-        "count": 3164
+        "count": 3168
       },
       "fields": [
         {
@@ -10442,7 +10642,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5020
+        "count": 5029
       },
       "fields": [
         {
@@ -10545,7 +10745,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5722
+        "count": 5728
       },
       "fields": [
         {
@@ -10648,7 +10848,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5020
+        "count": 5029
       },
       "fields": [
         {
@@ -10758,7 +10958,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5020
+        "count": 5029
       },
       "fields": [
         {
@@ -10861,7 +11061,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -10964,7 +11164,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "yorkshire",
         "regionLabel": "Yorkshire",
-        "count": 3164
+        "count": 3168
       },
       "fields": [
         {
@@ -11067,7 +11267,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -11273,7 +11473,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "west-midlands",
         "regionLabel": "West Midlands",
-        "count": 3258
+        "count": 3260
       },
       "fields": [
         {
@@ -11376,7 +11576,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -11480,7 +11680,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -11583,7 +11783,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -11686,7 +11886,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5722
+        "count": 5728
       },
       "fields": [
         {
@@ -11789,7 +11989,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -11892,7 +12092,7 @@
         "sectorLabel": "Asset & wealth mgmt",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 1031
+        "count": 1034
       },
       "fields": [
         {
@@ -11979,109 +12179,6 @@
       "signals": []
     },
     {
-      "companyNumber": "10407809",
-      "slug": "10407809-babb-remit",
-      "name": "Babb Remit",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "city": "London",
-      "region": "London",
-      "careersUrl": "https://linktr.ee/getbabb",
-      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/10407809",
-      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=932609",
-      "facet": {
-        "sectorKey": "ma-advisory",
-        "sectorLabel": "M&A / advisory",
-        "regionKey": "london",
-        "regionLabel": "London",
-        "count": 15163
-      },
-      "fields": [
-        {
-          "field": "is_london",
-          "label": "Registered in London",
-          "value": "Yes",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/10407809",
-          "observedAt": "2026-08-28",
-          "note": null
-        },
-        {
-          "field": "city",
-          "label": "Registered office city",
-          "value": "London",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/10407809",
-          "observedAt": "2026-08-28",
-          "note": null
-        },
-        {
-          "field": "postcode",
-          "label": "Registered office postcode",
-          "value": "E14 5AB",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/10407809",
-          "observedAt": "2026-08-28",
-          "note": null
-        },
-        {
-          "field": "boutique_signal",
-          "label": "Boutique classification",
-          "value": "total-exemption-full accounts",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/10407809",
-          "observedAt": "2026-08-28",
-          "note": null
-        },
-        {
-          "field": "incorporated",
-          "label": "Incorporated",
-          "value": "2016-10-03",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/10407809",
-          "observedAt": "2026-08-28",
-          "note": null
-        },
-        {
-          "field": "fca_frn",
-          "label": "FCA firm reference number",
-          "value": "932609",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=932609",
-          "observedAt": "2026-08-28",
-          "note": null
-        },
-        {
-          "field": "fca_status",
-          "label": "FCA authorisation status",
-          "value": "Registered",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=932609",
-          "observedAt": "2026-08-28",
-          "note": null
-        },
-        {
-          "field": "website",
-          "label": "Website",
-          "value": "www.getbabb.com",
-          "href": "https://www.getbabb.com",
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=932609",
-          "observedAt": "2026-08-28",
-          "note": null
-        }
-      ],
-      "signals": []
-    },
-    {
       "companyNumber": "07138035",
       "slug": "07138035-baggette-company-wealth-management",
       "name": "Baggette & Company Wealth Management",
@@ -12098,7 +12195,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-west",
         "regionLabel": "South West",
-        "count": 3523
+        "count": 3521
       },
       "fields": [
         {
@@ -12208,7 +12305,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-west",
         "regionLabel": "South West",
-        "count": 3523
+        "count": 3521
       },
       "fields": [
         {
@@ -12302,212 +12399,6 @@
       ]
     },
     {
-      "companyNumber": "08552799",
-      "slug": "08552799-balance-wealth-planning",
-      "name": "Balance: Wealth Planning",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "city": "Nottingham",
-      "region": "East Midlands",
-      "careersUrl": null,
-      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/08552799",
-      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=629329",
-      "facet": {
-        "sectorKey": "ma-advisory",
-        "sectorLabel": "M&A / advisory",
-        "regionKey": "east-midlands",
-        "regionLabel": "East Midlands",
-        "count": 2284
-      },
-      "fields": [
-        {
-          "field": "is_london",
-          "label": "Registered in London",
-          "value": "No",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/08552799",
-          "observedAt": "2026-08-28",
-          "note": null
-        },
-        {
-          "field": "city",
-          "label": "Registered office city",
-          "value": "Nottingham",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/08552799",
-          "observedAt": "2026-08-28",
-          "note": null
-        },
-        {
-          "field": "postcode",
-          "label": "Registered office postcode",
-          "value": "NG2 7QW",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/08552799",
-          "observedAt": "2026-08-28",
-          "note": null
-        },
-        {
-          "field": "boutique_signal",
-          "label": "Boutique classification",
-          "value": "total-exemption-full accounts",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/08552799",
-          "observedAt": "2026-08-28",
-          "note": null
-        },
-        {
-          "field": "incorporated",
-          "label": "Incorporated",
-          "value": "2013-06-03",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/08552799",
-          "observedAt": "2026-08-28",
-          "note": null
-        },
-        {
-          "field": "fca_frn",
-          "label": "FCA firm reference number",
-          "value": "629329",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=629329",
-          "observedAt": "2026-08-28",
-          "note": null
-        },
-        {
-          "field": "fca_status",
-          "label": "FCA authorisation status",
-          "value": "Authorised",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=629329",
-          "observedAt": "2026-08-28",
-          "note": null
-        },
-        {
-          "field": "website",
-          "label": "Website",
-          "value": "http://www.balancewealth.uk/",
-          "href": "http://www.balancewealth.uk/",
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=629329",
-          "observedAt": "2026-08-28",
-          "note": null
-        }
-      ],
-      "signals": []
-    },
-    {
-      "companyNumber": "11428358",
-      "slug": "11428358-ballantine-wealth-management",
-      "name": "Ballantine Wealth Management",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "city": "Taunton",
-      "region": "South West",
-      "careersUrl": "https://www.ballantinewm.co.uk/about/meet-the-team/listing",
-      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/11428358",
-      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=812482",
-      "facet": {
-        "sectorKey": "ma-advisory",
-        "sectorLabel": "M&A / advisory",
-        "regionKey": "south-west",
-        "regionLabel": "South West",
-        "count": 3523
-      },
-      "fields": [
-        {
-          "field": "is_london",
-          "label": "Registered in London",
-          "value": "No",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/11428358",
-          "observedAt": "2026-09-07",
-          "note": null
-        },
-        {
-          "field": "city",
-          "label": "Registered office city",
-          "value": "Taunton",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/11428358",
-          "observedAt": "2026-09-07",
-          "note": null
-        },
-        {
-          "field": "postcode",
-          "label": "Registered office postcode",
-          "value": "TA1 3FB",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/11428358",
-          "observedAt": "2026-09-07",
-          "note": null
-        },
-        {
-          "field": "boutique_signal",
-          "label": "Boutique classification",
-          "value": "total-exemption-full accounts",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/11428358",
-          "observedAt": "2026-09-07",
-          "note": null
-        },
-        {
-          "field": "incorporated",
-          "label": "Incorporated",
-          "value": "2018-06-22",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/11428358",
-          "observedAt": "2026-09-07",
-          "note": null
-        },
-        {
-          "field": "fca_frn",
-          "label": "FCA firm reference number",
-          "value": "812482",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=812482",
-          "observedAt": "2026-09-07",
-          "note": null
-        },
-        {
-          "field": "fca_status",
-          "label": "FCA authorisation status",
-          "value": "Appointed representative",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=812482",
-          "observedAt": "2026-09-07",
-          "note": null
-        },
-        {
-          "field": "website",
-          "label": "Website",
-          "value": "www.ballantinewm.co.uk",
-          "href": "https://www.ballantinewm.co.uk",
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=812482",
-          "observedAt": "2026-09-07",
-          "note": null
-        }
-      ],
-      "signals": []
-    },
-    {
       "companyNumber": "06909592",
       "slug": "06909592-barker-maule",
       "name": "Barker Maule",
@@ -12524,7 +12415,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-midlands",
         "regionLabel": "East Midlands",
-        "count": 2284
+        "count": 2286
       },
       "fields": [
         {
@@ -12744,7 +12635,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -12854,7 +12745,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -12964,7 +12855,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -13074,7 +12965,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -13184,7 +13075,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5020
+        "count": 5029
       },
       "fields": [
         {
@@ -13294,7 +13185,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-midlands",
         "regionLabel": "East Midlands",
-        "count": 2284
+        "count": 2286
       },
       "fields": [
         {
@@ -13404,7 +13295,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -13514,7 +13405,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5020
+        "count": 5029
       },
       "fields": [
         {
@@ -13624,7 +13515,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -13734,7 +13625,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5722
+        "count": 5728
       },
       "fields": [
         {
@@ -13844,7 +13735,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -13954,7 +13845,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "west-midlands",
         "regionLabel": "West Midlands",
-        "count": 3258
+        "count": 3260
       },
       "fields": [
         {
@@ -14064,7 +13955,7 @@
         "sectorLabel": "Asset & wealth mgmt",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 4057
+        "count": 4058
       },
       "fields": [
         {
@@ -14174,7 +14065,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "west-midlands",
         "regionLabel": "West Midlands",
-        "count": 3258
+        "count": 3260
       },
       "fields": [
         {
@@ -14284,7 +14175,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "wales",
         "regionLabel": "Wales",
-        "count": 1535
+        "count": 1542
       },
       "fields": [
         {
@@ -14394,7 +14285,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5722
+        "count": 5728
       },
       "fields": [
         {
@@ -14504,7 +14395,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -14614,7 +14505,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -14724,7 +14615,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -14944,7 +14835,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5020
+        "count": 5029
       },
       "fields": [
         {
@@ -15054,7 +14945,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5020
+        "count": 5029
       },
       "fields": [
         {
@@ -15164,7 +15055,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -15274,7 +15165,7 @@
         "sectorLabel": "Asset & wealth mgmt",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 1786
+        "count": 1790
       },
       "fields": [
         {
@@ -15384,7 +15275,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -15494,7 +15385,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -15604,7 +15495,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -15714,7 +15605,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5722
+        "count": 5728
       },
       "fields": [
         {
@@ -15824,7 +15715,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -15934,7 +15825,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -16044,7 +15935,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-west",
         "regionLabel": "South West",
-        "count": 3523
+        "count": 3521
       },
       "fields": [
         {
@@ -16264,7 +16155,7 @@
         "sectorLabel": "Asset & wealth mgmt",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 4057
+        "count": 4058
       },
       "fields": [
         {
@@ -16374,7 +16265,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10596
+        "count": 10614
       },
       "fields": [
         {
@@ -16484,7 +16375,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "yorkshire",
         "regionLabel": "Yorkshire",
-        "count": 3164
+        "count": 3168
       },
       "fields": [
         {
@@ -16594,7 +16485,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15163
+        "count": 15167
       },
       "fields": [
         {
@@ -16704,7 +16595,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5020
+        "count": 5029
       },
       "fields": [
         {
@@ -16794,6 +16685,116 @@
           "observedAt": "2026-10-05",
           "evidenceUrl": "https://nexfipay.com/careers",
           "snippet": "careers page text hash changed (e032db33 -> 4ceac9e2)"
+        }
+      ]
+    },
+    {
+      "companyNumber": "13765258",
+      "slug": "13765258-trinity-view-wealth-partners",
+      "name": "Trinity View Wealth Partners",
+      "sectors": [
+        "Asset & wealth mgmt"
+      ],
+      "city": "London",
+      "region": "London",
+      "careersUrl": "https://www.TrinityView.Co.uk/about/meet-the-team/listing",
+      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/13765258",
+      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=968492",
+      "facet": {
+        "sectorKey": "asset-wealth",
+        "sectorLabel": "Asset & wealth mgmt",
+        "regionKey": "london",
+        "regionLabel": "London",
+        "count": 4058
+      },
+      "fields": [
+        {
+          "field": "is_london",
+          "label": "Registered in London",
+          "value": "Yes",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13765258",
+          "observedAt": "2026-09-28",
+          "note": null
+        },
+        {
+          "field": "city",
+          "label": "Registered office city",
+          "value": "London",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13765258",
+          "observedAt": "2026-09-28",
+          "note": null
+        },
+        {
+          "field": "postcode",
+          "label": "Registered office postcode",
+          "value": "W6 0LH",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13765258",
+          "observedAt": "2026-09-28",
+          "note": null
+        },
+        {
+          "field": "boutique_signal",
+          "label": "Boutique classification",
+          "value": "micro-entity accounts",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13765258",
+          "observedAt": "2026-09-28",
+          "note": null
+        },
+        {
+          "field": "incorporated",
+          "label": "Incorporated",
+          "value": "2021-11-25",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13765258",
+          "observedAt": "2026-09-28",
+          "note": null
+        },
+        {
+          "field": "fca_frn",
+          "label": "FCA firm reference number",
+          "value": "968492",
+          "href": null,
+          "source": "FCA Register",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=968492",
+          "observedAt": "2026-09-28",
+          "note": null
+        },
+        {
+          "field": "fca_status",
+          "label": "FCA authorisation status",
+          "value": "Appointed representative",
+          "href": null,
+          "source": "FCA Register",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=968492",
+          "observedAt": "2026-09-28",
+          "note": null
+        },
+        {
+          "field": "website",
+          "label": "Website",
+          "value": "www.TrinityView.Co.uk",
+          "href": "https://www.TrinityView.Co.uk",
+          "source": "FCA Register",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=968492",
+          "observedAt": "2026-09-28",
+          "note": null
+        }
+      ],
+      "signals": [
+        {
+          "type": "careers_page_changed",
+          "observedAt": "2026-10-12",
+          "evidenceUrl": "https://www.TrinityView.Co.uk/about/meet-the-team/listing",
+          "snippet": "careers page text hash changed (d8265508 -> 2071799d)"
         }
       ]
     },
