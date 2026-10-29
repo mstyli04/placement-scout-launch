@@ -1,743 +1,742 @@
 {
   "windowDays": 90,
   "maxScore": 6,
-  "watchedCount": 2817,
-  "changedCount": 269,
+  "watchedCount": 2827,
+  "changedCount": 272,
   "publishableCount": 60,
-  "withheldCount": 209,
+  "withheldCount": 212,
   "regionMix": {
-    "South East": 15,
-    "London": 14,
-    "East of England": 9,
-    "South West": 6,
+    "London": 15,
+    "East of England": 8,
+    "South East": 8,
+    "Yorkshire": 5,
     "North West": 5,
-    "Yorkshire": 4,
-    "Scotland": 3,
-    "Wales": 2,
-    "Northern Ireland": 1,
-    "West Midlands": 1
+    "West Midlands": 5,
+    "Wales": 4,
+    "South West": 4,
+    "East Midlands": 3,
+    "Scotland": 3
   },
   "changes": [
     {
-      "companyNumber": "11600565",
-      "name": "Fusion Financial",
-      "city": "London",
-      "region": "London",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://fcg.co.uk/our-services/recruitment/",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "11305822",
-      "name": "Fowler Financial Planning",
-      "city": "Exeter",
-      "region": "South West",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://www.fowlerfp.co.uk/about/meet-the-team/listing",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "13217084",
-      "name": "Four Nations",
-      "city": "London",
-      "region": "London",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://www.four-nations.co.uk/our_team",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "11271163",
-      "name": "Forth Capital Advisers",
-      "city": "London",
-      "region": "London",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://www.forthcapital.com/careers",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "11529774",
-      "name": "Form Ventures",
-      "city": "Norwich",
-      "region": "East of England",
-      "sectors": [
-        "Asset & wealth mgmt"
-      ],
-      "score": 6,
-      "careersUrl": "https://www.jointriple.com/",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "12291057",
-      "name": "Foren UK",
-      "city": "London",
-      "region": "London",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://leatherback.co/company/careers",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "11293139",
-      "name": "First Thought Financial Services",
-      "city": "Rickmansworth",
-      "region": "East of England",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://firstthoughtfinancial.com/mortgages/self-employed-mortgage/joint-mortgage-one-self-employed/",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "NI660320",
-      "name": "First Stop Wills & Estate Planning",
-      "city": "Portadown",
-      "region": "Northern Ireland",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://www.firststopwillsandestateplanning.co.uk/team",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "13055116",
-      "name": "First Mortgage Solutions",
-      "city": "Neath",
+      "companyNumber": "13836301",
+      "name": "Hawkstone Farley Group",
+      "city": "Bridgend",
       "region": "Wales",
       "sectors": [
         "M&A / advisory"
       ],
       "score": 6,
-      "careersUrl": "https://firstmortgagesolutions.co.uk/join/",
-      "observedAt": "2026-10-26"
+      "careersUrl": "https://www.hawkstonecommercials.co.uk/meet-the-team",
+      "observedAt": "2026-10-29"
     },
     {
-      "companyNumber": "12431685",
-      "name": "Finthesis",
+      "companyNumber": "16069176",
+      "name": "Hammond Rock",
+      "city": "Milton Keynes",
+      "region": "East of England",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://hammondrock.co.uk/who-we-are/meet-the-team/",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "13596523",
+      "name": "Halleywell",
+      "city": "Norwich",
+      "region": "East of England",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://watsonmooreifa.com/about/our-team/",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "14601944",
+      "name": "Hallcroft Private",
+      "city": "Leeds",
+      "region": "Yorkshire",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://hallcroftfinance.co.uk/about/team/",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "14541232",
+      "name": "Hallam Wealth",
+      "city": "Nottingham",
+      "region": "East Midlands",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.hallamwealth.co.uk/about/meet-the-team/listing",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "14083863",
+      "name": "Growth Credit Partners",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://growthcreditpartners.com/our-team",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "15480642",
+      "name": "Grayson Lewis Financial Planning",
+      "city": "Oakham",
+      "region": "East Midlands",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://graysonlewis.co.uk/careers/",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "14477540",
+      "name": "Gordian Wealth Management",
+      "city": "Bristol",
+      "region": "South West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.gordianwealth.co.uk/gwm-staff-advisers/",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "14088618",
+      "name": "Good Green Money",
+      "city": "Blackburn",
+      "region": "North West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://goodgreenmoney.co.uk/meet-the-team/haydon-waldek/",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "13711964",
+      "name": "Fort Advice Bureau",
+      "city": "Guildford",
+      "region": "South East",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://fort-ab.co.uk/recruitment/",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "16549928",
+      "name": "Foremost Financial Management",
+      "city": "Colchester",
+      "region": "East of England",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.foremostfinancial.net/about/meet-the-team/listing",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "14189283",
+      "name": "Forecast Finance",
+      "city": "Dudley",
+      "region": "West Midlands",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://forecastfinance.co.uk/#meet-the-team",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "16024269",
+      "name": "Fore Financial Planning",
+      "city": "Southport",
+      "region": "North West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.forefp.co.uk/about/meet-the-team/listing",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "13805699",
+      "name": "Finanze",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.finanzeproperty.com/contact/",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "SC699896",
+      "name": "Filsell Wealth",
+      "city": "Grangemouth",
+      "region": "Scotland",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.filsellwealth.co.uk/about/meet-the-team/listing",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "14381028",
+      "name": "Fifteen Financial Planning",
+      "city": "Sleaford",
+      "region": "East Midlands",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.fifteenfinancialplanning.co.uk/about/meet-the-team/listing",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "16088985",
+      "name": "Fellmont Wealth",
+      "city": "Manchester",
+      "region": "North West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://fellmontwealth.co.uk/about-us/your-team/",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "15779442",
+      "name": "F & O Wealth Management",
+      "city": "Wrexham",
+      "region": "Wales",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.fowm.co.uk/who-are-we",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "15674273",
+      "name": "Essex Money",
+      "city": "Westcliff-On-Sea",
+      "region": "East of England",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://essex-money.co.uk/meet-the-team/",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "SC775875",
+      "name": "Erskine Financial",
+      "city": "Dalkeith",
+      "region": "Scotland",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.erskine.financial/financial/team",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "16749000",
+      "name": "Equilibrium Wealth",
+      "city": "Tunbridge Wells",
+      "region": "South East",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.eqwealth.co.uk/contact",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "16350162",
+      "name": "Elmwood Asset Management UK",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://elmwoodasset.com/team-members/",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "14554081",
+      "name": "Elmstone Financial Planning",
+      "city": "West Molesey",
+      "region": "South East",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.elmstonefp.co.uk/meet-the-team",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "17032912",
+      "name": "Elite Home Systems UK",
+      "city": "Colchester",
+      "region": "East of England",
+      "sectors": [
+        "Asset & wealth mgmt"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.elitesystemsgb.co.uk/meet-the-team",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "14219947",
+      "name": "Edenbase Capital",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "PE / VC"
+      ],
+      "score": 6,
+      "careersUrl": "http://www.edenbase.com#team",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "15783296",
+      "name": "Dragon Wealth",
+      "city": "Knutsford",
+      "region": "North West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.dragonwealth.co.uk/about/meet-the-team/listing",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "13817137",
+      "name": "Dig Ventures Advisors",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "PE / VC"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.dig.ventures/team",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "12696144",
+      "name": "DCM Commercial Finance",
+      "city": "Sheffield",
+      "region": "Yorkshire",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://cfpgroup.co.uk/the-team/",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "13486324",
+      "name": "Crown Financial",
       "city": "Romford",
       "region": "South East",
       "sectors": [
         "M&A / advisory"
       ],
       "score": 6,
-      "careersUrl": "https://paio.company/en/careers",
-      "observedAt": "2026-10-26"
+      "careersUrl": "https://crownfinancials.co.uk/vacancies/",
+      "observedAt": "2026-10-29"
     },
     {
-      "companyNumber": "11347482",
-      "name": "Finsei",
+      "companyNumber": "11453383",
+      "name": "Cleerly",
+      "city": "Fareham",
+      "region": "South East",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.cleerly.co.uk/specialist-mortgages/",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "14490826",
+      "name": "Cleanbridge Advisors",
       "city": "London",
       "region": "London",
       "sectors": [
         "M&A / advisory"
       ],
       "score": 6,
-      "careersUrl": "https://reg.finsei.com",
-      "observedAt": "2026-10-26"
+      "careersUrl": "https://www.cleanbridge.co/transactions/",
+      "observedAt": "2026-10-29"
     },
     {
-      "companyNumber": "11012001",
-      "name": "Finative Financial Planning",
-      "city": "Macclesfield",
-      "region": "North West",
+      "companyNumber": "15161994",
+      "name": "Chip Financial Wealth",
+      "city": "London",
+      "region": "London",
       "sectors": [
         "M&A / advisory"
       ],
       "score": 6,
-      "careersUrl": "https://www.finative.co.uk/about/meet-the-team/listing",
-      "observedAt": "2026-10-26"
+      "careersUrl": "https://chip.teamtailor.com/",
+      "observedAt": "2026-10-29"
     },
     {
-      "companyNumber": "13138754",
-      "name": "Finance Partners",
-      "city": "Norwich",
+      "companyNumber": "14407948",
+      "name": "Chapel Wealth Management Group",
+      "city": "Haverhill",
       "region": "East of England",
       "sectors": [
         "M&A / advisory"
       ],
       "score": 6,
-      "careersUrl": "https://www.finance-partners.co.uk/recruitment-finance",
-      "observedAt": "2026-10-26"
+      "careersUrl": "https://www.chapel-wealth.co.uk/about/meet-the-team/listing",
+      "observedAt": "2026-10-29"
     },
     {
-      "companyNumber": "12882644",
-      "name": "Ferro Financial",
-      "city": "Chesterfield",
+      "companyNumber": "15755399",
+      "name": "Cesta Financial Planning",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://cestafinancialplanning.co.uk/our-story/your-team/",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "13728208",
+      "name": "Cartesian Wealth",
+      "city": "Warwick",
+      "region": "West Midlands",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.cartesianwealth.co.uk/team-members/",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "17299270",
+      "name": "Capital Commercial Finance",
+      "city": "Pontefract",
       "region": "Yorkshire",
       "sectors": [
         "M&A / advisory"
       ],
       "score": 6,
-      "careersUrl": "https://www.ferrofinancial.co.uk/meet-the-team/",
-      "observedAt": "2026-10-26"
+      "careersUrl": "https://cfpgroup.co.uk/the-team/",
+      "observedAt": "2026-10-29"
     },
     {
-      "companyNumber": "13063380",
-      "name": "Fairfield Money",
-      "city": "Bury St. Edmunds",
-      "region": "East of England",
+      "companyNumber": "14496215",
+      "name": "Cadence Financial Planning",
+      "city": "London",
+      "region": "London",
       "sectors": [
         "M&A / advisory"
       ],
       "score": 6,
-      "careersUrl": "https://www.fairfield-money.com/careers-1",
-      "observedAt": "2026-10-26"
+      "careersUrl": "https://cadencefp.co.uk/is-this-you/im-building-a-career-and-growing-my-wealth/",
+      "observedAt": "2026-10-29"
     },
     {
-      "companyNumber": "SC607307",
-      "name": "Executive Wealth Services",
-      "city": "Edinburgh",
+      "companyNumber": "SC815354",
+      "name": "CRM Financial Planning",
+      "city": "Inverkeithing",
       "region": "Scotland",
       "sectors": [
         "M&A / advisory"
       ],
       "score": 6,
-      "careersUrl": "https://www.ewsfinancialadvisers.co.uk/about",
-      "observedAt": "2026-10-26"
+      "careersUrl": "https://crmfp.co.uk/team/",
+      "observedAt": "2026-10-29"
     },
     {
-      "companyNumber": "13010558",
-      "name": "Engage Wealth Management",
-      "city": "Hove",
-      "region": "South East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://engagewm.co.uk/about-us/",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "12310974",
-      "name": "Ema Private Finance",
-      "city": "Hastings",
-      "region": "South East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://www.charcol.co.uk/meet-the-team/",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "12433912",
-      "name": "Elite Private Wealth Management",
+      "companyNumber": "14243372",
+      "name": "CPN Private Wealth",
       "city": "London",
       "region": "London",
       "sectors": [
         "M&A / advisory"
       ],
       "score": 6,
-      "careersUrl": "https://elitepwm.co.uk/team/",
-      "observedAt": "2026-10-26"
+      "careersUrl": "https://www.amicuswealthmanagement.co.uk/about-us/our-team",
+      "observedAt": "2026-10-29"
     },
     {
-      "companyNumber": "11998366",
-      "name": "Eddge Mortgages",
-      "city": "Barnet",
+      "companyNumber": "14974647",
+      "name": "CPN & Partners",
+      "city": "Chichester",
       "region": "South East",
       "sectors": [
         "M&A / advisory"
       ],
       "score": 6,
-      "careersUrl": "https://www.eddge.co.uk/careers",
-      "observedAt": "2026-10-26"
+      "careersUrl": "https://www.amicuswealthmanagement.co.uk/about-us/our-team",
+      "observedAt": "2026-10-29"
     },
     {
-      "companyNumber": "11308989",
-      "name": "Eci Management",
-      "city": "London",
-      "region": "London",
+      "companyNumber": "11778716",
+      "name": "CFP Group",
+      "city": "Ilkley",
+      "region": "Yorkshire",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://cfpgroup.co.uk/the-team/",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "16820966",
+      "name": "Botswana Tech",
+      "city": "Alton",
+      "region": "South East",
       "sectors": [
         "Asset & wealth mgmt"
       ],
       "score": 6,
-      "careersUrl": "https://www.ecipartners.com/our-team",
-      "observedAt": "2026-10-26"
+      "careersUrl": "https://botswanatech.com/portfolio",
+      "observedAt": "2026-10-29"
     },
     {
-      "companyNumber": "12215860",
-      "name": "Ebbisham Financial Solutions",
-      "city": "Dorking",
-      "region": "South East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://ebbishamfs.co.uk/our_team",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "11882827",
-      "name": "Dragon Financial Planning",
-      "city": "Newport",
-      "region": "Wales",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://dragonfinancialplanning.co.uk/meet-the-team/",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "12016418",
-      "name": "Douglas And Young",
-      "city": "Radstock",
-      "region": "South West",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://www.douglasandyoung.co.uk#join",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "13320109",
-      "name": "De Lisle Financial Planning",
-      "city": "Northleach",
-      "region": "South West",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://www.delislefp.co.uk/us",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "11580862",
-      "name": "Consolidare Wealth Management",
-      "city": "Folkestone",
-      "region": "South East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://www.consolidarewealth.co.uk/team-members/ben-taylor/",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "12871098",
-      "name": "Concept Wealth",
-      "city": "Sheffield",
-      "region": "Yorkshire",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://www.conceptwealth.co.uk/services/savings-investments",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "11387487",
-      "name": "Cole Financial Associates",
-      "city": "Worthing",
-      "region": "South East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://www.colefinancial.co.uk/about/meet-the-team/listing",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "13357480",
-      "name": "Christopher Little & Co",
-      "city": "Otley",
-      "region": "Yorkshire",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://christopher-little.co.uk/team-members/thomas-hatley/",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "13104304",
-      "name": "Choice Financial Solutions",
-      "city": "Southampton",
-      "region": "South East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://choicefinancialsolutions.com/about-us-our-team/",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "10295038",
-      "name": "Charles Jones Wealth Management",
-      "city": "Stowmarket",
+      "companyNumber": "14331033",
+      "name": "Bloom Financial Consulting",
+      "city": "Buckingham",
       "region": "East of England",
       "sectors": [
         "M&A / advisory"
       ],
       "score": 6,
-      "careersUrl": "https://www.charlesjoneswealthmanagement.co.uk/about/meet-the-team/listing",
-      "observedAt": "2026-10-26"
+      "careersUrl": "https://bloomfinancialconsulting.co.uk/meet-us/join-the-team/",
+      "observedAt": "2026-10-29"
     },
     {
-      "companyNumber": "11333705",
-      "name": "Celtic Financial Planning",
-      "city": "Mold",
-      "region": "North West",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "http://www.celticfp.co.uk/about-us/our-team/",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "10394032",
-      "name": "Cardean  Bell",
-      "city": "Salisbury",
-      "region": "South West",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://cardeanbell.com/#team",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "SC614957",
-      "name": "Cairn Financial Management",
-      "city": "Glasgow",
-      "region": "Scotland",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://cairnfm.co.uk/our-team/",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "11645963",
-      "name": "C & C Employee Benefits",
-      "city": "Stockport",
-      "region": "North West",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://cc-eb.com/meet-your-team/",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "10684845",
-      "name": "Butterfly Financial Planning",
-      "city": "Bromley",
-      "region": "South East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://www.butterflyfinancialplanning.co.uk/meet-the-team/",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "12168958",
-      "name": "Buckzy Payments",
-      "city": "London",
-      "region": "London",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://buckzy.net/about-us/#our-team",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "SC535531",
-      "name": "Bluesky Independent Wealth Managers",
-      "city": "Edinburgh",
-      "region": "Scotland",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://wealthatbluesky.com/about-us/our-team/",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "11936113",
-      "name": "Bluesky Financial Planners",
-      "city": "Reading",
-      "region": "South East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://blueskyifas.co.uk/our-team/",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "12226125",
-      "name": "Bespoke Mortgages",
-      "city": "Harrow",
-      "region": "South East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://www.bespoke-mortgages.co.uk/careers",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "12355799",
-      "name": "Beech Tree Financial Advice",
-      "city": "Stockport",
-      "region": "North West",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://beechtreefinancial.co.uk/our_team",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "12027286",
-      "name": "Balnageith Advisers",
-      "city": "London",
-      "region": "London",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://www.balnageith.com/#OurTeam",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "11428358",
-      "name": "Ballantine Wealth Management",
-      "city": "Taunton",
-      "region": "South West",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://www.ballantinewm.co.uk/about/meet-the-team/listing",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "11065132",
-      "name": "Avellinia Capital",
-      "city": "London",
-      "region": "London",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://www.avellinia.com/team",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "11945863",
-      "name": "Asset Harbour Mortgages & Protection",
-      "city": "Farnham",
-      "region": "South East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://assetharbour.com/team/",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "12400546",
-      "name": "Aspirational Financial Planning",
-      "city": "High Wycombe",
-      "region": "East of England",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://aspirationalfp.co.uk/team-members/about-us/",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "12402895",
-      "name": "Artless Wealth",
-      "city": "Colchester",
-      "region": "East of England",
-      "sectors": [
-        "M&A / advisory",
-        "Asset & wealth mgmt"
-      ],
-      "score": 6,
-      "careersUrl": "https://www.artlesswealth.com/about-us/meet-the-team/",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "12003657",
-      "name": "Articus Finance",
-      "city": "London",
-      "region": "London",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://www.articusfinance.com/our-team",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "11914084",
-      "name": "Approved Property Finance",
-      "city": "Newport Pagnell",
-      "region": "East of England",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://www.approvedbusinessfinance.co.uk/meet-the-team",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "12828518",
-      "name": "Altior Asset Management",
+      "companyNumber": "14569306",
+      "name": "Blincoe Financial Planning",
       "city": "Cheltenham",
       "region": "South West",
       "sectors": [
         "M&A / advisory"
       ],
       "score": 6,
-      "careersUrl": "https://altiorassetmanagement.co.uk/our-team/",
-      "observedAt": "2026-10-26"
+      "careersUrl": "https://www.blincoe.uk/careers",
+      "observedAt": "2026-10-29"
     },
     {
-      "companyNumber": "13226808",
-      "name": "Allermuir Capital",
-      "city": "London",
-      "region": "London",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://allermuircapital.com/solutions/family-offices",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "12900318",
-      "name": "All Aspects Financial Planning",
-      "city": "Alton",
-      "region": "South East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://allaspectsfinancial.co.uk/join-our-network/",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "13096044",
-      "name": "Alexander Dann Wealth Management",
-      "city": "London",
-      "region": "London",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://www.alexanderdannwealthmanagementltd.co.uk/about/meet-the-team/listing",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "11475601",
-      "name": "Alexander Beard International Benefits",
-      "city": "Ellesmere Port",
+      "companyNumber": "16342382",
+      "name": "Blackwood Financial Planning",
+      "city": "Chester",
       "region": "North West",
       "sectors": [
         "M&A / advisory"
       ],
       "score": 6,
-      "careersUrl": "https://www.abg.net/careers/",
-      "observedAt": "2026-10-26"
+      "careersUrl": "https://blackwoodfp.co.uk/our-team/",
+      "observedAt": "2026-10-29"
     },
     {
-      "companyNumber": "11770361",
-      "name": "Ahad Technologies",
-      "city": "Sheffield",
-      "region": "Yorkshire",
+      "companyNumber": "16706938",
+      "name": "Blackbear Finance",
+      "city": "Swansea",
+      "region": "Wales",
       "sectors": [
         "M&A / advisory"
       ],
       "score": 6,
-      "careersUrl": "https://www.remitchoice.com",
-      "observedAt": "2026-10-26"
+      "careersUrl": "https://blackbearproperty.co.uk/#team",
+      "observedAt": "2026-10-29"
     },
     {
-      "companyNumber": "11267609",
-      "name": "Aequus Wealth Management",
+      "companyNumber": "15995333",
+      "name": "Bestex Research",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "Quant / trading / fintech"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.bestexresearch.com/careers",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "12270895",
+      "name": "BCM Wealth Management",
+      "city": "Stamford",
+      "region": "East of England",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.bcmwealth.co.uk/about/meet-the-team/",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "15662260",
+      "name": "BBB Investment Services",
+      "city": "Sheffield",
+      "region": "Yorkshire",
+      "sectors": [
+        "Asset & wealth mgmt"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.british-business-bank.co.uk/about/careers",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "14421956",
+      "name": "Axxeltrova Partners",
       "city": "London",
       "region": "London",
       "sectors": [
         "M&A / advisory"
       ],
       "score": 6,
-      "careersUrl": "https://aequuswealth.co.uk/team/",
-      "observedAt": "2026-10-26"
+      "careersUrl": "https://axxeltrova.com/careers/",
+      "observedAt": "2026-10-29"
     },
     {
-      "companyNumber": "12211708",
-      "name": "Adams & Bowles Wealth Management",
-      "city": "West Malling",
-      "region": "South East",
+      "companyNumber": "14632621",
+      "name": "Audley Capital",
+      "city": "London",
+      "region": "London",
       "sectors": [
         "M&A / advisory"
       ],
       "score": 6,
-      "careersUrl": "https://www.adamsandbowleswm.co.uk/about/meet-the-team/listing",
-      "observedAt": "2026-10-26"
+      "careersUrl": "https://audleycap.com/contact",
+      "observedAt": "2026-10-29"
     },
     {
-      "companyNumber": "11580541",
-      "name": "Acorn Wealth Management Group",
-      "city": "Poringland",
-      "region": "East of England",
+      "companyNumber": "16590327",
+      "name": "Araya Sie Ventures",
+      "city": "London",
+      "region": "London",
       "sectors": [
-        "M&A / advisory"
+        "PE / VC"
       ],
       "score": 6,
-      "careersUrl": "https://www.awmg.co.uk/team",
-      "observedAt": "2026-10-26"
+      "careersUrl": "https://www.legalontech.com/press-releases/legalon-acquires-fides-to-streamline-governance-for-in-house-legal-teams",
+      "observedAt": "2026-10-29"
     },
     {
-      "companyNumber": "12696607",
-      "name": "8Am Global",
-      "city": "Southampton",
-      "region": "South East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 6,
-      "careersUrl": "https://8amglobal.com/team-members/",
-      "observedAt": "2026-10-26"
-    },
-    {
-      "companyNumber": "12561142",
-      "name": "2020 Financial Advice",
-      "city": "Shrewsbury",
+      "companyNumber": "14688075",
+      "name": "Anytime Mortgages",
+      "city": "Solihull",
       "region": "West Midlands",
       "sectors": [
         "M&A / advisory"
       ],
       "score": 6,
-      "careersUrl": "https://2020financialadvice.co.uk/team-members/",
-      "observedAt": "2026-10-26"
+      "careersUrl": "https://anytimemortgages.co.uk/meet-the-team",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "15520774",
+      "name": "Anna Gidman Wealth",
+      "city": "Exeter",
+      "region": "South West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://annagidmanwealth.com/team-members/",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "12999631",
+      "name": "Amica Financial Wellbeing",
+      "city": "Stratford-Upon-Avon",
+      "region": "West Midlands",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.amicafinancialwellbeing.co.uk/about/meet-the-team/listing",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "14799120",
+      "name": "Airedale Financial",
+      "city": "Tenby",
+      "region": "Wales",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.airedalefinance.co.uk/about#Team",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "15251271",
+      "name": "Acquiom Financial UK",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.srsacquiom.com/about-us/team/",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "14152463",
+      "name": "Abode Financial Planning",
+      "city": "Cirencester",
+      "region": "South West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://abodefinancial.co.uk/about-us/",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "13669121",
+      "name": "Abacus Wealth Services",
+      "city": "Wolverhampton",
+      "region": "West Midlands",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://abacuswealthservices.co.uk/about/meet-the-team/listing",
+      "observedAt": "2026-10-29"
+    },
+    {
+      "companyNumber": "16689939",
+      "name": "ADWM",
+      "city": "Leatherhead",
+      "region": "South East",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.alexanderdannwealthmanagementltd.co.uk/about/meet-the-team/listing",
+      "observedAt": "2026-10-29"
     }
   ]
 }
