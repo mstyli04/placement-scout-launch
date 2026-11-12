@@ -1,25 +1,182 @@
 {
   "windowDays": 90,
   "maxScore": 6,
-  "watchedCount": 2846,
-  "changedCount": 281,
+  "watchedCount": 2866,
+  "changedCount": 283,
   "publishableCount": 60,
-  "withheldCount": 221,
+  "withheldCount": 223,
   "regionMix": {
-    "South East": 11,
-    "London": 10,
-    "Yorkshire": 8,
-    "South West": 8,
+    "London": 13,
+    "South East": 10,
     "North West": 7,
-    "West Midlands": 3,
+    "Yorkshire": 7,
+    "East of England": 5,
+    "South West": 5,
     "Scotland": 3,
-    "North East": 3,
-    "East of England": 3,
-    "East Midlands": 2,
-    "Northern Ireland": 1,
-    "Wales": 1
+    "Northern Ireland": 2,
+    "Wales": 2,
+    "West Midlands": 2,
+    "North East": 2,
+    "East Midlands": 2
   },
   "changes": [
+    {
+      "companyNumber": "13765258",
+      "name": "Trinity View Wealth Partners",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "Asset & wealth mgmt"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.TrinityView.Co.uk/about/meet-the-team/listing",
+      "observedAt": "2026-11-12"
+    },
+    {
+      "companyNumber": "NI670181",
+      "name": "Poppi Technologies",
+      "city": "Lisburn",
+      "region": "Northern Ireland",
+      "sectors": [
+        "Quant / trading / fintech"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.poppitechnologies.com/careers",
+      "observedAt": "2026-11-12"
+    },
+    {
+      "companyNumber": "11968984",
+      "name": "Manning Gee Investments",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://mgi-ifa.co.uk/meet-the-team/",
+      "observedAt": "2026-11-12"
+    },
+    {
+      "companyNumber": "13223773",
+      "name": "Goldwise Holdings",
+      "city": "Cardiff",
+      "region": "Wales",
+      "sectors": [
+        "Quant / trading / fintech"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.goldwise.com/about/#vacancies",
+      "observedAt": "2026-11-12"
+    },
+    {
+      "companyNumber": "11056247",
+      "name": "Fox Lifestyle Financial Planning",
+      "city": "Preston",
+      "region": "North West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://foxlifefp.com/our-people/",
+      "observedAt": "2026-11-12"
+    },
+    {
+      "companyNumber": "11915870",
+      "name": "Fin Center",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.fin.center/contact",
+      "observedAt": "2026-11-12"
+    },
+    {
+      "companyNumber": "12923648",
+      "name": "Estuary FX",
+      "city": "Southend On  Sea",
+      "region": "East of England",
+      "sectors": [
+        "Quant / trading / fintech"
+      ],
+      "score": 6,
+      "careersUrl": "https://estuaryfx.co.uk/careers/",
+      "observedAt": "2026-11-12"
+    },
+    {
+      "companyNumber": "12127321",
+      "name": "Das Finance",
+      "city": "Leigh-On-Sea",
+      "region": "East of England",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.dasfinance.co.uk/team",
+      "observedAt": "2026-11-12"
+    },
+    {
+      "companyNumber": "10906395",
+      "name": "Ashleigh Green Financial Services",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://ashleighgreen.co.uk/can-you-get-a-mortgage-with-an-iva/can-i-get-a-joint-mortgage-with-an-iva/",
+      "observedAt": "2026-11-12"
+    },
+    {
+      "companyNumber": "13029575",
+      "name": "Anj Raj",
+      "city": "Harrow",
+      "region": "South East",
+      "sectors": [
+        "Quant / trading / fintech"
+      ],
+      "score": 6,
+      "careersUrl": "https://anjraj.com/bulk-recruitments/",
+      "observedAt": "2026-11-12"
+    },
+    {
+      "companyNumber": "13336291",
+      "name": "A&V Partners",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "M&A / advisory",
+        "Quant / trading / fintech"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.avpartners.com/av-sales-installation/microsoft-teams-room-installation/",
+      "observedAt": "2026-11-12"
+    },
+    {
+      "companyNumber": "13357101",
+      "name": "Naaris & Co",
+      "city": "Tunbridge Wells",
+      "region": "South East",
+      "sectors": [
+        "Quant / trading / fintech"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.naaris.co.uk/careers",
+      "observedAt": "2026-11-12"
+    },
+    {
+      "companyNumber": "13342560",
+      "name": "Duggan Investments",
+      "city": "Farnham",
+      "region": "South East",
+      "sectors": [
+        "Quant / trading / fintech"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.dugganinvestmentsresearch.com/aboutourteam",
+      "observedAt": "2026-11-12"
+    },
     {
       "companyNumber": "10708121",
       "name": "Yorkshire Rose Financial Planning",
@@ -583,162 +740,6 @@
       ],
       "score": 5,
       "careersUrl": "https://blueberryfinancial.co.uk/team-members/madeleine/",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "06692644",
-      "name": "Binary Capital",
-      "city": "London",
-      "region": "London",
-      "sectors": [
-        "Quant / trading / fintech"
-      ],
-      "score": 5,
-      "careersUrl": "https://binarycapital.co.uk/our-team",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "06380664",
-      "name": "Barrington Hamilton Personal Asset Management",
-      "city": "Farnborough",
-      "region": "South East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "https://barringtonhamilton.co.uk/us/meet-your-team/",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "06190352",
-      "name": "Arthur Browns Wealth Management",
-      "city": "Leeds",
-      "region": "Yorkshire",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "https://arthurbrowns.co.uk/team-members/",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "04198807",
-      "name": "Aquila Financial Management",
-      "city": "Exeter",
-      "region": "South West",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "https://www.aquilafm.co.uk/about/team/",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "06925283",
-      "name": "Apogee Wealth Management",
-      "city": "Knutsford",
-      "region": "North West",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "https://www.apogeewealth.co.uk/our-team/",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "11479853",
-      "name": "Amara Life Holdings",
-      "city": "London",
-      "region": "London",
-      "sectors": [
-        "Asset & wealth mgmt"
-      ],
-      "score": 5,
-      "careersUrl": "https://www.amaralife.com/how-aligned-is-your-leadership-team",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "04692183",
-      "name": "Am Mortgage & Financial Services",
-      "city": "Kent",
-      "region": "South East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "http://www2.ammfs.co.uk/wp/#meet-the-team",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "05264623",
-      "name": "Afs Wealth Management",
-      "city": "Newcastle",
-      "region": "West Midlands",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "https://www.afswm.co.uk/about/meet-the-team/listing",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "04342122",
-      "name": "Advanta Wealth",
-      "city": "Devon",
-      "region": "South West",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "https://westcottscfp.uk/team/sharon-witney-apfs/",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "07306825",
-      "name": "Add Wealth Management",
-      "city": "South Croydon",
-      "region": "South East",
-      "sectors": [
-        "Asset & wealth mgmt"
-      ],
-      "score": 5,
-      "careersUrl": "http://www.addwealth.co.uk/mortgages.php",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "06468375",
-      "name": "Add Mortgages",
-      "city": "South Croydon",
-      "region": "South East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "http://www.addwealth.co.uk/mortgages.php",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "11311125",
-      "name": "Accessible Accounting",
-      "city": "Wimborne",
-      "region": "South West",
-      "sectors": [
-        "Quant / trading / fintech"
-      ],
-      "score": 5,
-      "careersUrl": "https://accessibleaccounting.co.uk/services/bookkeeping/",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "04206886",
-      "name": "1ST Financial Group",
-      "city": "Sunderland",
-      "region": "North East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "https://www.fairstonegroup.co.uk/",
       "observedAt": "2026-11-09"
     }
   ]
