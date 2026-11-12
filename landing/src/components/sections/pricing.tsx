@@ -66,7 +66,7 @@ export function Pricing() {
                 target="popupwindow"
                 onSubmit={() =>
                   window.open(
-                    "https://buttondown.com/confirmation?tag=michaelstylianou",
+                    "https://buttondown.com/michaelstylianou",
                     "popupwindow"
                   )
                 }

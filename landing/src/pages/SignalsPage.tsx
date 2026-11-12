@@ -265,7 +265,7 @@ export function SignalsPage() {
             method="post"
             target="popupwindow"
             onSubmit={() =>
-              window.open("https://buttondown.com/confirmation?tag=michaelstylianou", "popupwindow")
+              window.open("https://buttondown.com/michaelstylianou", "popupwindow")
             }
             className="mt-4 flex flex-col gap-2 sm:flex-row"
           >
