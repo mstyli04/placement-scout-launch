@@ -1,25 +1,159 @@
 {
   "windowDays": 90,
   "maxScore": 6,
-  "watchedCount": 2866,
-  "changedCount": 283,
+  "watchedCount": 2881,
+  "changedCount": 286,
   "publishableCount": 60,
-  "withheldCount": 223,
+  "withheldCount": 226,
   "regionMix": {
-    "London": 13,
-    "South East": 10,
-    "North West": 7,
-    "Yorkshire": 7,
-    "East of England": 5,
-    "South West": 5,
+    "London": 15,
+    "North West": 11,
+    "Yorkshire": 8,
+    "South East": 6,
+    "East of England": 4,
+    "Wales": 3,
     "Scotland": 3,
+    "South West": 3,
     "Northern Ireland": 2,
-    "Wales": 2,
-    "West Midlands": 2,
     "North East": 2,
-    "East Midlands": 2
+    "East Midlands": 2,
+    "West Midlands": 1
   },
   "changes": [
+    {
+      "companyNumber": "12800001",
+      "name": "Shadowfax Funding Solutions",
+      "city": "Wetherby",
+      "region": "Yorkshire",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.shadowfaxfunding.com/contact",
+      "observedAt": "2026-11-16"
+    },
+    {
+      "companyNumber": "13969511",
+      "name": "Mare Liberum",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "Quant / trading / fintech"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.mareliberum.com/team",
+      "observedAt": "2026-11-16"
+    },
+    {
+      "companyNumber": "13972141",
+      "name": "H&Y Commodities",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "Quant / trading / fintech"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.hycommodities.com/contact",
+      "observedAt": "2026-11-16"
+    },
+    {
+      "companyNumber": "15177641",
+      "name": "Factor Financial Planning",
+      "city": "Liverpool",
+      "region": "North West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.factorfp.co.uk/team-members",
+      "observedAt": "2026-11-16"
+    },
+    {
+      "companyNumber": "13978621",
+      "name": "Colebrooke Partners Im",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "Asset & wealth mgmt"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.colebrookepartners.com/team",
+      "observedAt": "2026-11-16"
+    },
+    {
+      "companyNumber": "13433492",
+      "name": "Castle Capital Holdings",
+      "city": "Cardiff",
+      "region": "Wales",
+      "sectors": [
+        "Quant / trading / fintech"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.castlecapital.com",
+      "observedAt": "2026-11-16"
+    },
+    {
+      "companyNumber": "14491729",
+      "name": "Capital Business Loans",
+      "city": "Chester",
+      "region": "North West",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.capitalbusinessloans.co.uk/team",
+      "observedAt": "2026-11-16"
+    },
+    {
+      "companyNumber": "13859849",
+      "name": "Boon Brokers",
+      "city": "Halesworth",
+      "region": "East of England",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "score": 6,
+      "careersUrl": "https://boonbrokers.co.uk/meet-the-boon-brokers-team/",
+      "observedAt": "2026-11-16"
+    },
+    {
+      "companyNumber": "13722908",
+      "name": "Beacon Asset Management",
+      "city": "Cheadle",
+      "region": "North West",
+      "sectors": [
+        "Quant / trading / fintech"
+      ],
+      "score": 6,
+      "careersUrl": "https://www.beaconassetmanagement.com/our-team",
+      "observedAt": "2026-11-16"
+    },
+    {
+      "companyNumber": "12514904",
+      "name": "Zenithar",
+      "city": "London",
+      "region": "London",
+      "sectors": [
+        "M&A / advisory",
+        "Asset & wealth mgmt",
+        "PE / VC"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.zenithar.com/the-leadership",
+      "observedAt": "2026-11-16"
+    },
+    {
+      "companyNumber": "14154940",
+      "name": "Nationwide Vision",
+      "city": "Wirral",
+      "region": "North West",
+      "sectors": [
+        "Quant / trading / fintech"
+      ],
+      "score": 5,
+      "careersUrl": "https://www.nationwidevision.com/careers",
+      "observedAt": "2026-11-16"
+    },
     {
       "companyNumber": "13765258",
       "name": "Trinity View Wealth Partners",
@@ -608,138 +742,6 @@
       ],
       "score": 5,
       "careersUrl": "https://www.completely-financial.co.uk/meet-the-team/",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "04339620",
-      "name": "Clear Financial Advice",
-      "city": "Beckenham",
-      "region": "South East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "https://clearfinancialadvice.co.uk/about-us/meet-the-team/",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "07654712",
-      "name": "Clarion Partners Europe",
-      "city": "London",
-      "region": "London",
-      "sectors": [
-        "Asset & wealth mgmt"
-      ],
-      "score": 5,
-      "careersUrl": "https://www.clarioneurope.com/careers",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "08066246",
-      "name": "Chris Bibb Independent Financial Advice",
-      "city": "Poole",
-      "region": "South West",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "https://www.chrisbibbifa.co.uk/about-us/meet-the-team/",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "04809800",
-      "name": "Central Veterinary Services",
-      "city": "Bury St Edmunds",
-      "region": "East of England",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "https://www.centralvet.com/contact-us/recruitment/",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "04692908",
-      "name": "Caton FRY Financial Services",
-      "city": "London",
-      "region": "London",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "https://www.cffs.co.uk/our_team",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "11399113",
-      "name": "Business Growth Coaches",
-      "city": "Bury St Edmunds",
-      "region": "East of England",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "https://www.bgcn.co.uk/join-the-network/",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "04162004",
-      "name": "Burwood Sage + Brookridge",
-      "city": "Sunningdale",
-      "region": "South East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "https://bsandb.co.uk/meet-the-team/",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "06591272",
-      "name": "Bronsens Financial Services",
-      "city": "Witney",
-      "region": "South East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "https://bronsens.co.uk/current-vacancies/",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "05899086",
-      "name": "Britannic Place Financial Management",
-      "city": "Worcester",
-      "region": "West Midlands",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "https://britannicplace.co.uk/meet-our-team/",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "06233796",
-      "name": "Bluechip Financial",
-      "city": "Broadstone",
-      "region": "South West",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "https://bluechip-financial.co.uk/meet-the-team/",
-      "observedAt": "2026-11-09"
-    },
-    {
-      "companyNumber": "06484783",
-      "name": "Blueberry Financial",
-      "city": "Ascot",
-      "region": "South East",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "score": 5,
-      "careersUrl": "https://blueberryfinancial.co.uk/team-members/madeleine/",
       "observedAt": "2026-11-09"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "builtOn": "2026-11-12",
+  "builtOn": "2026-11-16",
   "sheetScoreRange": [
     0,
     3
@@ -22,7 +22,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-west",
         "regionLabel": "South West",
-        "count": 3615
+        "count": 3617
       },
       "fields": [
         {
@@ -125,7 +125,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-east",
         "regionLabel": "North East",
-        "count": 1089
+        "count": 1088
       },
       "fields": [
         {
@@ -228,7 +228,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10905
+        "count": 10907
       },
       "fields": [
         {
@@ -537,7 +537,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "west-midlands",
         "regionLabel": "West Midlands",
-        "count": 3342
+        "count": 3341
       },
       "fields": [
         {
@@ -641,7 +641,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15702
+        "count": 15706
       },
       "fields": [
         {
@@ -751,7 +751,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-east",
         "regionLabel": "North East",
-        "count": 1089
+        "count": 1088
       },
       "fields": [
         {
@@ -854,7 +854,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10905
+        "count": 10907
       },
       "fields": [
         {
@@ -1060,7 +1060,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15702
+        "count": 15706
       },
       "fields": [
         {
@@ -1163,7 +1163,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "west-midlands",
         "regionLabel": "West Midlands",
-        "count": 3342
+        "count": 3341
       },
       "fields": [
         {
@@ -1266,7 +1266,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "scotland",
         "regionLabel": "Scotland",
-        "count": 2287
+        "count": 2289
       },
       "fields": [
         {
@@ -1369,7 +1369,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "west-midlands",
         "regionLabel": "West Midlands",
-        "count": 3342
+        "count": 3341
       },
       "fields": [
         {
@@ -1472,7 +1472,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5169
+        "count": 5170
       },
       "fields": [
         {
@@ -1575,7 +1575,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "scotland",
         "regionLabel": "Scotland",
-        "count": 2287
+        "count": 2289
       },
       "fields": [
         {
@@ -1678,7 +1678,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-west",
         "regionLabel": "South West",
-        "count": 3615
+        "count": 3617
       },
       "fields": [
         {
@@ -1884,7 +1884,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5879
+        "count": 5880
       },
       "fields": [
         {
@@ -1987,7 +1987,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15702
+        "count": 15706
       },
       "fields": [
         {
@@ -2193,7 +2193,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10905
+        "count": 10907
       },
       "fields": [
         {
@@ -2296,7 +2296,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10905
+        "count": 10907
       },
       "fields": [
         {
@@ -2399,7 +2399,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "wales",
         "regionLabel": "Wales",
-        "count": 1642
+        "count": 1641
       },
       "fields": [
         {
@@ -2812,7 +2812,7 @@
         "sectorLabel": "Quant / trading / fintech",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 2863
+        "count": 2864
       },
       "fields": [
         {
@@ -3018,7 +3018,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15702
+        "count": 15706
       },
       "fields": [
         {
@@ -3121,7 +3121,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5169
+        "count": 5170
       },
       "fields": [
         {
@@ -3224,7 +3224,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5169
+        "count": 5170
       },
       "fields": [
         {
@@ -3327,7 +3327,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "scotland",
         "regionLabel": "Scotland",
-        "count": 2287
+        "count": 2289
       },
       "fields": [
         {
@@ -3533,7 +3533,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-west",
         "regionLabel": "South West",
-        "count": 3615
+        "count": 3617
       },
       "fields": [
         {
@@ -3636,7 +3636,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15702
+        "count": 15706
       },
       "fields": [
         {
@@ -3842,7 +3842,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-west",
         "regionLabel": "South West",
-        "count": 3615
+        "count": 3617
       },
       "fields": [
         {
@@ -3945,7 +3945,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15702
+        "count": 15706
       },
       "fields": [
         {
@@ -4048,7 +4048,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15702
+        "count": 15706
       },
       "fields": [
         {
@@ -4152,7 +4152,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10905
+        "count": 10907
       },
       "fields": [
         {
@@ -4255,7 +4255,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-west",
         "regionLabel": "South West",
-        "count": 3615
+        "count": 3617
       },
       "fields": [
         {
@@ -4358,7 +4358,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "west-midlands",
         "regionLabel": "West Midlands",
-        "count": 3342
+        "count": 3341
       },
       "fields": [
         {
@@ -4461,7 +4461,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10905
+        "count": 10907
       },
       "fields": [
         {
@@ -4667,7 +4667,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5169
+        "count": 5170
       },
       "fields": [
         {
@@ -4770,7 +4770,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10905
+        "count": 10907
       },
       "fields": [
         {
@@ -4873,7 +4873,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10905
+        "count": 10907
       },
       "fields": [
         {
@@ -4976,7 +4976,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5169
+        "count": 5170
       },
       "fields": [
         {
@@ -5079,7 +5079,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5879
+        "count": 5880
       },
       "fields": [
         {
@@ -5182,7 +5182,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "wales",
         "regionLabel": "Wales",
-        "count": 1642
+        "count": 1641
       },
       "fields": [
         {
@@ -5285,7 +5285,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10905
+        "count": 10907
       },
       "fields": [
         {
@@ -5388,7 +5388,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5879
+        "count": 5880
       },
       "fields": [
         {
@@ -5491,7 +5491,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10905
+        "count": 10907
       },
       "fields": [
         {
@@ -5594,7 +5594,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5879
+        "count": 5880
       },
       "fields": [
         {
@@ -5807,7 +5807,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15702
+        "count": 15706
       },
       "fields": [
         {
@@ -5910,7 +5910,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10905
+        "count": 10907
       },
       "fields": [
         {
@@ -6219,7 +6219,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10905
+        "count": 10907
       },
       "fields": [
         {
@@ -6631,7 +6631,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "wales",
         "regionLabel": "Wales",
-        "count": 1642
+        "count": 1641
       },
       "fields": [
         {
@@ -6734,7 +6734,7 @@
         "sectorLabel": "Quant / trading / fintech",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 2863
+        "count": 2864
       },
       "fields": [
         {
@@ -7146,7 +7146,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5169
+        "count": 5170
       },
       "fields": [
         {
@@ -7249,7 +7249,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15702
+        "count": 15706
       },
       "fields": [
         {
@@ -7336,6 +7336,110 @@
       "signals": []
     },
     {
+      "companyNumber": "17392106",
+      "slug": "17392106-asatoil",
+      "name": "Asatoil",
+      "sectors": [
+        "M&A / advisory",
+        "Quant / trading / fintech"
+      ],
+      "city": "London",
+      "region": "London",
+      "careersUrl": "https://asatoil.com/contact.html",
+      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/17392106",
+      "fcaUrl": null,
+      "facet": {
+        "sectorKey": "ma-advisory",
+        "sectorLabel": "M&A / advisory",
+        "regionKey": "london",
+        "regionLabel": "London",
+        "count": 15706
+      },
+      "fields": [
+        {
+          "field": "is_london",
+          "label": "Registered in London",
+          "value": "Yes",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/17392106",
+          "observedAt": "2026-11-12",
+          "note": null
+        },
+        {
+          "field": "city",
+          "label": "Registered office city",
+          "value": "London",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/17392106",
+          "observedAt": "2026-11-12",
+          "note": null
+        },
+        {
+          "field": "postcode",
+          "label": "Registered office postcode",
+          "value": "W12 8LE",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/17392106",
+          "observedAt": "2026-11-12",
+          "note": null
+        },
+        {
+          "field": "boutique_signal",
+          "label": "Boutique classification",
+          "value": "no accounts data",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/17392106",
+          "observedAt": "2026-11-12",
+          "note": null
+        },
+        {
+          "field": "incorporated",
+          "label": "Incorporated",
+          "value": "2026-08-10",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/17392106",
+          "observedAt": "2026-11-12",
+          "note": null
+        },
+        {
+          "field": "fca_frn",
+          "label": "FCA firm reference number",
+          "value": null,
+          "href": null,
+          "source": null,
+          "sourceUrl": null,
+          "observedAt": null,
+          "note": "recorded 12 Nov 2026, not re-verified since"
+        },
+        {
+          "field": "fca_status",
+          "label": "FCA authorisation status",
+          "value": null,
+          "href": null,
+          "source": null,
+          "sourceUrl": null,
+          "observedAt": null,
+          "note": "recorded 12 Nov 2026, not re-verified since"
+        },
+        {
+          "field": "website",
+          "label": "Website",
+          "value": "https://asatoil.com/",
+          "href": "https://asatoil.com/",
+          "source": "Firm's own website",
+          "sourceUrl": "https://asatoil.com/",
+          "observedAt": "2026-11-16",
+          "note": null
+        }
+      ],
+      "signals": []
+    },
+    {
       "companyNumber": "12886139",
       "slug": "12886139-ashbury-financial",
       "name": "Ashbury Financial",
@@ -7352,7 +7456,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5879
+        "count": 5880
       },
       "fields": [
         {
@@ -7558,7 +7662,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15702
+        "count": 15706
       },
       "fields": [
         {
@@ -7771,7 +7875,7 @@
         "sectorLabel": "Quant / trading / fintech",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 2863
+        "count": 2864
       },
       "fields": [
         {
@@ -7874,7 +7978,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5169
+        "count": 5170
       },
       "fields": [
         {
@@ -7977,7 +8081,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5169
+        "count": 5170
       },
       "fields": [
         {
@@ -8080,7 +8184,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15702
+        "count": 15706
       },
       "fields": [
         {
@@ -8184,7 +8288,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10905
+        "count": 10907
       },
       "fields": [
         {
@@ -8493,7 +8597,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "west-midlands",
         "regionLabel": "West Midlands",
-        "count": 3342
+        "count": 3341
       },
       "fields": [
         {
@@ -8596,7 +8700,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15702
+        "count": 15706
       },
       "fields": [
         {
@@ -8700,7 +8804,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15702
+        "count": 15706
       },
       "fields": [
         {
@@ -8803,7 +8907,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5879
+        "count": 5880
       },
       "fields": [
         {
@@ -8906,7 +9010,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10905
+        "count": 10907
       },
       "fields": [
         {
@@ -9112,7 +9216,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15702
+        "count": 15706
       },
       "fields": [
         {
@@ -9215,7 +9319,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-midlands",
         "regionLabel": "East Midlands",
-        "count": 2327
+        "count": 2328
       },
       "fields": [
         {
@@ -9318,7 +9422,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-west",
         "regionLabel": "South West",
-        "count": 3615
+        "count": 3617
       },
       "fields": [
         {
@@ -9421,7 +9525,7 @@
         "sectorLabel": "Quant / trading / fintech",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 2863
+        "count": 2864
       },
       "fields": [
         {
@@ -9524,7 +9628,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-midlands",
         "regionLabel": "East Midlands",
-        "count": 2327
+        "count": 2328
       },
       "fields": [
         {
@@ -9730,7 +9834,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-west",
         "regionLabel": "South West",
-        "count": 3615
+        "count": 3617
       },
       "fields": [
         {
@@ -9917,7 +10021,14 @@
           "note": null
         }
       ],
-      "signals": []
+      "signals": [
+        {
+          "type": "careers_page_changed",
+          "observedAt": "2026-11-16",
+          "evidenceUrl": "https://www.beaconassetmanagement.com/our-team",
+          "snippet": "careers page text hash changed (45b288a8 -> 4164066a)"
+        }
+      ]
     },
     {
       "companyNumber": "11852569",
@@ -9936,7 +10047,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5879
+        "count": 5880
       },
       "fields": [
         {
@@ -10039,7 +10150,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10905
+        "count": 10907
       },
       "fields": [
         {
@@ -10142,7 +10253,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-west",
         "regionLabel": "South West",
-        "count": 3615
+        "count": 3617
       },
       "fields": [
         {
@@ -10245,7 +10356,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "west-midlands",
         "regionLabel": "West Midlands",
-        "count": 3342
+        "count": 3341
       },
       "fields": [
         {
@@ -10451,7 +10562,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "wales",
         "regionLabel": "Wales",
-        "count": 1642
+        "count": 1641
       },
       "fields": [
         {
@@ -10554,7 +10665,7 @@
         "sectorLabel": "Quant / trading / fintech",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 2863
+        "count": 2864
       },
       "fields": [
         {
@@ -10767,7 +10878,7 @@
         "sectorLabel": "Quant / trading / fintech",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 2863
+        "count": 2864
       },
       "fields": [
         {
@@ -10861,573 +10972,23 @@
       ]
     },
     {
-      "companyNumber": "06484783",
-      "slug": "06484783-blueberry-financial",
-      "name": "Blueberry Financial",
+      "companyNumber": "13859849",
+      "slug": "13859849-boon-brokers",
+      "name": "Boon Brokers",
       "sectors": [
         "M&A / advisory"
       ],
-      "city": "Ascot",
-      "region": "South East",
-      "careersUrl": "https://blueberryfinancial.co.uk/team-members/madeleine/",
-      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/06484783",
-      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=478785",
-      "facet": {
-        "sectorKey": "ma-advisory",
-        "sectorLabel": "M&A / advisory",
-        "regionKey": "south-east",
-        "regionLabel": "South East",
-        "count": 10905
-      },
-      "fields": [
-        {
-          "field": "is_london",
-          "label": "Registered in London",
-          "value": "No",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/06484783",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "city",
-          "label": "Registered office city",
-          "value": "Ascot",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/06484783",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "postcode",
-          "label": "Registered office postcode",
-          "value": "SL5 7BH",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/06484783",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "boutique_signal",
-          "label": "Boutique classification",
-          "value": "total-exemption-full accounts",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/06484783",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "incorporated",
-          "label": "Incorporated",
-          "value": "2008-01-25",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/06484783",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "fca_frn",
-          "label": "FCA firm reference number",
-          "value": "478785",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=478785",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "fca_status",
-          "label": "FCA authorisation status",
-          "value": "Authorised",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=478785",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "website",
-          "label": "Website",
-          "value": "www.blueberryfinancial.co.uk",
-          "href": "https://www.blueberryfinancial.co.uk",
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=478785",
-          "observedAt": "2026-08-27",
-          "note": null
-        }
-      ],
-      "signals": [
-        {
-          "type": "careers_page_changed",
-          "observedAt": "2026-11-09",
-          "evidenceUrl": "https://blueberryfinancial.co.uk/team-members/madeleine/",
-          "snippet": "careers page text hash changed (6b0f77ff -> 88dd6d71)"
-        }
-      ]
-    },
-    {
-      "companyNumber": "06233796",
-      "slug": "06233796-bluechip-financial",
-      "name": "Bluechip Financial",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "city": "Broadstone",
-      "region": "South West",
-      "careersUrl": "https://bluechip-financial.co.uk/meet-the-team/",
-      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/06233796",
-      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=1017406",
-      "facet": {
-        "sectorKey": "ma-advisory",
-        "sectorLabel": "M&A / advisory",
-        "regionKey": "south-west",
-        "regionLabel": "South West",
-        "count": 3615
-      },
-      "fields": [
-        {
-          "field": "is_london",
-          "label": "Registered in London",
-          "value": "No",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/06233796",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "city",
-          "label": "Registered office city",
-          "value": "Broadstone",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/06233796",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "postcode",
-          "label": "Registered office postcode",
-          "value": "BH18 9EU",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/06233796",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "boutique_signal",
-          "label": "Boutique classification",
-          "value": "total-exemption-full accounts",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/06233796",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "incorporated",
-          "label": "Incorporated",
-          "value": "2007-05-01",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/06233796",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "fca_frn",
-          "label": "FCA firm reference number",
-          "value": "1017406",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=1017406",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "fca_status",
-          "label": "FCA authorisation status",
-          "value": "Authorised",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=1017406",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "website",
-          "label": "Website",
-          "value": "www.bluechip-financial.co.uk",
-          "href": "https://www.bluechip-financial.co.uk",
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=1017406",
-          "observedAt": "2026-08-27",
-          "note": null
-        }
-      ],
-      "signals": [
-        {
-          "type": "careers_page_changed",
-          "observedAt": "2026-11-09",
-          "evidenceUrl": "https://bluechip-financial.co.uk/meet-the-team/",
-          "snippet": "careers page text hash changed (33f443ab -> 20cea44b)"
-        }
-      ]
-    },
-    {
-      "companyNumber": "05899086",
-      "slug": "05899086-britannic-place-financial-management",
-      "name": "Britannic Place Financial Management",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "city": "Worcester",
-      "region": "West Midlands",
-      "careersUrl": "https://britannicplace.co.uk/meet-our-team/",
-      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/05899086",
-      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=458162",
-      "facet": {
-        "sectorKey": "ma-advisory",
-        "sectorLabel": "M&A / advisory",
-        "regionKey": "west-midlands",
-        "regionLabel": "West Midlands",
-        "count": 3342
-      },
-      "fields": [
-        {
-          "field": "is_london",
-          "label": "Registered in London",
-          "value": "No",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/05899086",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "city",
-          "label": "Registered office city",
-          "value": "Worcester",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/05899086",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "postcode",
-          "label": "Registered office postcode",
-          "value": "WR5 2HE",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/05899086",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "boutique_signal",
-          "label": "Boutique classification",
-          "value": "micro-entity accounts",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/05899086",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "incorporated",
-          "label": "Incorporated",
-          "value": "2006-08-08",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/05899086",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "fca_frn",
-          "label": "FCA firm reference number",
-          "value": "458162",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=458162",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "fca_status",
-          "label": "FCA authorisation status",
-          "value": "No longer registered as an Appointed Representative",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=458162",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "website",
-          "label": "Website",
-          "value": "www.britannicplace.co.uk",
-          "href": "https://www.britannicplace.co.uk",
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=458162",
-          "observedAt": "2026-08-27",
-          "note": null
-        }
-      ],
-      "signals": [
-        {
-          "type": "careers_page_changed",
-          "observedAt": "2026-11-09",
-          "evidenceUrl": "https://britannicplace.co.uk/meet-our-team/",
-          "snippet": "careers page text hash changed (7caff736 -> 19f7c929)"
-        }
-      ]
-    },
-    {
-      "companyNumber": "06591272",
-      "slug": "06591272-bronsens-financial-services",
-      "name": "Bronsens Financial Services",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "city": "Witney",
-      "region": "South East",
-      "careersUrl": "https://bronsens.co.uk/current-vacancies/",
-      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/06591272",
-      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=494655",
-      "facet": {
-        "sectorKey": "ma-advisory",
-        "sectorLabel": "M&A / advisory",
-        "regionKey": "south-east",
-        "regionLabel": "South East",
-        "count": 10905
-      },
-      "fields": [
-        {
-          "field": "is_london",
-          "label": "Registered in London",
-          "value": "No",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/06591272",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "city",
-          "label": "Registered office city",
-          "value": "Witney",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/06591272",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "postcode",
-          "label": "Registered office postcode",
-          "value": "OX28 4BL",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/06591272",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "boutique_signal",
-          "label": "Boutique classification",
-          "value": "total-exemption-full accounts",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/06591272",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "incorporated",
-          "label": "Incorporated",
-          "value": "2008-05-13",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/06591272",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "fca_frn",
-          "label": "FCA firm reference number",
-          "value": "494655",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=494655",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "fca_status",
-          "label": "FCA authorisation status",
-          "value": "No longer registered as an Appointed Representative",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=494655",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "website",
-          "label": "Website",
-          "value": "www.bronsens.co.uk",
-          "href": "https://www.bronsens.co.uk",
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=494655",
-          "observedAt": "2026-08-27",
-          "note": null
-        }
-      ],
-      "signals": [
-        {
-          "type": "careers_page_changed",
-          "observedAt": "2026-11-09",
-          "evidenceUrl": "https://bronsens.co.uk/current-vacancies/",
-          "snippet": "careers page text hash changed (9c9c00a2 -> f34ea3cb)"
-        }
-      ]
-    },
-    {
-      "companyNumber": "04162004",
-      "slug": "04162004-burwood-sage-brookridge",
-      "name": "Burwood Sage + Brookridge",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "city": "Sunningdale",
-      "region": "South East",
-      "careersUrl": "https://bsandb.co.uk/meet-the-team/",
-      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/04162004",
-      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=231631",
-      "facet": {
-        "sectorKey": "ma-advisory",
-        "sectorLabel": "M&A / advisory",
-        "regionKey": "south-east",
-        "regionLabel": "South East",
-        "count": 10905
-      },
-      "fields": [
-        {
-          "field": "is_london",
-          "label": "Registered in London",
-          "value": "No",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04162004",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "city",
-          "label": "Registered office city",
-          "value": "Sunningdale",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04162004",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "postcode",
-          "label": "Registered office postcode",
-          "value": "SL5 0ER",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04162004",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "boutique_signal",
-          "label": "Boutique classification",
-          "value": "micro-entity accounts",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04162004",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "incorporated",
-          "label": "Incorporated",
-          "value": "2001-02-16",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04162004",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "fca_frn",
-          "label": "FCA firm reference number",
-          "value": "231631",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=231631",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "fca_status",
-          "label": "FCA authorisation status",
-          "value": "Authorised",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=231631",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "website",
-          "label": "Website",
-          "value": "www.bsandb.co.uk",
-          "href": "https://www.bsandb.co.uk",
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=231631",
-          "observedAt": "2026-08-27",
-          "note": null
-        }
-      ],
-      "signals": [
-        {
-          "type": "careers_page_changed",
-          "observedAt": "2026-11-09",
-          "evidenceUrl": "https://bsandb.co.uk/meet-the-team/",
-          "snippet": "careers page text hash changed (d7f8cac1 -> e13b59f8)"
-        }
-      ]
-    },
-    {
-      "companyNumber": "11399113",
-      "slug": "11399113-business-growth-coaches",
-      "name": "Business Growth Coaches",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "city": "Bury St Edmunds",
+      "city": "Halesworth",
       "region": "East of England",
-      "careersUrl": "https://www.bgcn.co.uk/join-the-network/",
-      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/11399113",
-      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=923497",
+      "careersUrl": "https://boonbrokers.co.uk/meet-the-boon-brokers-team/",
+      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/13859849",
+      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=973757",
       "facet": {
         "sectorKey": "ma-advisory",
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5879
+        "count": 5880
       },
       "fields": [
         {
@@ -11436,138 +10997,28 @@
           "value": "No",
           "href": null,
           "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/11399113",
-          "observedAt": "2026-09-07",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13859849",
+          "observedAt": "2026-10-01",
           "note": null
         },
         {
           "field": "city",
           "label": "Registered office city",
-          "value": "Bury St Edmunds",
+          "value": "Halesworth",
           "href": null,
           "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/11399113",
-          "observedAt": "2026-09-07",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13859849",
+          "observedAt": "2026-10-01",
           "note": null
         },
         {
           "field": "postcode",
           "label": "Registered office postcode",
-          "value": "IP32 7AR",
+          "value": "IP19 8AP",
           "href": null,
           "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/11399113",
-          "observedAt": "2026-09-07",
-          "note": null
-        },
-        {
-          "field": "boutique_signal",
-          "label": "Boutique classification",
-          "value": "micro-entity accounts",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/11399113",
-          "observedAt": "2026-09-07",
-          "note": null
-        },
-        {
-          "field": "incorporated",
-          "label": "Incorporated",
-          "value": "2018-06-05",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/11399113",
-          "observedAt": "2026-09-07",
-          "note": null
-        },
-        {
-          "field": "fca_frn",
-          "label": "FCA firm reference number",
-          "value": "923497",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=923497",
-          "observedAt": "2026-09-07",
-          "note": null
-        },
-        {
-          "field": "fca_status",
-          "label": "FCA authorisation status",
-          "value": "No longer registered as an Appointed Representative",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=923497",
-          "observedAt": "2026-09-07",
-          "note": null
-        },
-        {
-          "field": "website",
-          "label": "Website",
-          "value": "www.bgcn.co.uk",
-          "href": "https://www.bgcn.co.uk",
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=923497",
-          "observedAt": "2026-09-07",
-          "note": null
-        }
-      ],
-      "signals": [
-        {
-          "type": "careers_page_changed",
-          "observedAt": "2026-11-09",
-          "evidenceUrl": "https://www.bgcn.co.uk/join-the-network/",
-          "snippet": "careers page text hash changed (72d91bfc -> 74fb6a5b)"
-        }
-      ]
-    },
-    {
-      "companyNumber": "04692908",
-      "slug": "04692908-caton-fry-financial-services",
-      "name": "Caton FRY Financial Services",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "city": "London",
-      "region": "London",
-      "careersUrl": "https://www.cffs.co.uk/our_team",
-      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/04692908",
-      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=223935",
-      "facet": {
-        "sectorKey": "ma-advisory",
-        "sectorLabel": "M&A / advisory",
-        "regionKey": "london",
-        "regionLabel": "London",
-        "count": 15702
-      },
-      "fields": [
-        {
-          "field": "is_london",
-          "label": "Registered in London",
-          "value": "Yes",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04692908",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "city",
-          "label": "Registered office city",
-          "value": "London",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04692908",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "postcode",
-          "label": "Registered office postcode",
-          "value": "E18 1BD",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04692908",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13859849",
+          "observedAt": "2026-10-01",
           "note": null
         },
         {
@@ -11576,28 +11027,28 @@
           "value": "total-exemption-full accounts",
           "href": null,
           "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04692908",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13859849",
+          "observedAt": "2026-10-01",
           "note": null
         },
         {
           "field": "incorporated",
           "label": "Incorporated",
-          "value": "2003-03-11",
+          "value": "2022-01-19",
           "href": null,
           "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04692908",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13859849",
+          "observedAt": "2026-10-01",
           "note": null
         },
         {
           "field": "fca_frn",
           "label": "FCA firm reference number",
-          "value": "223935",
+          "value": "973757",
           "href": null,
           "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=223935",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=973757",
+          "observedAt": "2026-10-01",
           "note": null
         },
         {
@@ -11606,48 +11057,48 @@
           "value": "Authorised",
           "href": null,
           "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=223935",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=973757",
+          "observedAt": "2026-10-01",
           "note": null
         },
         {
           "field": "website",
           "label": "Website",
-          "value": "www.cffs.co.uk",
-          "href": "https://www.cffs.co.uk",
+          "value": "www.boonbrokers.co.uk",
+          "href": "https://www.boonbrokers.co.uk",
           "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=223935",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=973757",
+          "observedAt": "2026-10-01",
           "note": null
         }
       ],
       "signals": [
         {
           "type": "careers_page_changed",
-          "observedAt": "2026-11-09",
-          "evidenceUrl": "https://www.cffs.co.uk/our_team",
-          "snippet": "careers page text hash changed (1b558f0c -> 46f64c73)"
+          "observedAt": "2026-11-16",
+          "evidenceUrl": "https://boonbrokers.co.uk/meet-the-boon-brokers-team/",
+          "snippet": "careers page text hash changed (db6c895b -> fb6cf2ef)"
         }
       ]
     },
     {
-      "companyNumber": "04809800",
-      "slug": "04809800-central-veterinary-services",
-      "name": "Central Veterinary Services",
+      "companyNumber": "14491729",
+      "slug": "14491729-capital-business-loans",
+      "name": "Capital Business Loans",
       "sectors": [
         "M&A / advisory"
       ],
-      "city": "Bury St Edmunds",
-      "region": "East of England",
-      "careersUrl": "https://www.centralvet.com/contact-us/recruitment/",
-      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/04809800",
-      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=728514",
+      "city": "Chester",
+      "region": "North West",
+      "careersUrl": "https://www.capitalbusinessloans.co.uk/team",
+      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/14491729",
+      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=988944",
       "facet": {
         "sectorKey": "ma-advisory",
         "sectorLabel": "M&A / advisory",
-        "regionKey": "east-of-england",
-        "regionLabel": "East of England",
-        "count": 5879
+        "regionKey": "north-west",
+        "regionLabel": "North West",
+        "count": 5170
       },
       "fields": [
         {
@@ -11656,138 +11107,28 @@
           "value": "No",
           "href": null,
           "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04809800",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/14491729",
+          "observedAt": "2026-10-08",
           "note": null
         },
         {
           "field": "city",
           "label": "Registered office city",
-          "value": "Bury St Edmunds",
+          "value": "Chester",
           "href": null,
           "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04809800",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/14491729",
+          "observedAt": "2026-10-08",
           "note": null
         },
         {
           "field": "postcode",
           "label": "Registered office postcode",
-          "value": "IP30 9HR",
+          "value": "CH1 4EE",
           "href": null,
           "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04809800",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "boutique_signal",
-          "label": "Boutique classification",
-          "value": "total-exemption-full accounts",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04809800",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "incorporated",
-          "label": "Incorporated",
-          "value": "2003-06-24",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04809800",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "fca_frn",
-          "label": "FCA firm reference number",
-          "value": "728514",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=728514",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "fca_status",
-          "label": "FCA authorisation status",
-          "value": "Authorised",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=728514",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "website",
-          "label": "Website",
-          "value": "www.centralvet.com",
-          "href": "https://www.centralvet.com",
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=728514",
-          "observedAt": "2026-08-27",
-          "note": null
-        }
-      ],
-      "signals": [
-        {
-          "type": "careers_page_changed",
-          "observedAt": "2026-11-09",
-          "evidenceUrl": "https://www.centralvet.com/contact-us/recruitment/",
-          "snippet": "careers page text hash changed (16ee6686 -> 09c40ceb)"
-        }
-      ]
-    },
-    {
-      "companyNumber": "08066246",
-      "slug": "08066246-chris-bibb-independent-financial-advice",
-      "name": "Chris Bibb Independent Financial Advice",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "city": "Poole",
-      "region": "South West",
-      "careersUrl": "https://www.chrisbibbifa.co.uk/about-us/meet-the-team/",
-      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/08066246",
-      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=585189",
-      "facet": {
-        "sectorKey": "ma-advisory",
-        "sectorLabel": "M&A / advisory",
-        "regionKey": "south-west",
-        "regionLabel": "South West",
-        "count": 3615
-      },
-      "fields": [
-        {
-          "field": "is_london",
-          "label": "Registered in London",
-          "value": "No",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/08066246",
-          "observedAt": "2026-08-28",
-          "note": null
-        },
-        {
-          "field": "city",
-          "label": "Registered office city",
-          "value": "Poole",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/08066246",
-          "observedAt": "2026-08-28",
-          "note": null
-        },
-        {
-          "field": "postcode",
-          "label": "Registered office postcode",
-          "value": "BH14 0LT",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/08066246",
-          "observedAt": "2026-08-28",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/14491729",
+          "observedAt": "2026-10-08",
           "note": null
         },
         {
@@ -11796,28 +11137,28 @@
           "value": "micro-entity accounts",
           "href": null,
           "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/08066246",
-          "observedAt": "2026-08-28",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/14491729",
+          "observedAt": "2026-10-08",
           "note": null
         },
         {
           "field": "incorporated",
           "label": "Incorporated",
-          "value": "2012-05-11",
+          "value": "2022-11-18",
           "href": null,
           "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/08066246",
-          "observedAt": "2026-08-28",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/14491729",
+          "observedAt": "2026-10-08",
           "note": null
         },
         {
           "field": "fca_frn",
           "label": "FCA firm reference number",
-          "value": "585189",
+          "value": "988944",
           "href": null,
           "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=585189",
-          "observedAt": "2026-08-28",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=988944",
+          "observedAt": "2026-10-08",
           "note": null
         },
         {
@@ -11826,42 +11167,152 @@
           "value": "No longer registered as an Appointed Representative",
           "href": null,
           "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=585189",
-          "observedAt": "2026-08-28",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=988944",
+          "observedAt": "2026-10-08",
           "note": null
         },
         {
           "field": "website",
           "label": "Website",
-          "value": "www.chrisbibbifa.co.uk",
-          "href": "https://www.chrisbibbifa.co.uk",
+          "value": "www.capitalbusinessloans.co.uk",
+          "href": "https://www.capitalbusinessloans.co.uk",
           "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=585189",
-          "observedAt": "2026-08-28",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=988944",
+          "observedAt": "2026-10-08",
           "note": null
         }
       ],
       "signals": [
         {
           "type": "careers_page_changed",
-          "observedAt": "2026-11-09",
-          "evidenceUrl": "https://www.chrisbibbifa.co.uk/about-us/meet-the-team/",
-          "snippet": "careers page text hash changed (c1719cf9 -> ed1623cc)"
+          "observedAt": "2026-11-16",
+          "evidenceUrl": "https://www.capitalbusinessloans.co.uk/team",
+          "snippet": "careers page text hash changed (a1e6c5ca -> 29e5e2fc)"
         }
       ]
     },
     {
-      "companyNumber": "07654712",
-      "slug": "07654712-clarion-partners-europe",
-      "name": "Clarion Partners Europe",
+      "companyNumber": "13433492",
+      "slug": "13433492-castle-capital-holdings",
+      "name": "Castle Capital Holdings",
+      "sectors": [
+        "Quant / trading / fintech"
+      ],
+      "city": "Cardiff",
+      "region": "Wales",
+      "careersUrl": "https://www.castlecapital.com",
+      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/13433492",
+      "fcaUrl": null,
+      "facet": {
+        "sectorKey": "quant-trading",
+        "sectorLabel": "Quant / trading / fintech",
+        "regionKey": "wales",
+        "regionLabel": "Wales",
+        "count": 225
+      },
+      "fields": [
+        {
+          "field": "is_london",
+          "label": "Registered in London",
+          "value": "No",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13433492",
+          "observedAt": "2026-09-24",
+          "note": null
+        },
+        {
+          "field": "city",
+          "label": "Registered office city",
+          "value": "Cardiff",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13433492",
+          "observedAt": "2026-09-24",
+          "note": null
+        },
+        {
+          "field": "postcode",
+          "label": "Registered office postcode",
+          "value": "CF14 8LH",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13433492",
+          "observedAt": "2026-09-24",
+          "note": null
+        },
+        {
+          "field": "boutique_signal",
+          "label": "Boutique classification",
+          "value": "micro-entity accounts",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13433492",
+          "observedAt": "2026-09-24",
+          "note": null
+        },
+        {
+          "field": "incorporated",
+          "label": "Incorporated",
+          "value": "2021-06-02",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13433492",
+          "observedAt": "2026-09-24",
+          "note": null
+        },
+        {
+          "field": "fca_frn",
+          "label": "FCA firm reference number",
+          "value": null,
+          "href": null,
+          "source": null,
+          "sourceUrl": null,
+          "observedAt": null,
+          "note": "recorded 24 Sep 2026, not re-verified since"
+        },
+        {
+          "field": "fca_status",
+          "label": "FCA authorisation status",
+          "value": null,
+          "href": null,
+          "source": null,
+          "sourceUrl": null,
+          "observedAt": null,
+          "note": "recorded 24 Sep 2026, not re-verified since"
+        },
+        {
+          "field": "website",
+          "label": "Website",
+          "value": "https://www.castlecapital.com/",
+          "href": "https://www.castlecapital.com/",
+          "source": "Firm's own website",
+          "sourceUrl": "https://www.castlecapital.com/",
+          "observedAt": "2026-10-15",
+          "note": null
+        }
+      ],
+      "signals": [
+        {
+          "type": "careers_page_changed",
+          "observedAt": "2026-11-16",
+          "evidenceUrl": "https://www.castlecapital.com",
+          "snippet": "careers page text hash changed (62f83425 -> 4667a530)"
+        }
+      ]
+    },
+    {
+      "companyNumber": "13978621",
+      "slug": "13978621-colebrooke-partners-im",
+      "name": "Colebrooke Partners Im",
       "sectors": [
         "Asset & wealth mgmt"
       ],
       "city": "London",
       "region": "London",
-      "careersUrl": "https://www.clarioneurope.com/careers",
-      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/07654712",
-      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=923675",
+      "careersUrl": "https://www.colebrookepartners.com/team",
+      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/13978621",
+      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=987706",
       "facet": {
         "sectorKey": "asset-wealth",
         "sectorLabel": "Asset & wealth mgmt",
@@ -11876,8 +11327,8 @@
           "value": "Yes",
           "href": null,
           "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/07654712",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13978621",
+          "observedAt": "2026-10-01",
           "note": null
         },
         {
@@ -11886,193 +11337,77 @@
           "value": "London",
           "href": null,
           "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/07654712",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13978621",
+          "observedAt": "2026-10-01",
           "note": null
         },
         {
           "field": "postcode",
           "label": "Registered office postcode",
-          "value": "WC2R 0LR",
+          "value": "N10 3BY",
           "href": null,
           "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/07654712",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13978621",
+          "observedAt": "2026-10-01",
           "note": null
         },
         {
           "field": "boutique_signal",
           "label": "Boutique classification",
-          "value": "small accounts",
+          "value": "micro-entity accounts",
           "href": null,
           "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/07654712",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13978621",
+          "observedAt": "2026-10-01",
           "note": null
         },
         {
           "field": "incorporated",
           "label": "Incorporated",
-          "value": "2011-06-01",
+          "value": "2022-03-15",
           "href": null,
           "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/07654712",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13978621",
+          "observedAt": "2026-10-01",
           "note": null
         },
         {
           "field": "fca_frn",
           "label": "FCA firm reference number",
-          "value": "923675",
+          "value": "987706",
           "href": null,
           "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=923675",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=987706",
+          "observedAt": "2026-10-01",
           "note": null
         },
         {
           "field": "fca_status",
           "label": "FCA authorisation status",
-          "value": "Authorised",
+          "value": "Appointed representative",
           "href": null,
           "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=923675",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=987706",
+          "observedAt": "2026-10-01",
           "note": null
         },
         {
           "field": "website",
           "label": "Website",
-          "value": "www.clarioneurope.com",
-          "href": "https://www.clarioneurope.com",
+          "value": "https://www.colebrookepartners.com/",
+          "href": "https://www.colebrookepartners.com/",
           "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=923675",
-          "observedAt": "2026-08-27",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=987706",
+          "observedAt": "2026-10-01",
           "note": null
         }
       ],
       "signals": [
         {
           "type": "careers_page_changed",
-          "observedAt": "2026-11-09",
-          "evidenceUrl": "https://www.clarioneurope.com/careers",
-          "snippet": "careers page text hash changed (7a33b689 -> c49e220b)"
-        },
-        {
-          "type": "careers_page_changed",
-          "observedAt": "2026-10-05",
-          "evidenceUrl": "https://www.clarioneurope.com/careers",
-          "snippet": "careers page text hash changed (4ba5808c -> 7a33b689)"
-        }
-      ]
-    },
-    {
-      "companyNumber": "04339620",
-      "slug": "04339620-clear-financial-advice",
-      "name": "Clear Financial Advice",
-      "sectors": [
-        "M&A / advisory"
-      ],
-      "city": "Beckenham",
-      "region": "South East",
-      "careersUrl": "https://clearfinancialadvice.co.uk/about-us/meet-the-team/",
-      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/04339620",
-      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=462810",
-      "facet": {
-        "sectorKey": "ma-advisory",
-        "sectorLabel": "M&A / advisory",
-        "regionKey": "south-east",
-        "regionLabel": "South East",
-        "count": 10905
-      },
-      "fields": [
-        {
-          "field": "is_london",
-          "label": "Registered in London",
-          "value": "No",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04339620",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "city",
-          "label": "Registered office city",
-          "value": "Beckenham",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04339620",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "postcode",
-          "label": "Registered office postcode",
-          "value": "BR3 1HG",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04339620",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "boutique_signal",
-          "label": "Boutique classification",
-          "value": "total-exemption-full accounts",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04339620",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "incorporated",
-          "label": "Incorporated",
-          "value": "2001-12-13",
-          "href": null,
-          "source": "Companies House",
-          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04339620",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "fca_frn",
-          "label": "FCA firm reference number",
-          "value": "462810",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=462810",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "fca_status",
-          "label": "FCA authorisation status",
-          "value": "Authorised",
-          "href": null,
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=462810",
-          "observedAt": "2026-08-27",
-          "note": null
-        },
-        {
-          "field": "website",
-          "label": "Website",
-          "value": "www.clearfinancialadvice.co.uk",
-          "href": "https://www.clearfinancialadvice.co.uk",
-          "source": "FCA Register",
-          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=462810",
-          "observedAt": "2026-08-27",
-          "note": null
-        }
-      ],
-      "signals": [
-        {
-          "type": "careers_page_changed",
-          "observedAt": "2026-11-09",
-          "evidenceUrl": "https://clearfinancialadvice.co.uk/about-us/meet-the-team/",
-          "snippet": "careers page text hash changed (216fc4be -> 5e269613)"
+          "observedAt": "2026-11-16",
+          "evidenceUrl": "https://www.colebrookepartners.com/team",
+          "snippet": "careers page text hash changed (492bba1c -> 14bce468)"
         }
       ]
     },
@@ -12423,7 +11758,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10905
+        "count": 10907
       },
       "fields": [
         {
@@ -12533,7 +11868,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "scotland",
         "regionLabel": "Scotland",
-        "count": 2287
+        "count": 2289
       },
       "fields": [
         {
@@ -12543,7 +11878,7 @@
           "href": null,
           "source": "Companies House",
           "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/SC210321",
-          "observedAt": "2026-08-27",
+          "observedAt": "2026-11-16",
           "note": null
         },
         {
@@ -12553,7 +11888,7 @@
           "href": null,
           "source": "Companies House",
           "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/SC210321",
-          "observedAt": "2026-08-27",
+          "observedAt": "2026-11-16",
           "note": null
         },
         {
@@ -12563,7 +11898,7 @@
           "href": null,
           "source": "Companies House",
           "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/SC210321",
-          "observedAt": "2026-08-27",
+          "observedAt": "2026-11-16",
           "note": null
         },
         {
@@ -12573,7 +11908,7 @@
           "href": null,
           "source": "Companies House",
           "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/SC210321",
-          "observedAt": "2026-08-27",
+          "observedAt": "2026-11-16",
           "note": null
         },
         {
@@ -12583,7 +11918,7 @@
           "href": null,
           "source": "Companies House",
           "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/SC210321",
-          "observedAt": "2026-08-27",
+          "observedAt": "2026-11-16",
           "note": null
         },
         {
@@ -12593,7 +11928,7 @@
           "href": null,
           "source": "FCA Register",
           "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=630032",
-          "observedAt": "2026-08-27",
+          "observedAt": "2026-11-16",
           "note": null
         },
         {
@@ -12603,7 +11938,7 @@
           "href": null,
           "source": "FCA Register",
           "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=630032",
-          "observedAt": "2026-08-27",
+          "observedAt": "2026-11-16",
           "note": null
         },
         {
@@ -12613,7 +11948,7 @@
           "href": "https://www.dcconsult.co.uk",
           "source": "FCA Register",
           "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=630032",
-          "observedAt": "2026-08-27",
+          "observedAt": "2026-11-16",
           "note": null
         }
       ],
@@ -12643,7 +11978,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5879
+        "count": 5880
       },
       "fields": [
         {
@@ -12753,7 +12088,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "scotland",
         "regionLabel": "Scotland",
-        "count": 2287
+        "count": 2289
       },
       "fields": [
         {
@@ -12863,7 +12198,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "wales",
         "regionLabel": "Wales",
-        "count": 1642
+        "count": 1641
       },
       "fields": [
         {
@@ -13093,7 +12428,7 @@
           "href": null,
           "source": "Companies House",
           "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04071494",
-          "observedAt": "2026-08-27",
+          "observedAt": "2026-11-16",
           "note": null
         },
         {
@@ -13103,7 +12438,7 @@
           "href": null,
           "source": "Companies House",
           "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04071494",
-          "observedAt": "2026-08-27",
+          "observedAt": "2026-11-16",
           "note": null
         },
         {
@@ -13113,7 +12448,7 @@
           "href": null,
           "source": "Companies House",
           "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04071494",
-          "observedAt": "2026-08-27",
+          "observedAt": "2026-11-16",
           "note": null
         },
         {
@@ -13123,7 +12458,7 @@
           "href": null,
           "source": "Companies House",
           "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04071494",
-          "observedAt": "2026-08-27",
+          "observedAt": "2026-11-16",
           "note": null
         },
         {
@@ -13133,7 +12468,7 @@
           "href": null,
           "source": "Companies House",
           "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/04071494",
-          "observedAt": "2026-08-27",
+          "observedAt": "2026-11-16",
           "note": null
         },
         {
@@ -13143,7 +12478,7 @@
           "href": null,
           "source": "FCA Register",
           "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=194782",
-          "observedAt": "2026-08-27",
+          "observedAt": "2026-11-16",
           "note": null
         },
         {
@@ -13153,7 +12488,7 @@
           "href": null,
           "source": "FCA Register",
           "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=194782",
-          "observedAt": "2026-08-27",
+          "observedAt": "2026-11-16",
           "note": null
         },
         {
@@ -13163,7 +12498,7 @@
           "href": "https://www.dukestreet.com",
           "source": "FCA Register",
           "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=194782",
-          "observedAt": "2026-08-27",
+          "observedAt": "2026-11-16",
           "note": null
         }
       ],
@@ -13303,7 +12638,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5169
+        "count": 5170
       },
       "fields": [
         {
@@ -13507,6 +12842,116 @@
       ]
     },
     {
+      "companyNumber": "15177641",
+      "slug": "15177641-factor-financial-planning",
+      "name": "Factor Financial Planning",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "city": "Liverpool",
+      "region": "North West",
+      "careersUrl": "https://www.factorfp.co.uk/team-members",
+      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/15177641",
+      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=1005406",
+      "facet": {
+        "sectorKey": "ma-advisory",
+        "sectorLabel": "M&A / advisory",
+        "regionKey": "north-west",
+        "regionLabel": "North West",
+        "count": 5170
+      },
+      "fields": [
+        {
+          "field": "is_london",
+          "label": "Registered in London",
+          "value": "No",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/15177641",
+          "observedAt": "2026-10-08",
+          "note": null
+        },
+        {
+          "field": "city",
+          "label": "Registered office city",
+          "value": "Liverpool",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/15177641",
+          "observedAt": "2026-10-08",
+          "note": null
+        },
+        {
+          "field": "postcode",
+          "label": "Registered office postcode",
+          "value": "L3 1BP",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/15177641",
+          "observedAt": "2026-10-08",
+          "note": null
+        },
+        {
+          "field": "boutique_signal",
+          "label": "Boutique classification",
+          "value": "total-exemption-full accounts",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/15177641",
+          "observedAt": "2026-10-08",
+          "note": null
+        },
+        {
+          "field": "incorporated",
+          "label": "Incorporated",
+          "value": "2023-09-30",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/15177641",
+          "observedAt": "2026-10-08",
+          "note": null
+        },
+        {
+          "field": "fca_frn",
+          "label": "FCA firm reference number",
+          "value": "1005406",
+          "href": null,
+          "source": "FCA Register",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=1005406",
+          "observedAt": "2026-10-08",
+          "note": null
+        },
+        {
+          "field": "fca_status",
+          "label": "FCA authorisation status",
+          "value": "Appointed representative",
+          "href": null,
+          "source": "FCA Register",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=1005406",
+          "observedAt": "2026-10-08",
+          "note": null
+        },
+        {
+          "field": "website",
+          "label": "Website",
+          "value": "www.factorfp.co.uk",
+          "href": "https://www.factorfp.co.uk",
+          "source": "FCA Register",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=1005406",
+          "observedAt": "2026-10-08",
+          "note": null
+        }
+      ],
+      "signals": [
+        {
+          "type": "careers_page_changed",
+          "observedAt": "2026-11-16",
+          "evidenceUrl": "https://www.factorfp.co.uk/team-members",
+          "snippet": "careers page text hash changed (206e67d6 -> e2013d17)"
+        }
+      ]
+    },
+    {
       "companyNumber": "10007568",
       "slug": "10007568-fidenti-mortgages-protection",
       "name": "Fidenti Mortgages & Protection",
@@ -13523,7 +12968,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5169
+        "count": 5170
       },
       "fields": [
         {
@@ -13633,7 +13078,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15702
+        "count": 15706
       },
       "fields": [
         {
@@ -13743,7 +13188,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5169
+        "count": 5170
       },
       "fields": [
         {
@@ -14073,7 +13518,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5169
+        "count": 5170
       },
       "fields": [
         {
@@ -14183,7 +13628,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-west",
         "regionLabel": "South West",
-        "count": 3615
+        "count": 3617
       },
       "fields": [
         {
@@ -14293,7 +13738,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5169
+        "count": 5170
       },
       "fields": [
         {
@@ -14623,7 +14068,7 @@
         "sectorLabel": "Quant / trading / fintech",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 2863
+        "count": 2864
       },
       "fields": [
         {
@@ -14733,7 +14178,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-west",
         "regionLabel": "North West",
-        "count": 5169
+        "count": 5170
       },
       "fields": [
         {
@@ -14827,6 +14272,116 @@
       ]
     },
     {
+      "companyNumber": "13972141",
+      "slug": "13972141-h-y-commodities",
+      "name": "H&Y Commodities",
+      "sectors": [
+        "Quant / trading / fintech"
+      ],
+      "city": "London",
+      "region": "London",
+      "careersUrl": "https://www.hycommodities.com/contact",
+      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/13972141",
+      "fcaUrl": null,
+      "facet": {
+        "sectorKey": "quant-trading",
+        "sectorLabel": "Quant / trading / fintech",
+        "regionKey": "london",
+        "regionLabel": "London",
+        "count": 2864
+      },
+      "fields": [
+        {
+          "field": "is_london",
+          "label": "Registered in London",
+          "value": "Yes",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13972141",
+          "observedAt": "2026-10-01",
+          "note": null
+        },
+        {
+          "field": "city",
+          "label": "Registered office city",
+          "value": "London",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13972141",
+          "observedAt": "2026-10-01",
+          "note": null
+        },
+        {
+          "field": "postcode",
+          "label": "Registered office postcode",
+          "value": "W1T 6EB",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13972141",
+          "observedAt": "2026-10-01",
+          "note": null
+        },
+        {
+          "field": "boutique_signal",
+          "label": "Boutique classification",
+          "value": "micro-entity accounts",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13972141",
+          "observedAt": "2026-10-01",
+          "note": null
+        },
+        {
+          "field": "incorporated",
+          "label": "Incorporated",
+          "value": "2022-03-11",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13972141",
+          "observedAt": "2026-10-01",
+          "note": null
+        },
+        {
+          "field": "fca_frn",
+          "label": "FCA firm reference number",
+          "value": null,
+          "href": null,
+          "source": null,
+          "sourceUrl": null,
+          "observedAt": null,
+          "note": "recorded 1 Oct 2026, not re-verified since"
+        },
+        {
+          "field": "fca_status",
+          "label": "FCA authorisation status",
+          "value": null,
+          "href": null,
+          "source": null,
+          "sourceUrl": null,
+          "observedAt": null,
+          "note": "recorded 1 Oct 2026, not re-verified since"
+        },
+        {
+          "field": "website",
+          "label": "Website",
+          "value": "https://www.hycommodities.com/",
+          "href": "https://www.hycommodities.com/",
+          "source": "Firm's own website",
+          "sourceUrl": "https://www.hycommodities.com/",
+          "observedAt": "2026-10-15",
+          "note": null
+        }
+      ],
+      "signals": [
+        {
+          "type": "careers_page_changed",
+          "observedAt": "2026-11-16",
+          "evidenceUrl": "https://www.hycommodities.com/contact",
+          "snippet": "careers page text hash changed (2d832039 -> b4b0b3b3)"
+        }
+      ]
+    },
+    {
       "companyNumber": "04840566",
       "slug": "04840566-h-s-p-financial-planning",
       "name": "H.S.P. Financial Planning",
@@ -14843,7 +14398,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-midlands",
         "regionLabel": "East Midlands",
-        "count": 2327
+        "count": 2328
       },
       "fields": [
         {
@@ -14953,7 +14508,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "east-of-england",
         "regionLabel": "East of England",
-        "count": 5879
+        "count": 5880
       },
       "fields": [
         {
@@ -15063,7 +14618,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-west",
         "regionLabel": "South West",
-        "count": 3615
+        "count": 3617
       },
       "fields": [
         {
@@ -15179,7 +14734,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-east",
         "regionLabel": "North East",
-        "count": 1089
+        "count": 1088
       },
       "fields": [
         {
@@ -15400,7 +14955,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10905
+        "count": 10907
       },
       "fields": [
         {
@@ -15510,7 +15065,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "north-east",
         "regionLabel": "North East",
-        "count": 1089
+        "count": 1088
       },
       "fields": [
         {
@@ -15620,7 +15175,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15702
+        "count": 15706
       },
       "fields": [
         {
@@ -15730,7 +15285,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "london",
         "regionLabel": "London",
-        "count": 15702
+        "count": 15706
       },
       "fields": [
         {
@@ -15820,6 +15375,116 @@
           "observedAt": "2026-11-12",
           "evidenceUrl": "https://mgi-ifa.co.uk/meet-the-team/",
           "snippet": "careers page text hash changed (3c4d7896 -> ad74b97b)"
+        }
+      ]
+    },
+    {
+      "companyNumber": "13969511",
+      "slug": "13969511-mare-liberum",
+      "name": "Mare Liberum",
+      "sectors": [
+        "Quant / trading / fintech"
+      ],
+      "city": "London",
+      "region": "London",
+      "careersUrl": "https://www.mareliberum.com/team",
+      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/13969511",
+      "fcaUrl": null,
+      "facet": {
+        "sectorKey": "quant-trading",
+        "sectorLabel": "Quant / trading / fintech",
+        "regionKey": "london",
+        "regionLabel": "London",
+        "count": 2864
+      },
+      "fields": [
+        {
+          "field": "is_london",
+          "label": "Registered in London",
+          "value": "Yes",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13969511",
+          "observedAt": "2026-07-30",
+          "note": null
+        },
+        {
+          "field": "city",
+          "label": "Registered office city",
+          "value": "London",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13969511",
+          "observedAt": "2026-07-30",
+          "note": null
+        },
+        {
+          "field": "postcode",
+          "label": "Registered office postcode",
+          "value": "SW1W 8RG",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13969511",
+          "observedAt": "2026-07-30",
+          "note": null
+        },
+        {
+          "field": "boutique_signal",
+          "label": "Boutique classification",
+          "value": "micro-entity accounts",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13969511",
+          "observedAt": "2026-07-30",
+          "note": null
+        },
+        {
+          "field": "incorporated",
+          "label": "Incorporated",
+          "value": "2022-03-10",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/13969511",
+          "observedAt": "2026-07-30",
+          "note": null
+        },
+        {
+          "field": "fca_frn",
+          "label": "FCA firm reference number",
+          "value": null,
+          "href": null,
+          "source": null,
+          "sourceUrl": null,
+          "observedAt": null,
+          "note": "recorded 26 Aug 2026, not re-verified since"
+        },
+        {
+          "field": "fca_status",
+          "label": "FCA authorisation status",
+          "value": null,
+          "href": null,
+          "source": null,
+          "sourceUrl": null,
+          "observedAt": null,
+          "note": "recorded 26 Aug 2026, not re-verified since"
+        },
+        {
+          "field": "website",
+          "label": "Website",
+          "value": "https://www.mareliberum.com/",
+          "href": "https://www.mareliberum.com/",
+          "source": "Firm's own website",
+          "sourceUrl": "https://www.mareliberum.com/",
+          "observedAt": "2026-10-15",
+          "note": null
+        }
+      ],
+      "signals": [
+        {
+          "type": "careers_page_changed",
+          "observedAt": "2026-11-16",
+          "evidenceUrl": "https://www.mareliberum.com/team",
+          "snippet": "careers page text hash changed (9fa0cc9f -> 15836885)"
         }
       ]
     },
@@ -15934,6 +15599,116 @@
       ]
     },
     {
+      "companyNumber": "14154940",
+      "slug": "14154940-nationwide-vision",
+      "name": "Nationwide Vision",
+      "sectors": [
+        "Quant / trading / fintech"
+      ],
+      "city": "Wirral",
+      "region": "North West",
+      "careersUrl": "https://www.nationwidevision.com/careers",
+      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/14154940",
+      "fcaUrl": null,
+      "facet": {
+        "sectorKey": "quant-trading",
+        "sectorLabel": "Quant / trading / fintech",
+        "regionKey": "north-west",
+        "regionLabel": "North West",
+        "count": 617
+      },
+      "fields": [
+        {
+          "field": "is_london",
+          "label": "Registered in London",
+          "value": "No",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/14154940",
+          "observedAt": "2026-10-01",
+          "note": null
+        },
+        {
+          "field": "city",
+          "label": "Registered office city",
+          "value": "Wirral",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/14154940",
+          "observedAt": "2026-10-01",
+          "note": null
+        },
+        {
+          "field": "postcode",
+          "label": "Registered office postcode",
+          "value": "CH62 4UE",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/14154940",
+          "observedAt": "2026-10-01",
+          "note": null
+        },
+        {
+          "field": "boutique_signal",
+          "label": "Boutique classification",
+          "value": "total-exemption-full accounts",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/14154940",
+          "observedAt": "2026-10-01",
+          "note": null
+        },
+        {
+          "field": "incorporated",
+          "label": "Incorporated",
+          "value": "2022-06-07",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/14154940",
+          "observedAt": "2026-10-01",
+          "note": null
+        },
+        {
+          "field": "fca_frn",
+          "label": "FCA firm reference number",
+          "value": null,
+          "href": null,
+          "source": null,
+          "sourceUrl": null,
+          "observedAt": null,
+          "note": "recorded 1 Oct 2026, not re-verified since"
+        },
+        {
+          "field": "fca_status",
+          "label": "FCA authorisation status",
+          "value": null,
+          "href": null,
+          "source": null,
+          "sourceUrl": null,
+          "observedAt": null,
+          "note": "recorded 1 Oct 2026, not re-verified since"
+        },
+        {
+          "field": "website",
+          "label": "Website",
+          "value": "https://www.nationwidevision.com/",
+          "href": "https://www.nationwidevision.com/",
+          "source": "Firm's own website",
+          "sourceUrl": "https://www.nationwidevision.com/",
+          "observedAt": "2026-10-15",
+          "note": null
+        }
+      ],
+      "signals": [
+        {
+          "type": "careers_page_changed",
+          "observedAt": "2026-11-16",
+          "evidenceUrl": "https://www.nationwidevision.com/careers",
+          "snippet": "careers page text hash changed (526aa94c -> ae286280)"
+        }
+      ]
+    },
+    {
       "companyNumber": "SC476427",
       "slug": "SC476427-nordic-commercial-finance",
       "name": "Nordic Commercial Finance",
@@ -15950,7 +15725,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "scotland",
         "regionLabel": "Scotland",
-        "count": 2287
+        "count": 2289
       },
       "fields": [
         {
@@ -16280,7 +16055,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "south-east",
         "regionLabel": "South East",
-        "count": 10905
+        "count": 10907
       },
       "fields": [
         {
@@ -16484,6 +16259,116 @@
       ]
     },
     {
+      "companyNumber": "12800001",
+      "slug": "12800001-shadowfax-funding-solutions",
+      "name": "Shadowfax Funding Solutions",
+      "sectors": [
+        "M&A / advisory"
+      ],
+      "city": "Wetherby",
+      "region": "Yorkshire",
+      "careersUrl": "https://www.shadowfaxfunding.com/contact",
+      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/12800001",
+      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=937211",
+      "facet": {
+        "sectorKey": "ma-advisory",
+        "sectorLabel": "M&A / advisory",
+        "regionKey": "yorkshire",
+        "regionLabel": "Yorkshire",
+        "count": 3235
+      },
+      "fields": [
+        {
+          "field": "is_london",
+          "label": "Registered in London",
+          "value": "No",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/12800001",
+          "observedAt": "2026-09-21",
+          "note": null
+        },
+        {
+          "field": "city",
+          "label": "Registered office city",
+          "value": "Wetherby",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/12800001",
+          "observedAt": "2026-09-21",
+          "note": null
+        },
+        {
+          "field": "postcode",
+          "label": "Registered office postcode",
+          "value": "LS22 5DZ",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/12800001",
+          "observedAt": "2026-09-21",
+          "note": null
+        },
+        {
+          "field": "boutique_signal",
+          "label": "Boutique classification",
+          "value": "total-exemption-full accounts",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/12800001",
+          "observedAt": "2026-09-21",
+          "note": null
+        },
+        {
+          "field": "incorporated",
+          "label": "Incorporated",
+          "value": "2020-08-07",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/12800001",
+          "observedAt": "2026-09-21",
+          "note": null
+        },
+        {
+          "field": "fca_frn",
+          "label": "FCA firm reference number",
+          "value": "937211",
+          "href": null,
+          "source": "FCA Register",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=937211",
+          "observedAt": "2026-09-21",
+          "note": null
+        },
+        {
+          "field": "fca_status",
+          "label": "FCA authorisation status",
+          "value": "Authorised",
+          "href": null,
+          "source": "FCA Register",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=937211",
+          "observedAt": "2026-09-21",
+          "note": null
+        },
+        {
+          "field": "website",
+          "label": "Website",
+          "value": "www.shadowfaxfunding.com",
+          "href": "https://www.shadowfaxfunding.com",
+          "source": "FCA Register",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=937211",
+          "observedAt": "2026-09-21",
+          "note": null
+        }
+      ],
+      "signals": [
+        {
+          "type": "careers_page_changed",
+          "observedAt": "2026-11-16",
+          "evidenceUrl": "https://www.shadowfaxfunding.com/contact",
+          "snippet": "careers page text hash changed (81c1f4c1 -> f16c2bde)"
+        }
+      ]
+    },
+    {
       "companyNumber": "NI642513",
       "slug": "NI642513-smart-mortgages",
       "name": "Smart Mortgages",
@@ -16610,7 +16495,7 @@
         "sectorLabel": "M&A / advisory",
         "regionKey": "west-midlands",
         "regionLabel": "West Midlands",
-        "count": 3342
+        "count": 3341
       },
       "fields": [
         {
@@ -16926,6 +16811,118 @@
           "observedAt": "2026-11-09",
           "evidenceUrl": "https://lyncwm.co.uk/about-us/meet-the-team/",
           "snippet": "careers page text hash changed (58c47c7f -> 6a7b5129)"
+        }
+      ]
+    },
+    {
+      "companyNumber": "12514904",
+      "slug": "12514904-zenithar",
+      "name": "Zenithar",
+      "sectors": [
+        "M&A / advisory",
+        "Asset & wealth mgmt",
+        "PE / VC"
+      ],
+      "city": "London",
+      "region": "London",
+      "careersUrl": "https://www.zenithar.com/the-leadership",
+      "companiesHouseUrl": "https://find-and-update.company-information.service.gov.uk/company/12514904",
+      "fcaUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=925245",
+      "facet": {
+        "sectorKey": "ma-advisory",
+        "sectorLabel": "M&A / advisory",
+        "regionKey": "london",
+        "regionLabel": "London",
+        "count": 15706
+      },
+      "fields": [
+        {
+          "field": "is_london",
+          "label": "Registered in London",
+          "value": "Yes",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/12514904",
+          "observedAt": "2026-07-29",
+          "note": null
+        },
+        {
+          "field": "city",
+          "label": "Registered office city",
+          "value": "London",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/12514904",
+          "observedAt": "2026-07-29",
+          "note": null
+        },
+        {
+          "field": "postcode",
+          "label": "Registered office postcode",
+          "value": "W1K 3NB",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/12514904",
+          "observedAt": "2026-07-29",
+          "note": null
+        },
+        {
+          "field": "boutique_signal",
+          "label": "Boutique classification",
+          "value": "total-exemption-full accounts",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/12514904",
+          "observedAt": "2026-07-29",
+          "note": null
+        },
+        {
+          "field": "incorporated",
+          "label": "Incorporated",
+          "value": "2020-03-12",
+          "href": null,
+          "source": "Companies House",
+          "sourceUrl": "https://find-and-update.company-information.service.gov.uk/company/12514904",
+          "observedAt": "2026-07-29",
+          "note": null
+        },
+        {
+          "field": "fca_frn",
+          "label": "FCA firm reference number",
+          "value": "925245",
+          "href": null,
+          "source": "FCA Register",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=925245",
+          "observedAt": "2026-07-29",
+          "note": null
+        },
+        {
+          "field": "fca_status",
+          "label": "FCA authorisation status",
+          "value": "Authorised",
+          "href": null,
+          "source": "FCA Register",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=925245",
+          "observedAt": "2026-07-29",
+          "note": null
+        },
+        {
+          "field": "website",
+          "label": "Website",
+          "value": "www.zenithar.com",
+          "href": "https://www.zenithar.com",
+          "source": "FCA Register",
+          "sourceUrl": "https://register.fca.org.uk/s/search?predefined=Firm&q=925245",
+          "observedAt": "2026-07-29",
+          "note": null
+        }
+      ],
+      "signals": [
+        {
+          "type": "careers_page_changed",
+          "observedAt": "2026-11-16",
+          "evidenceUrl": "https://www.zenithar.com/the-leadership",
+          "snippet": "careers page text hash changed (dbbf4f9b -> d3b827c9)"
         }
       ]
     }
